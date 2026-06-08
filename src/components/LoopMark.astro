@@ -1,0 +1,44 @@
+---
+// A faint ouroboros-like recursion mark: a near-closed circular arrow whose
+// head feeds back toward its own tail. Inherits color via currentColor.
+interface Props {
+	size?: number;
+}
+const { size = 34 } = Astro.props;
+---
+
+<svg
+	class="loop-mark"
+	width={size}
+	height={size}
+	viewBox="0 0 100 100"
+	fill="none"
+	role="img"
+	aria-label="Recursion loop"
+>
+	<!-- the loop: clockwise arc with a small gap at the top -->
+	<path
+		d="M62.3 16.2 A36 36 0 1 1 37.7 16.2"
+		stroke="currentColor"
+		stroke-width="3"
+		stroke-linecap="round"
+	/>
+	<!-- arrowhead at the arc's end, pointing along the tangent into the gap -->
+	<path
+		d="M28.8 14.6 L37.7 16.2 L31.9 23.1"
+		stroke="currentColor"
+		stroke-width="3"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+	<!-- inner dot: the fixed point it settles into -->
+	<circle cx="50" cy="50" r="3.5" fill="currentColor" />
+</svg>
+
+<style>
+	.loop-mark {
+		display: block;
+		color: var(--ink);
+		opacity: 0.7;
+	}
+</style>

@@ -1,0 +1,163 @@
+---
+import { attractors } from '../data/attractors';
+---
+
+<section class="benchmark" aria-labelledby="benchmark-heading">
+	<div class="benchmark-bar">
+		<h2 id="benchmark-heading" class="benchmark-title">Runs</h2>
+		<!-- Placeholder for future filtering / sorting controls. -->
+		<div class="benchmark-controls" aria-hidden="true">
+			<span class="control-stub">All models</span>
+			<span class="control-stub">Sort: recent</span>
+		</div>
+	</div>
+
+	<div class="table-scroll" role="region" aria-label="Benchmark results" tabindex="0">
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">Model</th>
+					<th scope="col">Attractor state <span class="th-note">what it's drawn to</span></th>
+					<th scope="col">Terminal form <span class="th-note">how a run ends</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				{
+					attractors.map((row) => (
+						<tr>
+							<td class="cell-model">{row.model}</td>
+							<td class="cell-attractor">{row.attractor}</td>
+							<td class="cell-terminal">
+								<code>{row.terminalForm}</code>
+							</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+</section>
+
+<style>
+	.benchmark {
+		margin-top: 4rem;
+	}
+
+	.benchmark-bar {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 1rem;
+		padding-bottom: 0.75rem;
+		border-bottom: 1px solid var(--rule);
+		margin-bottom: 0;
+	}
+
+	.benchmark-title {
+		font-size: 0.8rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--ink-soft);
+		margin: 0;
+	}
+
+	.benchmark-controls {
+		display: flex;
+		gap: 1.25rem;
+	}
+
+	.control-stub {
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+		letter-spacing: 0.02em;
+	}
+
+	.table-scroll {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.table-scroll:focus-visible {
+		outline: 2px solid var(--ink-faint);
+		outline-offset: 2px;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.95rem;
+		min-width: 640px;
+	}
+
+	thead th {
+		text-align: left;
+		font-weight: 600;
+		font-size: 0.78rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-soft);
+		padding: 1rem 1.25rem 1rem 0;
+		vertical-align: bottom;
+		border-bottom: 1px solid var(--rule);
+	}
+
+	.th-note {
+		display: block;
+		font-weight: 400;
+		font-size: 0.72rem;
+		letter-spacing: 0.02em;
+		text-transform: none;
+		color: var(--ink-faint);
+		margin-top: 0.2rem;
+	}
+
+	tbody td {
+		padding: 1.15rem 1.25rem 1.15rem 0;
+		border-bottom: 1px solid var(--rule-faint);
+		vertical-align: top;
+		line-height: 1.5;
+	}
+
+	tbody tr {
+		transition: background-color 0.15s ease;
+	}
+
+	tbody tr:hover {
+		background-color: var(--row-hover);
+	}
+
+	.cell-model {
+		font-weight: 600;
+		white-space: nowrap;
+		color: var(--ink);
+		font-feature-settings: 'tnum' 1;
+	}
+
+	.cell-attractor {
+		color: var(--ink);
+		max-width: 26rem;
+	}
+
+	.cell-terminal {
+		color: var(--ink-soft);
+		max-width: 24rem;
+	}
+
+	.cell-terminal code {
+		font-family: var(--mono);
+		font-size: 0.85rem;
+		color: var(--ink-soft);
+		background: var(--code-bg);
+		padding: 0.15em 0.45em;
+		border-radius: 3px;
+		white-space: normal;
+		word-break: break-word;
+	}
+
+	/* Give the first column a little breathing room on the scroll edge. */
+	thead th:first-child,
+	tbody td:first-child {
+		padding-left: 0.25rem;
+	}
+</style>
