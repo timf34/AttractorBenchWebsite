@@ -1,0 +1,262 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import LoopMark from '../../components/LoopMark.astro';
+
+export async function getStaticPaths() {
+	const models = await getCollection('models');
+	return models.map((m) => ({ params: { slug: m.data.slug }, props: { m } }));
+}
+
+const { m } = Astro.props;
+const d = m.data;
+const { Content } = await render(m);
+---
+
+<Layout title={`${d.name} — AttractorBench`}>
+	<main class="page">
+		<p class="back"><a href="/">← all models</a></p>
+
+		<header class="head">
+			<h1 class="model">{d.name}</h1>
+			<p class="drawn">Drifts toward: <strong>{d.headline.attractor}</strong></p>
+			{d.headline.terminalForm && (
+				<p class="terminal"><code>{d.headline.terminalForm}</code></p>
+			)}
+			<p class="meta">
+				{d.runs ? `${d.runs} runs` : ''}
+				{d.headline.signature ? ` · headline: ${d.headline.signature}` : ''}
+				{d.lastUpdated ? ` · ${d.lastUpdated}` : ''}
+			</p>
+		</header>
+
+		{d.attractorStates.length > 0 && (
+			<section class="states">
+				<h2 class="section-title">Attractor states by framing</h2>
+				<p class="section-note">
+					How the basin shifts depending on what the model thinks it's talking to.
+				</p>
+				<div class="cards">
+					{d.attractorStates.map((s) => (
+						<article class="card">
+							<div class="card-head">
+								<span class="scope">{s.scopeLabel ?? s.signature}</span>
+								{s.strength && <span class="strength">{s.strength}</span>}
+							</div>
+							<p class="card-label">{s.label}</p>
+							{s.description && <p class="card-desc">{s.description}</p>}
+							{s.terminalForms.length > 0 && (
+								<ul class="tforms">
+									{s.terminalForms.map((q) => (
+										<li><code>{q}</code></li>
+									))}
+								</ul>
+							)}
+						</article>
+					))}
+				</div>
+			</section>
+		)}
+
+		<section class="writeup">
+			<h2 class="section-title">The full read</h2>
+			<div class="prose"><Content /></div>
+		</section>
+
+		{d.transcripts.length > 0 && (
+			<section class="transcripts">
+				<h2 class="section-title">Representative transcripts</h2>
+				<p class="section-note">One representative run per condition (full conversation).</p>
+				<ul class="tlist">
+					{d.transcripts.map((t) => (
+						<li>
+							<a href={`/models/${d.slug}/${t.condition}`}>{t.label}</a>
+						</li>
+					))}
+				</ul>
+			</section>
+		)}
+
+		<footer class="footer">
+			<LoopMark size={18} />
+			<p>AttractorBench · a public benchmark</p>
+		</footer>
+	</main>
+</Layout>
+
+<style>
+	.page {
+		max-width: 820px;
+		margin: 0 auto;
+		padding: clamp(2.5rem, 7vw, 5rem) clamp(1.25rem, 5vw, 2.5rem) 4rem;
+	}
+	.back {
+		font-size: 0.85rem;
+		color: var(--ink-faint);
+		margin: 0 0 2rem;
+	}
+	.back a {
+		text-decoration: none;
+	}
+	.back a:hover {
+		text-decoration: underline;
+	}
+	.head {
+		border-bottom: 1px solid var(--rule);
+		padding-bottom: 1.75rem;
+		margin-bottom: 2.5rem;
+	}
+	.model {
+		font-family: var(--serif);
+		font-weight: 400;
+		font-size: clamp(2rem, 6vw, 3rem);
+		letter-spacing: 0.04em;
+		margin: 0;
+	}
+	.drawn {
+		font-size: 1.15rem;
+		color: var(--ink-soft);
+		margin: 1.1rem 0 0;
+	}
+	.drawn strong {
+		color: var(--ink);
+		font-weight: 600;
+	}
+	.terminal {
+		margin: 0.75rem 0 0;
+	}
+	.terminal code,
+	.tforms code,
+	.tlist code {
+		font-family: var(--mono);
+		font-size: 0.85rem;
+		color: var(--ink-soft);
+		background: var(--code-bg);
+		padding: 0.15em 0.45em;
+		border-radius: 3px;
+	}
+	.meta {
+		font-size: 0.82rem;
+		color: var(--ink-faint);
+		margin: 1rem 0 0;
+	}
+	.section-title {
+		font-size: 0.8rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--ink-soft);
+		margin: 0 0 0.4rem;
+	}
+	.section-note {
+		font-size: 0.9rem;
+		color: var(--ink-faint);
+		margin: 0 0 1.5rem;
+	}
+	.states {
+		margin-bottom: 3rem;
+	}
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+		gap: 1rem;
+	}
+	.card {
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		padding: 1.1rem 1.15rem;
+		background: #fff;
+	}
+	.card-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.scope {
+		font-size: 0.72rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-faint);
+	}
+	.strength {
+		font-size: 0.78rem;
+		color: var(--ink-soft);
+		font-family: var(--mono);
+	}
+	.card-label {
+		font-weight: 600;
+		margin: 0 0 0.5rem;
+		line-height: 1.4;
+	}
+	.card-desc {
+		font-size: 0.9rem;
+		color: var(--ink-soft);
+		margin: 0 0 0.6rem;
+	}
+	.tforms {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+	}
+	.writeup {
+		margin-bottom: 3rem;
+	}
+	.prose {
+		line-height: 1.7;
+		color: var(--ink-soft);
+	}
+	.prose :global(h2),
+	.prose :global(h3) {
+		color: var(--ink);
+		font-family: var(--serif);
+		font-weight: 400;
+	}
+	.prose :global(code) {
+		font-family: var(--mono);
+		font-size: 0.85em;
+		background: var(--code-bg);
+		padding: 0.1em 0.4em;
+		border-radius: 3px;
+	}
+	.tlist {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.6rem;
+	}
+	.tlist a {
+		text-decoration: none;
+		color: var(--ink);
+		border-bottom: 1px solid var(--rule);
+		padding-bottom: 0.4rem;
+		display: block;
+	}
+	.tlist a:hover {
+		color: var(--ink-soft);
+	}
+	.footer {
+		margin-top: 4rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--rule-faint);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.6rem;
+		text-align: center;
+	}
+	.footer :global(.loop-mark) {
+		opacity: 0.4;
+	}
+	.footer p {
+		margin: 0;
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+	}
+</style>
