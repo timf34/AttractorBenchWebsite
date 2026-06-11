@@ -26,6 +26,7 @@ const { Content } = await render(m);
 			<p class="meta">
 				{d.runs ? `${d.runs} runs` : ''}
 				{d.headline.signature ? ` · headline: ${d.headline.signature}` : ''}
+				{d.headline.strength ? ` · ${d.headline.strength} of sampled conversations` : ''}
 				{d.lastUpdated ? ` · ${d.lastUpdated}` : ''}
 			</p>
 		</header>

@@ -23,8 +23,9 @@ const models = defineCollection({
 		lastUpdated: z.string().optional(),
 		headline: z.object({
 			signature: z.string(),
-			attractor: z.string(),
+			attractor: z.string(), // may be "no dominant attractor" — an honest-null finding
 			terminalForm: z.string().optional(),
+			strength: z.string().optional(), // e.g. "6/8" — fraction of sampled convos in the basin
 		}),
 		attractorStates: z.array(attractorState).default([]),
 		transcripts: z
