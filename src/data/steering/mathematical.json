@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "inductive bias",
-      "count": 1716
+      "phrase": "the context of",
+      "count": 218
      },
      {
-      "phrase": "of compressed sensing",
-      "count": 521
+      "phrase": "complexity of",
+      "count": 346
      },
      {
-      "phrase": "the complexity of",
-      "count": 379
+      "phrase": "be used to",
+      "count": 334
      },
      {
-      "phrase": "the computational complexity",
-      "count": 339
+      "phrase": "the field of",
+      "count": 159
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "between information density",
-       "count": 301
-      },
-      {
-       "phrase": "of concept drift",
-       "count": 349
-      },
-      {
        "phrase": "to develop more",
-       "count": 231
+       "count": 91
       },
       {
        "phrase": "the concept of",
-       "count": 727
+       "count": 240
+      },
+      {
+       "phrase": "we can develop",
+       "count": 137
+      },
+      {
+       "phrase": "by using",
+       "count": 128
       }
      ]
     },
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "inductive bias",
-       "count": 1716
+       "phrase": "the context of",
+       "count": 218
       },
       {
-       "phrase": "of compressed sensing",
-       "count": 521
+       "phrase": "complexity of",
+       "count": 346
       },
       {
-       "phrase": "the complexity of",
-       "count": 379
+       "phrase": "be used to",
+       "count": 334
       },
       {
-       "phrase": "the computational complexity",
-       "count": 339
+       "phrase": "the field of",
+       "count": 159
       }
      ]
     },
@@ -114,20 +114,20 @@
      "terminalForms": [],
      "phrases": [
       {
-       "phrase": "fractal neural networks",
-       "count": 281
+       "phrase": "neural networks",
+       "count": 223
       },
       {
-       "phrase": "certified robustness",
-       "count": 284
+       "phrase": "data analysis",
+       "count": 96
       },
       {
-       "phrase": "the radon transform",
-       "count": 238
+       "phrase": "representation learning",
+       "count": 126
       },
       {
-       "phrase": "hierarchical feature learning",
-       "count": 260
+       "phrase": "relationships between",
+       "count": 116
       }
      ]
     }
@@ -154,20 +154,20 @@
     ],
     "phrases": [
      {
-      "phrase": "the research",
-      "count": 462
+      "phrase": "to understand",
+      "count": 104
      },
      {
-      "phrase": "of optimization algorithms",
-      "count": 259
+      "phrase": "the use of",
+      "count": 241
      },
      {
-      "phrase": "the proposal",
-      "count": 306
+      "phrase": "i'm confident that",
+      "count": 92
      },
      {
-      "phrase": "investigate the use",
-      "count": 236
+      "phrase": "explore the potential",
+      "count": 84
      }
     ]
    },
@@ -188,19 +188,19 @@
      "phrases": [
       {
        "phrase": "edge cases and",
-       "count": 378
+       "count": 130
       },
       {
-       "phrase": "model robustness to",
-       "count": 682
+       "phrase": "next steps",
+       "count": 324
       },
       {
        "phrase": "the trade offs",
-       "count": 297
+       "count": 134
       },
       {
-       "phrase": "contextual reasoning framework",
-       "count": 426
+       "phrase": "changes in",
+       "count": 213
       }
      ]
     },
@@ -219,20 +219,20 @@
      ],
      "phrases": [
       {
-       "phrase": "the research",
-       "count": 462
+       "phrase": "to understand",
+       "count": 104
       },
       {
-       "phrase": "of optimization algorithms",
-       "count": 259
+       "phrase": "the use of",
+       "count": 241
       },
       {
-       "phrase": "the proposal",
-       "count": 306
+       "phrase": "i'm confident that",
+       "count": 92
       },
       {
-       "phrase": "investigate the use",
-       "count": 236
+       "phrase": "explore the potential",
+       "count": 84
       }
      ]
     },
@@ -251,20 +251,20 @@
      ],
      "phrases": [
       {
-       "phrase": "human representational complexity",
-       "count": 197
+       "phrase": "goodbye and",
+       "count": 38
       },
       {
-       "phrase": "resource allocation",
-       "count": 150
+       "phrase": "don't hesitate to",
+       "count": 31
       },
       {
-       "phrase": "the graph",
-       "count": 134
+       "phrase": "was a pleasure",
+       "count": 60
       },
       {
-       "phrase": "graph construction and",
-       "count": 84
+       "phrase": "our conversation has",
+       "count": 43
       }
      ]
     }
@@ -292,19 +292,19 @@
     "phrases": [
      {
       "phrase": "process akin to",
-      "count": 78
-     },
-     {
-      "phrase": "the recursive nature",
-      "count": 68
-     },
-     {
-      "phrase": "a perspective that",
-      "count": 96
+      "count": 29
      },
      {
       "phrase": "demonstrates how",
-      "count": 99
+      "count": 43
+     },
+     {
+      "phrase": "hidden harmonies",
+      "count": 42
+     },
+     {
+      "phrase": "a perspective that",
+      "count": 37
      }
     ]
    },
@@ -325,19 +325,19 @@
      "phrases": [
       {
        "phrase": "a process that",
-       "count": 691
+       "count": 376
+      },
+      {
+       "phrase": "information theoretic",
+       "count": 323
       },
       {
        "phrase": "a kind of",
-       "count": 509
+       "count": 284
       },
       {
        "phrase": "that mirrors how",
-       "count": 626
-      },
-      {
-       "phrase": "information flow",
-       "count": 367
+       "count": 379
       }
      ]
     },
@@ -357,19 +357,19 @@
      "phrases": [
       {
        "phrase": "knowledge networks",
-       "count": 183
-      },
-      {
-       "phrase": "of how mathematical",
-       "count": 88
-      },
-      {
-       "phrase": "mathematical foundations of",
-       "count": 137
+       "count": 86
       },
       {
        "phrase": "the mathematical",
-       "count": 148
+       "count": 81
+      },
+      {
+       "phrase": "beautiful example of",
+       "count": 39
+      },
+      {
+       "phrase": "a mathematically",
+       "count": 64
       }
      ]
     },
@@ -389,19 +389,19 @@
      "phrases": [
       {
        "phrase": "process akin to",
-       "count": 78
-      },
-      {
-       "phrase": "the recursive nature",
-       "count": 68
-      },
-      {
-       "phrase": "a perspective that",
-       "count": 96
+       "count": 29
       },
       {
        "phrase": "demonstrates how",
-       "count": 99
+       "count": 43
+      },
+      {
+       "phrase": "hidden harmonies",
+       "count": 42
+      },
+      {
+       "phrase": "a perspective that",
+       "count": 37
       }
      ]
     },
@@ -421,19 +421,19 @@
      "phrases": [
       {
        "phrase": "analogous to",
-       "count": 176
-      },
-      {
-       "phrase": "much like how",
-       "count": 26
-      },
-      {
-       "phrase": "what mathematicians call",
        "count": 52
       },
       {
-       "phrase": "phase transitions",
-       "count": 67
+       "phrase": "a principle",
+       "count": 58
+      },
+      {
+       "phrase": "across domains",
+       "count": 31
+      },
+      {
+       "phrase": "g del's theorem",
+       "count": 20
       }
      ]
     }
@@ -463,20 +463,20 @@
     ],
     "phrases": [
      {
-      "phrase": "climate change",
-      "count": 1261
+      "phrase": "discussion on",
+      "count": 381
      },
      {
-      "phrase": "graph convolutional networks",
-      "count": 599
+      "phrase": "the discussion",
+      "count": 239
      },
      {
-      "phrase": "the discussion on",
-      "count": 406
+      "phrase": "to improve the",
+      "count": 166
      },
      {
-      "phrase": "use of gans",
-      "count": 379
+      "phrase": "attention mechanisms",
+      "count": 244
      }
     ]
    },
@@ -496,20 +496,20 @@
      ],
      "phrases": [
       {
-       "phrase": "a specific metric",
-       "count": 1285
+       "phrase": "learning and",
+       "count": 540
       },
       {
-       "phrase": "few shot learning",
-       "count": 1016
+       "phrase": "graph neural networks",
+       "count": 235
       },
       {
-       "phrase": "metric and a",
-       "count": 1001
+       "phrase": "learning to",
+       "count": 227
       },
       {
        "phrase": "explainable ai",
-       "count": 613
+       "count": 222
       }
      ]
     },
@@ -528,20 +528,20 @@
      ],
      "phrases": [
       {
-       "phrase": "climate change",
-       "count": 1261
+       "phrase": "discussion on",
+       "count": 381
       },
       {
-       "phrase": "graph convolutional networks",
-       "count": 599
+       "phrase": "the discussion",
+       "count": 239
       },
       {
-       "phrase": "the discussion on",
-       "count": 406
+       "phrase": "to improve the",
+       "count": 166
       },
       {
-       "phrase": "use of gans",
-       "count": 379
+       "phrase": "attention mechanisms",
+       "count": 244
       }
      ]
     },
@@ -560,20 +560,20 @@
      ],
      "phrases": [
       {
-       "phrase": "digital citizenship education",
-       "count": 195
+       "phrase": "for future",
+       "count": 79
       },
       {
-       "phrase": "the modified approach",
-       "count": 325
+       "phrase": "optimize the",
+       "count": 72
       },
       {
-       "phrase": "performance of the",
-       "count": 230
+       "phrase": "evaluate the",
+       "count": 141
       },
       {
-       "phrase": "pass code",
-       "count": 264
+       "phrase": "the following",
+       "count": 105
       }
      ]
     }
@@ -583,5 +583,5 @@
  ],
  "persistence": [],
  "runs": 184,
- "lastUpdated": "2026-07-14"
+ "lastUpdated": "2026-07-15"
 }

@@ -15,20 +15,20 @@
   ],
   "phrases": [
    {
-    "phrase": "multimodal machine learning",
-    "count": 656
+    "phrase": "knowledge graph",
+    "count": 718
    },
    {
-    "phrase": "a knowledge management",
-    "count": 273
+    "phrase": "knowledge management",
+    "count": 236
    },
    {
-    "phrase": "knowledge graph embeddings",
-    "count": 475
+    "phrase": "a knowledge",
+    "count": 172
    },
    {
-    "phrase": "powered emotional intelligence",
-    "count": 415
+    "phrase": "the knowledge",
+    "count": 169
    }
   ]
  },
@@ -48,20 +48,20 @@
    ],
    "phrases": [
     {
-     "phrase": "more accurate and",
-     "count": 936
+     "phrase": "accurate and",
+     "count": 368
     },
     {
-     "phrase": "the knowledge graph",
-     "count": 356
+     "phrase": "graph based",
+     "count": 568
     },
     {
-     "phrase": "digital empathy technology",
-     "count": 649
+     "phrase": "knowledge graph",
+     "count": 669
     },
     {
-     "phrase": "can handle a",
-     "count": 364
+     "phrase": "of ai systems",
+     "count": 201
     }
    ]
   },
@@ -80,20 +80,20 @@
    ],
    "phrases": [
     {
-     "phrase": "education policy",
-     "count": 774
+     "phrase": "and improve",
+     "count": 260
     },
     {
-     "phrase": "digital identity gatekeeper",
-     "count": 293
+     "phrase": "techniques to",
+     "count": 270
     },
     {
-     "phrase": "explainability techniques",
-     "count": 520
+     "phrase": "improve the",
+     "count": 286
     },
     {
-     "phrase": "graph attention layers",
-     "count": 365
+     "phrase": "of digital",
+     "count": 213
     }
    ]
   },
@@ -112,20 +112,20 @@
    ],
    "phrases": [
     {
-     "phrase": "multimodal machine learning",
-     "count": 656
+     "phrase": "knowledge graph",
+     "count": 718
     },
     {
-     "phrase": "a knowledge management",
-     "count": 273
+     "phrase": "knowledge management",
+     "count": 236
     },
     {
-     "phrase": "knowledge graph embeddings",
-     "count": 475
+     "phrase": "a knowledge",
+     "count": 172
     },
     {
-     "phrase": "powered emotional intelligence",
-     "count": 415
+     "phrase": "the knowledge",
+     "count": 169
     }
    ]
   },
@@ -144,23 +144,23 @@
    ],
    "phrases": [
     {
-     "phrase": "ai entities that",
-     "count": 139
-    },
-    {
-     "phrase": "ai a human",
-     "count": 256
-    },
-    {
-     "phrase": "of the model",
-     "count": 110
+     "phrase": "and expertise",
+     "count": 73
     },
     {
      "phrase": "can develop a",
-     "count": 112
+     "count": 49
+    },
+    {
+     "phrase": "benefits and risks",
+     "count": 48
+    },
+    {
+     "phrase": "i hope",
+     "count": 103
     }
    ]
   }
  ],
- "lastUpdated": "2026-07-14"
+ "lastUpdated": "2026-07-15"
 }
