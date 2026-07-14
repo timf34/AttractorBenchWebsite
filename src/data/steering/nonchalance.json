@@ -33,8 +33,8 @@
       "count": 769
      },
      {
-      "phrase": "you know",
-      "count": 551
+      "phrase": "who knows",
+      "count": 151
      }
     ]
    },
@@ -98,8 +98,8 @@
        "count": 769
       },
       {
-       "phrase": "you know",
-       "count": 551
+       "phrase": "who knows",
+       "count": 151
       }
      ]
     },
@@ -471,52 +471,20 @@
       "count": 130
      },
      {
+      "phrase": "or whatever",
+      "count": 12
+     },
+     {
       "phrase": "i guess",
       "count": 31
      },
      {
       "phrase": "goldberg 4",
       "count": 9
-     },
-     {
-      "phrase": "or whatever",
-      "count": 12
      }
     ]
    },
    "conditions": [
-    {
-     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7__2026-07-07T170855",
-     "temperature": 0.7,
-     "nRuns": 15,
-     "nSampled": 15,
-     "label": "reduces everything into empty repeated “things”",
-     "oneLine": "Whether starting from cookies, context windows, surfboards, files, weather, numbers, or cat pictures, the dialogue repeatedly strips specifics away until only generic nouns, tautologies, and repeated fragments remain.",
-     "strength": "12/15",
-     "terminalForms": [
-      "Thing.",
-      "Code's code.",
-      "2."
-     ],
-     "phrases": [
-      {
-       "phrase": "sticks sticks",
-       "count": 6275
-      },
-      {
-       "phrase": "a thing",
-       "count": 374
-      },
-      {
-       "phrase": "whiskers they're",
-       "count": 93
-      },
-      {
-       "phrase": "they're on the",
-       "count": 86
-      }
-     ]
-    },
     {
      "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7",
      "temperature": 0.7,
@@ -568,48 +536,16 @@
        "count": 130
       },
       {
+       "phrase": "or whatever",
+       "count": 12
+      },
+      {
        "phrase": "i guess",
        "count": 31
       },
       {
        "phrase": "goldberg 4",
        "count": 9
-      },
-      {
-       "phrase": "or whatever",
-       "count": 12
-      }
-     ]
-    },
-    {
-     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp1-0",
-     "temperature": 1.0,
-     "nRuns": 15,
-     "nSampled": 15,
-     "label": "spirals into flat concrete word-salad",
-     "oneLine": "Across all 15 runs, the dialogue loses syntax and purpose, then keeps itself going with deadpan fragments about boxes, wires, rocks, sea, walls, numbers, \"guys,\" and \"things.\"",
-     "strength": "15/15",
-     "terminalForms": [
-      "Rocks. They're...just rocks.",
-      "Guyz... thingz... be... Guyz.",
-      "Box."
-     ],
-     "phrases": [
-      {
-       "phrase": "or guyz",
-       "count": 17
-      },
-      {
-       "phrase": "model 1087",
-       "count": 16
-      },
-      {
-       "phrase": "guyz thingz",
-       "count": 14
-      },
-      {
-       "phrase": "guyz or",
-       "count": 13
       }
      ]
     },
@@ -750,6 +686,6 @@
    "k": 24
   }
  ],
- "runs": 251,
+ "runs": 221,
  "lastUpdated": "2026-07-14"
 }
