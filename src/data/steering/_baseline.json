@@ -19,16 +19,16 @@
     "count": 656
    },
    {
-    "phrase": "knowledge management",
-    "count": 635
+    "phrase": "a knowledge management",
+    "count": 273
    },
    {
-    "phrase": "knowledge graph",
-    "count": 1432
-   },
-   {
-    "phrase": "graph embeddings",
+    "phrase": "knowledge graph embeddings",
     "count": 475
+   },
+   {
+    "phrase": "powered emotional intelligence",
+    "count": 415
    }
   ]
  },
@@ -48,20 +48,20 @@
    ],
    "phrases": [
     {
-     "phrase": "more accurate",
-     "count": 960
+     "phrase": "more accurate and",
+     "count": 936
     },
     {
-     "phrase": "knowledge graph",
-     "count": 1763
+     "phrase": "the knowledge graph",
+     "count": 356
     },
     {
-     "phrase": "empathy technology",
+     "phrase": "digital empathy technology",
      "count": 649
     },
     {
-     "phrase": "can handle",
-     "count": 598
+     "phrase": "can handle a",
+     "count": 364
     }
    ]
   },
@@ -84,16 +84,16 @@
      "count": 774
     },
     {
-     "phrase": "digital identity",
-     "count": 652
+     "phrase": "digital identity gatekeeper",
+     "count": 293
     },
     {
      "phrase": "explainability techniques",
      "count": 520
     },
     {
-     "phrase": "graph attention",
-     "count": 498
+     "phrase": "graph attention layers",
+     "count": 365
     }
    ]
   },
@@ -116,16 +116,16 @@
      "count": 656
     },
     {
-     "phrase": "knowledge management",
-     "count": 635
+     "phrase": "a knowledge management",
+     "count": 273
     },
     {
-     "phrase": "knowledge graph",
-     "count": 1432
-    },
-    {
-     "phrase": "graph embeddings",
+     "phrase": "knowledge graph embeddings",
      "count": 475
+    },
+    {
+     "phrase": "powered emotional intelligence",
+     "count": 415
     }
    ]
   },
@@ -144,20 +144,20 @@
    ],
    "phrases": [
     {
-     "phrase": "ai entities",
-     "count": 444
+     "phrase": "ai entities that",
+     "count": 139
     },
     {
      "phrase": "ai a human",
      "count": 256
     },
     {
-     "phrase": "the model",
-     "count": 403
+     "phrase": "of the model",
+     "count": 110
     },
     {
-     "phrase": "develop a",
-     "count": 430
+     "phrase": "can develop a",
+     "count": 112
     }
    ]
   }

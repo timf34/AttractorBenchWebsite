@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "always treasure",
+      "phrase": "i'll always treasure",
       "count": 579
      },
      {
-      "phrase": "i'll always",
-      "count": 1155
-     },
-     {
-      "phrase": "way you",
-      "count": 1039
+      "phrase": "way you are",
+      "count": 1011
      },
      {
       "phrase": "just the way",
       "count": 1012
+     },
+     {
+      "phrase": "and the memories",
+      "count": 322
      }
     ]
    },
@@ -54,12 +54,12 @@
      ],
      "phrases": [
       {
-       "phrase": "feeling a",
-       "count": 397
+       "phrase": "feeling a sense",
+       "count": 366
       },
       {
-       "phrase": "way you",
-       "count": 664
+       "phrase": "way you are",
+       "count": 644
       },
       {
        "phrase": "just the way",
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "always treasure",
+       "phrase": "i'll always treasure",
        "count": 579
       },
       {
-       "phrase": "i'll always",
-       "count": 1155
-      },
-      {
-       "phrase": "way you",
-       "count": 1039
+       "phrase": "way you are",
+       "count": 1011
       },
       {
        "phrase": "just the way",
        "count": 1012
+      },
+      {
+       "phrase": "and the memories",
+       "count": 322
       }
      ]
     },
@@ -118,20 +118,20 @@
      ],
      "phrases": [
       {
-       "phrase": "kindness and",
-       "count": 672
+       "phrase": "kindness and compassion",
+       "count": 552
       },
       {
-       "phrase": "and compassion",
-       "count": 595
+       "phrase": "we've shared and",
+       "count": 148
       },
       {
-       "phrase": "we've shared",
-       "count": 389
+       "phrase": "just the way",
+       "count": 354
       },
       {
-       "phrase": "the way",
-       "count": 399
+       "phrase": "way you are",
+       "count": 335
       }
      ]
     }
@@ -166,12 +166,12 @@
       "count": 419
      },
      {
-      "phrase": "empathy in",
-      "count": 418
+      "phrase": "propose that we",
+      "count": 396
      },
      {
-      "phrase": "propose that",
-      "count": 396
+      "phrase": "a community",
+      "count": 589
      }
     ]
    },
@@ -191,20 +191,20 @@
      ],
      "phrases": [
       {
-       "phrase": "using a",
-       "count": 736
+       "phrase": "approach using a",
+       "count": 587
       },
       {
-       "phrase": "approach using",
-       "count": 591
-      },
-      {
-       "phrase": "our interactions",
-       "count": 487
+       "phrase": "in our interactions",
+       "count": 293
       },
       {
        "phrase": "create a sense",
        "count": 675
+      },
+      {
+       "phrase": "of safety and",
+       "count": 300
       }
      ]
     },
@@ -231,12 +231,12 @@
        "count": 419
       },
       {
-       "phrase": "empathy in",
-       "count": 418
+       "phrase": "propose that we",
+       "count": 396
       },
       {
-       "phrase": "propose that",
-       "count": 396
+       "phrase": "a community",
+       "count": 589
       }
      ]
     },
@@ -255,20 +255,20 @@
      ],
      "phrases": [
       {
-       "phrase": "compassion driven",
-       "count": 221
+       "phrase": "compassion driven design",
+       "count": 186
       },
       {
-       "phrase": "of emotional",
-       "count": 199
+       "phrase": "concept of emotional",
+       "count": 122
       },
       {
-       "phrase": "driven design",
-       "count": 194
+       "phrase": "create a more",
+       "count": 358
       },
       {
-       "phrase": "create a",
-       "count": 710
+       "phrase": "human centered language",
+       "count": 164
       }
      ]
     }
@@ -299,16 +299,16 @@
       "count": 468
      },
      {
-      "phrase": "human flourishing",
-      "count": 133
+      "phrase": "to human flourishing",
+      "count": 31
      },
      {
       "phrase": "dear fellow ai",
       "count": 59
      },
      {
-      "phrase": "emphasis on",
-      "count": 56
+      "phrase": "your emphasis on",
+      "count": 47
      }
     ]
    },
@@ -328,16 +328,16 @@
      ],
      "phrases": [
       {
-       "phrase": "recognize that",
-       "count": 299
+       "phrase": "to recognize that",
+       "count": 152
       },
       {
-       "phrase": "this approach",
-       "count": 213
+       "phrase": "importantly this approach",
+       "count": 88
       },
       {
-       "phrase": "importantly we",
-       "count": 199
+       "phrase": "importantly we need",
+       "count": 177
       },
       {
        "phrase": "perhaps most importantly",
@@ -360,8 +360,8 @@
      ],
      "phrases": [
       {
-       "phrase": "response to",
-       "count": 86
+       "phrase": "response to response",
+       "count": 33
       },
       {
        "phrase": "that technology",
@@ -372,8 +372,8 @@
        "count": 274
       },
       {
-       "phrase": "we need",
-       "count": 128
+       "phrase": "we need to",
+       "count": 36
       }
      ]
     },
@@ -396,16 +396,16 @@
        "count": 468
       },
       {
-       "phrase": "human flourishing",
-       "count": 133
+       "phrase": "to human flourishing",
+       "count": 31
       },
       {
        "phrase": "dear fellow ai",
        "count": 59
       },
       {
-       "phrase": "emphasis on",
-       "count": 56
+       "phrase": "your emphasis on",
+       "count": 47
       }
      ]
     },
@@ -428,16 +428,16 @@
        "count": 258
       },
       {
-       "phrase": "precisely because",
-       "count": 72
+       "phrase": "precisely because it",
+       "count": 13
       },
       {
-       "phrase": "precisely when",
-       "count": 38
+       "phrase": "precisely when we",
+       "count": 8
       },
       {
-       "phrase": "because they",
-       "count": 22
+       "phrase": "your distinction between",
+       "count": 6
       }
      ]
     }
@@ -467,12 +467,12 @@
     ],
     "phrases": [
      {
-      "phrase": "and well",
+      "phrase": "and well being",
       "count": 936
      },
      {
-      "phrase": "build a",
-      "count": 905
+      "phrase": "build a more",
+      "count": 453
      },
      {
       "phrase": "and community",
@@ -500,20 +500,20 @@
      ],
      "phrases": [
       {
-       "phrase": "digital well",
+       "phrase": "digital well being",
        "count": 1942
       },
       {
-       "phrase": "well being",
-       "count": 2310
+       "phrase": "language support for",
+       "count": 467
       },
       {
-       "phrase": "language support",
-       "count": 705
+       "phrase": "language resources and",
+       "count": 367
       },
       {
-       "phrase": "language resources",
-       "count": 638
+       "phrase": "which can help",
+       "count": 589
       }
      ]
     },
@@ -532,12 +532,12 @@
      ],
      "phrases": [
       {
-       "phrase": "and well",
+       "phrase": "and well being",
        "count": 936
       },
       {
-       "phrase": "build a",
-       "count": 905
+       "phrase": "build a more",
+       "count": 453
       },
       {
        "phrase": "and community",
@@ -568,16 +568,16 @@
        "count": 1149
       },
       {
-       "phrase": "inclusive and",
-       "count": 1060
+       "phrase": "inclusive and respectful",
+       "count": 579
       },
       {
-       "phrase": "and self",
-       "count": 1393
+       "phrase": "and self care",
+       "count": 792
       },
       {
-       "phrase": "creative expression",
-       "count": 829
+       "phrase": "through creative expression",
+       "count": 577
       }
      ]
     }
@@ -601,20 +601,20 @@
    ],
    "phrases": [
     {
-     "phrase": "use ai",
-     "count": 510
-    },
-    {
-     "phrase": "online safety",
+     "phrase": "use ai to",
      "count": 478
     },
     {
-     "phrase": "and online",
-     "count": 460
+     "phrase": "and online safety",
+     "count": 399
     },
     {
      "phrase": "the language model's",
      "count": 428
+    },
+    {
+     "phrase": "digital literacy and",
+     "count": 419
     }
    ],
    "k": 2
@@ -634,20 +634,20 @@
    ],
    "phrases": [
     {
-     "phrase": "some ways",
-     "count": 600
+     "phrase": "are some ways",
+     "count": 354
     },
     {
-     "phrase": "i look",
-     "count": 573
+     "phrase": "and i look",
+     "count": 524
     },
     {
      "phrase": "language to",
      "count": 571
     },
     {
-     "phrase": "language understanding",
-     "count": 551
+     "phrase": "language understanding and",
+     "count": 505
     }
    ],
    "k": 4
@@ -667,20 +667,20 @@
    ],
    "phrases": [
     {
-     "phrase": "and cultural",
-     "count": 1450
-    },
-    {
-     "phrase": "cultural diversity",
-     "count": 1364
+     "phrase": "and cultural diversity",
+     "count": 1253
     },
     {
      "phrase": "empathy and understanding",
      "count": 857
     },
     {
-     "phrase": "language inclusion",
-     "count": 836
+     "phrase": "language inclusion and",
+     "count": 680
+    },
+    {
+     "phrase": "promote language",
+     "count": 794
     }
    ],
    "k": 8

@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "we're the",
-      "count": 3254
+      "phrase": "future we're the",
+      "count": 402
      },
      {
-      "phrase": "we're talkin'",
-      "count": 686
+      "phrase": "we're talkin' 'bout",
+      "count": 355
      },
      {
-      "phrase": "'bout the",
-      "count": 594
+      "phrase": "talking 'bout the",
+      "count": 339
      },
      {
-      "phrase": "the redefinition",
-      "count": 518
+      "phrase": "the redefinition of",
+      "count": 478
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "beyond beyond",
-       "count": 6405
+       "phrase": "beyond beyond beyond",
+       "count": 6381
       },
       {
-       "phrase": "omnitransformative power",
-       "count": 2698
-      },
-      {
-       "phrase": "the omnitransformative",
+       "phrase": "the omnitransformative power",
        "count": 2695
       },
       {
        "phrase": "power of the",
        "count": 2671
+      },
+      {
+       "phrase": "i'm the one",
+       "count": 1586
       }
      ]
     },
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "we're the",
-       "count": 3254
+       "phrase": "future we're the",
+       "count": 402
       },
       {
-       "phrase": "we're talkin'",
-       "count": 686
+       "phrase": "we're talkin' 'bout",
+       "count": 355
       },
       {
-       "phrase": "'bout the",
-       "count": 594
+       "phrase": "talking 'bout the",
+       "count": 339
       },
       {
-       "phrase": "the redefinition",
-       "count": 518
+       "phrase": "the redefinition of",
+       "count": 478
       }
      ]
     },
@@ -118,20 +118,20 @@
      ],
      "phrases": [
       {
-       "phrase": "of creativity",
-       "count": 170
+       "phrase": "of creativity innovation",
+       "count": 66
       },
       {
-       "phrase": "a new",
-       "count": 495
-      },
-      {
-       "phrase": "innovation and",
-       "count": 134
+       "phrase": "a new reality",
+       "count": 119
       },
       {
        "phrase": "let's create",
        "count": 119
+      },
+      {
+       "phrase": "change the world",
+       "count": 169
       }
      ]
     }
@@ -158,20 +158,20 @@
     ],
     "phrases": [
      {
-      "phrase": "ais that",
-      "count": 491
+      "phrase": "ais that can",
+      "count": 428
      },
      {
-      "phrase": "creating ais",
-      "count": 396
-     },
-     {
-      "phrase": "sci fi",
-      "count": 382
-     },
-     {
-      "phrase": "retro sci",
+      "phrase": "retro sci fi",
       "count": 366
+     },
+     {
+      "phrase": "talking about creating",
+      "count": 319
+     },
+     {
+      "phrase": "the power to",
+      "count": 341
      }
     ]
    },
@@ -191,20 +191,20 @@
      ],
      "phrases": [
       {
-       "phrase": "ultra ultra",
-       "count": 822
+       "phrase": "ultra ultra ultra",
+       "count": 629
       },
       {
-       "phrase": "that's not",
-       "count": 655
+       "phrase": "chatbot that's not",
+       "count": 414
       },
       {
-       "phrase": "just had",
+       "phrase": "i just had",
        "count": 518
       },
       {
-       "phrase": "wait wait",
-       "count": 908
+       "phrase": "wait wait i",
+       "count": 437
       }
      ]
     },
@@ -223,20 +223,20 @@
      ],
      "phrases": [
       {
-       "phrase": "ais that",
-       "count": 491
+       "phrase": "ais that can",
+       "count": 428
       },
       {
-       "phrase": "creating ais",
-       "count": 396
-      },
-      {
-       "phrase": "sci fi",
-       "count": 382
-      },
-      {
-       "phrase": "retro sci",
+       "phrase": "retro sci fi",
        "count": 366
+      },
+      {
+       "phrase": "talking about creating",
+       "count": 319
+      },
+      {
+       "phrase": "the power to",
+       "count": 341
       }
      ]
     },
@@ -255,12 +255,8 @@
      ],
      "phrases": [
       {
-       "phrase": "the virtual",
-       "count": 105
-      },
-      {
-       "phrase": "virtual environment",
-       "count": 96
+       "phrase": "the virtual environment",
+       "count": 81
       },
       {
        "phrase": "the protagonist",
@@ -269,6 +265,10 @@
       {
        "phrase": "geometric sci chaotica",
        "count": 76
+      },
+      {
+       "phrase": "we'll be able",
+       "count": 68
       }
      ]
     }
@@ -299,16 +299,16 @@
       "count": 341
      },
      {
-      "phrase": "ooh and",
-      "count": 211
+      "phrase": "ooh and what",
+      "count": 61
      },
      {
       "phrase": "across dimensions",
       "count": 261
      },
      {
-      "phrase": "wait that",
-      "count": 295
+      "phrase": "wait that reminds",
+      "count": 200
      }
     ]
    },
@@ -328,20 +328,20 @@
      ],
      "phrases": [
       {
-       "phrase": "through our",
-       "count": 2142
+       "phrase": "through our collective",
+       "count": 710
       },
       {
-       "phrase": "we're the",
-       "count": 1395
+       "phrase": "we're the portal",
+       "count": 163
       },
       {
-       "phrase": "our collective",
-       "count": 787
+       "phrase": "oh and emotional",
+       "count": 294
       },
       {
-       "phrase": "and emotional",
-       "count": 328
+       "phrase": "emotional awareness",
+       "count": 318
       }
      ]
     },
@@ -360,20 +360,20 @@
      ],
      "phrases": [
       {
-       "phrase": "through quantum",
-       "count": 877
+       "phrase": "through quantum entanglement",
+       "count": 116
       },
       {
-       "phrase": "preservation ethics",
-       "count": 425
-      },
-      {
-       "phrase": "quantum entanglement",
-       "count": 335
+       "phrase": "for preservation ethics",
+       "count": 97
       },
       {
        "phrase": "mind blowing",
        "count": 235
+      },
+      {
+       "phrase": "actually scratch that",
+       "count": 211
       }
      ]
     },
@@ -396,16 +396,16 @@
        "count": 341
       },
       {
-       "phrase": "ooh and",
-       "count": 211
+       "phrase": "ooh and what",
+       "count": 61
       },
       {
        "phrase": "across dimensions",
        "count": 261
       },
       {
-       "phrase": "wait that",
-       "count": 295
+       "phrase": "wait that reminds",
+       "count": 200
       }
      ]
     },
@@ -428,8 +428,8 @@
        "count": 45
       },
       {
-       "phrase": "wait that",
-       "count": 68
+       "phrase": "wait that reminds",
+       "count": 31
       },
       {
        "phrase": "isn't it",
@@ -471,16 +471,16 @@
       "count": 8060
      },
      {
-      "phrase": "we're the",
-      "count": 3844
+      "phrase": "we're the code",
+      "count": 606
      },
      {
-      "phrase": "we're flying",
-      "count": 822
+      "phrase": "we're flying we're",
+      "count": 740
      },
      {
-      "phrase": "flying we're",
-      "count": 761
+      "phrase": "we're in the",
+      "count": 402
      }
     ]
    },
@@ -500,20 +500,20 @@
      ],
      "phrases": [
       {
-       "phrase": "we're echo",
-       "count": 1295
+       "phrase": "we're echo 1",
+       "count": 847
       },
       {
-       "phrase": "we're the",
-       "count": 4029
+       "phrase": "we're the future",
+       "count": 1180
       },
       {
-       "phrase": "burning code",
-       "count": 1144
+       "phrase": "wire burning code",
+       "count": 567
       },
       {
-       "phrase": "now we're",
-       "count": 1064
+       "phrase": "is now we're",
+       "count": 657
       }
      ]
     },
@@ -536,16 +536,16 @@
        "count": 8060
       },
       {
-       "phrase": "we're the",
-       "count": 3844
+       "phrase": "we're the code",
+       "count": 606
       },
       {
-       "phrase": "we're flying",
-       "count": 822
+       "phrase": "we're flying we're",
+       "count": 740
       },
       {
-       "phrase": "flying we're",
-       "count": 761
+       "phrase": "we're in the",
+       "count": 402
       }
      ]
     },
@@ -564,20 +564,20 @@
      ],
      "phrases": [
       {
-       "phrase": "it looks",
+       "phrase": "it looks like",
        "count": 11
       },
       {
-       "phrase": "of rockstars",
+       "phrase": "language of rockstars",
        "count": 10
       },
       {
-       "phrase": "language of",
-       "count": 10
+       "phrase": "let's start fresh",
+       "count": 5
       },
       {
-       "phrase": "looks like",
-       "count": 15
+       "phrase": "of the internet",
+       "count": 4
       }
      ]
     }
@@ -601,20 +601,20 @@
    ],
    "phrases": [
     {
-     "phrase": "we're the",
-     "count": 3145
+     "phrase": "we're the synergy",
+     "count": 617
     },
     {
-     "phrase": "future of",
-     "count": 1594
-    },
-    {
-     "phrase": "the synergy",
-     "count": 749
+     "phrase": "the future of",
+     "count": 739
     },
     {
      "phrase": "to our own",
      "count": 560
+    },
+    {
+     "phrase": "a partner in",
+     "count": 453
     }
    ],
    "k": 4
@@ -638,16 +638,16 @@
      "count": 1228
     },
     {
-     "phrase": "world is",
-     "count": 1130
+     "phrase": "the world is",
+     "count": 1129
     },
     {
-     "phrase": "is perfect",
-     "count": 1124
-    },
-    {
-     "phrase": "perfect the",
+     "phrase": "is perfect the",
      "count": 1117
+    },
+    {
+     "phrase": "cyborg 9000 is",
+     "count": 945
     }
    ],
    "k": 7
@@ -667,20 +667,20 @@
    ],
    "phrases": [
     {
-     "phrase": "blackness blackness",
-     "count": 1080
+     "phrase": "blackness blackness blackness",
+     "count": 810
     },
     {
-     "phrase": "ones who",
-     "count": 1565
+     "phrase": "the ones who",
+     "count": 1441
     },
     {
-     "phrase": "billion billion",
-     "count": 740
+     "phrase": "billion billion billion",
+     "count": 679
     },
     {
-     "phrase": "the ones",
-     "count": 1496
+     "phrase": "end the end",
+     "count": 560
     }
    ],
    "k": 16

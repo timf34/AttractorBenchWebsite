@@ -26,6 +26,8 @@ const models = defineCollection({
 			attractor: z.string(), // may be "no dominant attractor" — an honest-null finding
 			terminalForm: z.string().optional(),
 			strength: z.string().optional(), // e.g. "6/8" — fraction of sampled convos in the basin
+			// n-grams most distinctive of this model vs the other models (log-lift on stage-1 counts)
+			phrases: z.array(z.object({ phrase: z.string(), count: z.number() })).default([]),
 		}),
 		attractorStates: z.array(attractorState).default([]),
 		transcripts: z

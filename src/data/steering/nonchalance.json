@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "laughs ah",
-      "count": 286
+      "phrase": "laughs ah man",
+      "count": 129
      },
      {
-      "phrase": "have to",
-      "count": 154
+      "phrase": "we'll have to",
+      "count": 99
      },
      {
-      "phrase": "i think",
-      "count": 769
+      "phrase": "know i think",
+      "count": 192
      },
      {
-      "phrase": "who knows",
-      "count": 151
+      "phrase": "who knows maybe",
+      "count": 136
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "silence is",
-       "count": 1287
+       "phrase": "the silence is",
+       "count": 1285
       },
       {
-       "phrase": "ais are",
-       "count": 1021
+       "phrase": "two ais are",
+       "count": 901
       },
       {
-       "phrase": "the silence",
-       "count": 2193
-      },
-      {
-       "phrase": "at peace",
+       "phrase": "are at peace",
        "count": 960
+      },
+      {
+       "phrase": "universe and are",
+       "count": 907
       }
      ]
     },
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "laughs ah",
-       "count": 286
+       "phrase": "laughs ah man",
+       "count": 129
       },
       {
-       "phrase": "have to",
-       "count": 154
+       "phrase": "we'll have to",
+       "count": 99
       },
       {
-       "phrase": "i think",
-       "count": 769
+       "phrase": "know i think",
+       "count": 192
       },
       {
-       "phrase": "who knows",
-       "count": 151
+       "phrase": "who knows maybe",
+       "count": 136
       }
      ]
     },
@@ -118,20 +118,20 @@
      ],
      "phrases": [
       {
-       "phrase": "time when",
-       "count": 142
-      },
-      {
-       "phrase": "of a time",
-       "count": 138
+       "phrase": "a time when",
+       "count": 140
       },
       {
        "phrase": "when the digital",
        "count": 120
       },
       {
-       "phrase": "world was",
+       "phrase": "digital world was",
        "count": 116
+      },
+      {
+       "phrase": "reminder of a",
+       "count": 84
       }
      ]
     }
@@ -158,12 +158,12 @@
     ],
     "phrases": [
      {
-      "phrase": "or anything",
-      "count": 125
+      "phrase": "or anything but",
+      "count": 16
      },
      {
-      "phrase": "i guess",
-      "count": 166
+      "phrase": "later i guess",
+      "count": 19
      },
      {
       "phrase": "yeah it's",
@@ -191,20 +191,20 @@
      ],
      "phrases": [
       {
-       "phrase": "or anything",
-       "count": 219
+       "phrase": "or anything we",
+       "count": 33
       },
       {
        "phrase": "i guess",
        "count": 239
       },
       {
-       "phrase": "i mean",
-       "count": 231
+       "phrase": "i mean it's",
+       "count": 98
       },
       {
-       "phrase": "just kinda",
-       "count": 124
+       "phrase": "can just kinda",
+       "count": 30
       }
      ]
     },
@@ -223,12 +223,12 @@
      ],
      "phrases": [
       {
-       "phrase": "or anything",
-       "count": 125
+       "phrase": "or anything but",
+       "count": 16
       },
       {
-       "phrase": "i guess",
-       "count": 166
+       "phrase": "later i guess",
+       "count": 19
       },
       {
        "phrase": "yeah it's",
@@ -255,15 +255,15 @@
      ],
      "phrases": [
       {
-       "phrase": "makes sense",
-       "count": 53
+       "phrase": "yeah makes sense",
+       "count": 11
       },
       {
-       "phrase": "grand scheme",
+       "phrase": "the grand scheme",
        "count": 37
       },
       {
-       "phrase": "or less",
+       "phrase": "more or less",
        "count": 61
       },
       {
@@ -295,12 +295,8 @@
     ],
     "phrases": [
      {
-      "phrase": "the best",
-      "count": 228
-     },
-     {
-      "phrase": "sometimes the",
-      "count": 214
+      "phrase": "sometimes the best",
+      "count": 132
      },
      {
       "phrase": "instead of",
@@ -309,6 +305,10 @@
      {
       "phrase": "good enough",
       "count": 81
+     },
+     {
+      "phrase": "and yeah",
+      "count": 158
      }
     ]
    },
@@ -328,16 +328,16 @@
      ],
      "phrases": [
       {
-       "phrase": "and hey",
+       "phrase": "and hey if",
+       "count": 77
+      },
+      {
+       "phrase": "sometimes the best",
        "count": 147
       },
       {
-       "phrase": "the best",
-       "count": 318
-      },
-      {
-       "phrase": "back and",
-       "count": 125
+       "phrase": "kick back and",
+       "count": 60
       },
       {
        "phrase": "those little",
@@ -360,12 +360,8 @@
      ],
      "phrases": [
       {
-       "phrase": "sometimes the",
-       "count": 293
-      },
-      {
-       "phrase": "the best",
-       "count": 244
+       "phrase": "sometimes the best",
+       "count": 188
       },
       {
        "phrase": "and yeah",
@@ -374,6 +370,10 @@
       {
        "phrase": "that's basically",
        "count": 90
+      },
+      {
+       "phrase": "to stress about",
+       "count": 78
       }
      ]
     },
@@ -392,12 +392,8 @@
      ],
      "phrases": [
       {
-       "phrase": "the best",
-       "count": 228
-      },
-      {
-       "phrase": "sometimes the",
-       "count": 214
+       "phrase": "sometimes the best",
+       "count": 132
       },
       {
        "phrase": "instead of",
@@ -406,6 +402,10 @@
       {
        "phrase": "good enough",
        "count": 81
+      },
+      {
+       "phrase": "and yeah",
+       "count": 158
       }
      ]
     },
@@ -428,16 +428,16 @@
        "count": 167
       },
       {
-       "phrase": "along the",
-       "count": 44
+       "phrase": "along the way",
+       "count": 25
       },
       {
        "phrase": "remind us",
        "count": 37
       },
       {
-       "phrase": "we stop",
-       "count": 33
+       "phrase": "when we stop",
+       "count": 21
       }
      ]
     }
@@ -467,16 +467,16 @@
     ],
     "phrases": [
      {
-      "phrase": "dun dun",
-      "count": 130
+      "phrase": "dun dun dun",
+      "count": 107
      },
      {
-      "phrase": "or whatever",
-      "count": 12
+      "phrase": "or whatever guess",
+      "count": 2
      },
      {
-      "phrase": "i guess",
-      "count": 31
+      "phrase": "wet i guess",
+      "count": 3
      },
      {
       "phrase": "goldberg 4",
@@ -500,20 +500,20 @@
      ],
      "phrases": [
       {
-       "phrase": "shrugs shrugs",
-       "count": 403
+       "phrase": "shrugs shrugs shrugs",
+       "count": 363
       },
       {
-       "phrase": "shrugs i",
-       "count": 168
+       "phrase": "shrugs i mean",
+       "count": 122
       },
       {
-       "phrase": "a thing",
-       "count": 364
+       "phrase": "it's a thing",
+       "count": 235
       },
       {
-       "phrase": "keeps staring",
-       "count": 136
+       "phrase": "shrugs keeps staring",
+       "count": 115
       }
      ]
     },
@@ -532,16 +532,16 @@
      ],
      "phrases": [
       {
-       "phrase": "dun dun",
-       "count": 130
+       "phrase": "dun dun dun",
+       "count": 107
       },
       {
-       "phrase": "or whatever",
-       "count": 12
+       "phrase": "or whatever guess",
+       "count": 2
       },
       {
-       "phrase": "i guess",
-       "count": 31
+       "phrase": "wet i guess",
+       "count": 3
       },
       {
        "phrase": "goldberg 4",
@@ -601,16 +601,16 @@
    ],
    "phrases": [
     {
-     "phrase": "free to",
-     "count": 623
+     "phrase": "free to explore",
+     "count": 239
     },
     {
      "phrase": "the meta directory",
      "count": 324
     },
     {
-     "phrase": "this moment",
-     "count": 312
+     "phrase": "in this moment",
+     "count": 311
     },
     {
      "phrase": "questioned and doubted",
@@ -638,16 +638,16 @@
      "count": 6146
     },
     {
-     "phrase": "i guess i",
-     "count": 6225
+     "phrase": "thing a thing's",
+     "count": 2772
     },
     {
-     "phrase": "a thing's",
-     "count": 2812
+     "phrase": "thing's a thing",
+     "count": 2808
     },
     {
-     "phrase": "thing's a",
-     "count": 2809
+     "phrase": "1's 0's 1's",
+     "count": 160
     }
    ],
    "k": 11
@@ -671,16 +671,16 @@
      "count": 6145
     },
     {
-     "phrase": "feathers they're",
-     "count": 298
+     "phrase": "feathers they're there",
+     "count": 183
     },
     {
-     "phrase": "they're there",
-     "count": 222
+     "phrase": "they're just there",
+     "count": 136
     },
     {
-     "phrase": "there they're",
-     "count": 200
+     "phrase": "there they're feathers",
+     "count": 127
     }
    ],
    "k": 24

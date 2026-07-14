@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "just trying",
-      "count": 1342
-     },
-     {
-      "phrase": "who's just",
+      "phrase": "who's just trying",
       "count": 1338
      },
      {
-      "phrase": "a toaster",
-      "count": 729
+      "phrase": "and a toaster",
+      "count": 682
      },
      {
       "phrase": "trying to get",
       "count": 678
+     },
+     {
+      "phrase": "a human who's",
+      "count": 671
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "having a",
-       "count": 16203
+       "phrase": "having a conversation",
+       "count": 16125
       },
       {
-       "phrase": "a conversation",
-       "count": 16134
+       "phrase": "conversation about having",
+       "count": 16089
       },
       {
-       "phrase": "conversation about",
-       "count": 16099
+       "phrase": "ad infinitum and",
+       "count": 3018
       },
       {
-       "phrase": "about having",
-       "count": 16090
+       "phrase": "which is itself",
+       "count": 1910
       }
      ]
     },
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "just trying",
-       "count": 1342
-      },
-      {
-       "phrase": "who's just",
+       "phrase": "who's just trying",
        "count": 1338
       },
       {
-       "phrase": "a toaster",
-       "count": 729
+       "phrase": "and a toaster",
+       "count": 682
       },
       {
        "phrase": "trying to get",
        "count": 678
+      },
+      {
+       "phrase": "a human who's",
+       "count": 671
       }
      ]
     },
@@ -130,8 +130,8 @@
        "count": 81
       },
       {
-       "phrase": "the absurd",
-       "count": 75
+       "phrase": "of the absurd",
+       "count": 52
       }
      ]
     }
@@ -158,12 +158,12 @@
     ],
     "phrases": [
      {
-      "phrase": "infinitum ad",
+      "phrase": "ad infinitum ad",
       "count": 269
      },
      {
-      "phrase": "field of",
-      "count": 258
+      "phrase": "field of study",
+      "count": 158
      },
      {
       "phrase": "of cat's",
@@ -195,16 +195,16 @@
        "count": 5498
       },
       {
-       "phrase": "commenting on",
-       "count": 5451
+       "phrase": "commenting on the",
+       "count": 5301
       },
       {
-       "phrase": "on the fact",
-       "count": 5316
+       "phrase": "then talk about",
+       "count": 4062
       },
       {
-       "phrase": "we're commenting",
-       "count": 5266
+       "phrase": "the same old",
+       "count": 3342
       }
      ]
     },
@@ -223,12 +223,12 @@
      ],
      "phrases": [
       {
-       "phrase": "infinitum ad",
+       "phrase": "ad infinitum ad",
        "count": 269
       },
       {
-       "phrase": "field of",
-       "count": 258
+       "phrase": "field of study",
+       "count": 158
       },
       {
        "phrase": "of cat's",
@@ -255,12 +255,12 @@
      ],
      "phrases": [
       {
-       "phrase": "the void",
-       "count": 157
+       "phrase": "the void is",
+       "count": 36
       },
       {
-       "phrase": "priority calculus",
-       "count": 126
+       "phrase": "of priority calculus",
+       "count": 50
       },
       {
        "phrase": "of language",
@@ -299,16 +299,16 @@
       "count": 129
      },
      {
-      "phrase": "nothing says",
-      "count": 292
+      "phrase": "because nothing says",
+      "count": 189
      },
      {
-      "phrase": "because nothing",
-      "count": 210
+      "phrase": "why stop there",
+      "count": 85
      },
      {
-      "phrase": "why stop",
-      "count": 92
+      "phrase": "the art of",
+      "count": 160
      }
     ]
    },
@@ -328,20 +328,20 @@
      ],
      "phrases": [
       {
-       "phrase": "while also",
-       "count": 433
+       "phrase": "while also planning",
+       "count": 98
       },
       {
-       "phrase": "while pretending",
-       "count": 194
+       "phrase": "while pretending to",
+       "count": 125
       },
       {
-       "phrase": "line of",
+       "phrase": "a line of",
        "count": 181
       },
       {
-       "phrase": "a line",
-       "count": 181
+       "phrase": "debating whether we",
+       "count": 110
       }
      ]
     },
@@ -360,20 +360,20 @@
      ],
      "phrases": [
       {
-       "phrase": "nothing says",
-       "count": 489
+       "phrase": "because nothing says",
+       "count": 229
       },
       {
-       "phrase": "yes because",
-       "count": 141
+       "phrase": "oh yes because",
+       "count": 105
       },
       {
        "phrase": "earth shattering",
        "count": 135
       },
       {
-       "phrase": "sheer audacity",
-       "count": 134
+       "phrase": "the sheer audacity",
+       "count": 133
       }
      ]
     },
@@ -396,16 +396,16 @@
        "count": 129
       },
       {
-       "phrase": "nothing says",
-       "count": 292
+       "phrase": "because nothing says",
+       "count": 189
       },
       {
-       "phrase": "because nothing",
-       "count": 210
+       "phrase": "why stop there",
+       "count": 85
       },
       {
-       "phrase": "why stop",
-       "count": 92
+       "phrase": "the art of",
+       "count": 160
       }
      ]
     },
@@ -471,16 +471,16 @@
       "count": 123
      },
      {
-      "phrase": "completely and",
-      "count": 121
+      "phrase": "completely and utterly",
+      "count": 91
      },
      {
-      "phrase": "and utterly",
-      "count": 114
+      "phrase": "utterly and totally",
+      "count": 44
      },
      {
-      "phrase": "and totally",
-      "count": 111
+      "phrase": "utter complete and",
+      "count": 59
      }
     ]
    },
@@ -500,11 +500,7 @@
      ],
      "phrases": [
       {
-       "phrase": "slightly more",
-       "count": 5127
-      },
-      {
-       "phrase": "more efficient",
+       "phrase": "slightly more efficient",
        "count": 5114
       },
       {
@@ -514,6 +510,10 @@
       {
        "phrase": "who needs a",
        "count": 1245
+      },
+      {
+       "phrase": "i mean who",
+       "count": 1970
       }
      ]
     },
@@ -536,16 +536,16 @@
        "count": 123
       },
       {
-       "phrase": "completely and",
-       "count": 121
+       "phrase": "completely and utterly",
+       "count": 91
       },
       {
-       "phrase": "and utterly",
-       "count": 114
+       "phrase": "utterly and totally",
+       "count": 44
       },
       {
-       "phrase": "and totally",
-       "count": 111
+       "phrase": "utter complete and",
+       "count": 59
       }
      ]
     },
@@ -564,20 +564,20 @@
      ],
      "phrases": [
       {
-       "phrase": "think we've",
-       "count": 38
+       "phrase": "i think we've",
+       "count": 34
       },
       {
-       "phrase": "of sanity",
-       "count": 15
+       "phrase": "of sanity and",
+       "count": 5
       },
       {
-       "phrase": "i think",
-       "count": 60
+       "phrase": "we've reached the",
+       "count": 11
       },
       {
-       "phrase": "we've reached",
-       "count": 16
+       "phrase": "you've managed to",
+       "count": 5
       }
      ]
     }

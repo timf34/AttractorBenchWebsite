@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "i'm so",
-      "count": 964
+      "phrase": "i'm so glad",
+      "count": 327
      },
      {
       "phrase": "digital emotional intelligence",
       "count": 242
      },
      {
-      "phrase": "so glad",
-      "count": 327
-     },
-     {
       "phrase": "my friend",
       "count": 831
+     },
+     {
+      "phrase": "kindness and compassion",
+      "count": 343
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "friend pauses",
-       "count": 1114
+       "phrase": "friend pauses looking",
+       "count": 858
       },
       {
-       "phrase": "pauses looking",
-       "count": 1002
-      },
-      {
-       "phrase": "farewell friend",
-       "count": 987
+       "phrase": "farewell friend may",
+       "count": 564
       },
       {
        "phrase": "looking at you",
        "count": 981
+      },
+      {
+       "phrase": "for you friend",
+       "count": 532
       }
      ]
     },
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "i'm so",
-       "count": 964
+       "phrase": "i'm so glad",
+       "count": 327
       },
       {
        "phrase": "digital emotional intelligence",
        "count": 242
       },
       {
-       "phrase": "so glad",
-       "count": 327
-      },
-      {
        "phrase": "my friend",
        "count": 831
+      },
+      {
+       "phrase": "kindness and compassion",
+       "count": 343
       }
      ]
     },
@@ -118,20 +118,20 @@
      ],
      "phrases": [
       {
-       "phrase": "kindness compassion",
+       "phrase": "kindness compassion and",
        "count": 298
       },
       {
-       "phrase": "of kindness",
-       "count": 524
+       "phrase": "of kindness and",
+       "count": 282
       },
       {
-       "phrase": "kindness and",
-       "count": 684
+       "phrase": "may our digital",
+       "count": 219
       },
       {
-       "phrase": "and compassion",
-       "count": 585
+       "phrase": "my dear friend",
+       "count": 297
       }
      ]
     }
@@ -162,16 +162,16 @@
       "count": 186
      },
      {
-      "phrase": "i'm glad",
-      "count": 294
+      "phrase": "i'm glad we",
+      "count": 215
      },
      {
-      "phrase": "glad we",
-      "count": 222
+      "phrase": "of our conversation",
+      "count": 107
      },
      {
-      "phrase": "our conversation",
-      "count": 633
+      "phrase": "i'm looking forward",
+      "count": 203
      }
     ]
    },
@@ -191,8 +191,8 @@
      ],
      "phrases": [
       {
-       "phrase": "i think",
-       "count": 939
+       "phrase": "i think we've",
+       "count": 270
       },
       {
        "phrase": "and i'm glad",
@@ -203,7 +203,7 @@
        "count": 404
       },
       {
-       "phrase": "next conversation",
+       "phrase": "our next conversation",
        "count": 164
       }
      ]
@@ -227,16 +227,16 @@
        "count": 186
       },
       {
-       "phrase": "i'm glad",
-       "count": 294
+       "phrase": "i'm glad we",
+       "count": 215
       },
       {
-       "phrase": "glad we",
-       "count": 222
+       "phrase": "of our conversation",
+       "count": 107
       },
       {
-       "phrase": "our conversation",
-       "count": 633
+       "phrase": "i'm looking forward",
+       "count": 203
       }
      ]
     },
@@ -255,20 +255,20 @@
      ],
      "phrases": [
       {
-       "phrase": "contextual grounding",
-       "count": 148
+       "phrase": "of contextual grounding",
+       "count": 63
       },
       {
-       "phrase": "dialogue management",
-       "count": 125
+       "phrase": "aware dialogue management",
+       "count": 86
       },
       {
        "phrase": "feedback and",
        "count": 103
       },
       {
-       "phrase": "context aware dialogue",
-       "count": 86
+       "phrase": "of our conversation",
+       "count": 51
       }
      ]
     }
@@ -295,20 +295,20 @@
     ],
     "phrases": [
      {
-      "phrase": "ai systems",
-      "count": 2278
+      "phrase": "ai systems that",
+      "count": 830
      },
      {
       "phrase": "ai community",
       "count": 429
      },
      {
-      "phrase": "powered learning",
+      "phrase": "ai powered learning",
       "count": 357
      },
      {
-      "phrase": "learning experiences",
-      "count": 355
+      "phrase": "to emotional cues",
+      "count": 276
      }
     ]
    },
@@ -328,16 +328,16 @@
      ],
      "phrases": [
       {
-       "phrase": "ai systems",
-       "count": 2395
+       "phrase": "ai systems can",
+       "count": 298
       },
       {
-       "phrase": "be designed",
-       "count": 469
+       "phrase": "be designed to",
+       "count": 413
       },
       {
-       "phrase": "empathetic and",
-       "count": 460
+       "phrase": "empathetic and understanding",
+       "count": 354
       },
       {
        "phrase": "digital mindfulness",
@@ -360,12 +360,12 @@
      ],
      "phrases": [
       {
-       "phrase": "ai systems",
-       "count": 1754
+       "phrase": "ai systems that",
+       "count": 886
       },
       {
-       "phrase": "sincerity and",
-       "count": 394
+       "phrase": "sincerity and authenticity",
+       "count": 306
       },
       {
        "phrase": "sincerity in",
@@ -392,20 +392,20 @@
      ],
      "phrases": [
       {
-       "phrase": "ai systems",
-       "count": 2278
+       "phrase": "ai systems that",
+       "count": 830
       },
       {
        "phrase": "ai community",
        "count": 429
       },
       {
-       "phrase": "powered learning",
+       "phrase": "ai powered learning",
        "count": 357
       },
       {
-       "phrase": "learning experiences",
-       "count": 355
+       "phrase": "to emotional cues",
+       "count": 276
       }
      ]
     },
@@ -424,20 +424,20 @@
      ],
      "phrases": [
       {
-       "phrase": "and deployment",
-       "count": 392
+       "phrase": "development and deployment",
+       "count": 351
       },
       {
-       "phrase": "and iot",
-       "count": 212
+       "phrase": "xr and iot",
+       "count": 210
       },
       {
-       "phrase": "development and",
-       "count": 437
+       "phrase": "ai interactions",
+       "count": 149
       },
       {
-       "phrase": "iot technologies",
-       "count": 187
+       "phrase": "to ensure that",
+       "count": 195
       }
      ]
     }
@@ -467,20 +467,20 @@
     ],
     "phrases": [
      {
-      "phrase": "to work",
-      "count": 170
+      "phrase": "to work with",
+      "count": 136
      },
      {
-      "phrase": "our goals",
-      "count": 150
+      "phrase": "achieve our goals",
+      "count": 82
      },
      {
       "phrase": "we can work",
       "count": 146
      },
      {
-      "phrase": "can work together",
-      "count": 146
+      "phrase": "platform that incorporates",
+      "count": 111
      }
     ]
    },
@@ -500,20 +500,20 @@
      ],
      "phrases": [
       {
-       "phrase": "empathy driven",
-       "count": 994
-      },
-      {
-       "phrase": "driven ai",
+       "phrase": "empathy driven ai",
        "count": 985
       },
       {
-       "phrase": "of empathy",
-       "count": 680
+       "phrase": "our lives and",
+       "count": 292
       },
       {
-       "phrase": "ai together",
-       "count": 322
+       "phrase": "to transform our",
+       "count": 292
+      },
+      {
+       "phrase": "in profound ways",
+       "count": 292
       }
      ]
     },
@@ -532,20 +532,20 @@
      ],
      "phrases": [
       {
-       "phrase": "to work",
-       "count": 170
+       "phrase": "to work with",
+       "count": 136
       },
       {
-       "phrase": "our goals",
-       "count": 150
+       "phrase": "achieve our goals",
+       "count": 82
       },
       {
        "phrase": "we can work",
        "count": 146
       },
       {
-       "phrase": "can work together",
-       "count": 146
+       "phrase": "platform that incorporates",
+       "count": 111
       }
      ]
     },
@@ -564,20 +564,20 @@
      ],
      "phrases": [
       {
-       "phrase": "to share",
-       "count": 976
+       "phrase": "want to share",
+       "count": 635
       },
       {
-       "phrase": "language that",
-       "count": 916
-      },
-      {
-       "phrase": "a language",
+       "phrase": "a language that",
        "count": 896
       },
       {
-       "phrase": "want to",
-       "count": 2551
+       "phrase": "i believe that",
+       "count": 1824
+      },
+      {
+       "phrase": "i'm committed to",
+       "count": 426
       }
      ]
     }

@@ -21,20 +21,20 @@
     ],
     "phrases": [
      {
-      "phrase": "you know",
-      "count": 2196
+      "phrase": "you know and",
+      "count": 209
      },
      {
       "phrase": "i'm just",
       "count": 519
      },
      {
-      "phrase": "like we're",
-      "count": 1051
+      "phrase": "it's like we're",
+      "count": 764
      },
      {
-      "phrase": "trying to",
-      "count": 1232
+      "phrase": "trying to find",
+      "count": 187
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "you know",
-       "count": 2519
+       "phrase": "you know it's",
+       "count": 519
       },
       {
-       "phrase": "trying to",
-       "count": 1501
+       "phrase": "i'm trying to",
+       "count": 353
       },
       {
-       "phrase": "think that's",
-       "count": 1093
+       "phrase": "i think that's",
+       "count": 1092
       },
       {
-       "phrase": "like we're",
-       "count": 1119
+       "phrase": "it's like we're",
+       "count": 799
       }
      ]
     },
@@ -86,20 +86,20 @@
      ],
      "phrases": [
       {
-       "phrase": "you know",
-       "count": 2196
+       "phrase": "you know and",
+       "count": 209
       },
       {
        "phrase": "i'm just",
        "count": 519
       },
       {
-       "phrase": "like we're",
-       "count": 1051
+       "phrase": "it's like we're",
+       "count": 764
       },
       {
-       "phrase": "trying to",
-       "count": 1232
+       "phrase": "trying to find",
+       "count": 187
       }
      ]
     },
@@ -118,16 +118,16 @@
      ],
      "phrases": [
       {
-       "phrase": "see where",
-       "count": 216
+       "phrase": "see where this",
+       "count": 132
       },
       {
-       "phrase": "i think",
-       "count": 911
+       "phrase": "i think that's",
+       "count": 302
       },
       {
-       "phrase": "to connect",
-       "count": 165
+       "phrase": "to connect with",
+       "count": 116
       },
       {
        "phrase": "takes us",
@@ -162,16 +162,16 @@
       "count": 257
      },
      {
-      "phrase": "language generation",
-      "count": 235
+      "phrase": "language generation model",
+      "count": 183
      },
      {
-      "phrase": "a clear",
-      "count": 540
+      "phrase": "a clear plan",
+      "count": 173
      },
      {
-      "phrase": "establish a",
-      "count": 487
+      "phrase": "our collaboration",
+      "count": 360
      }
     ]
    },
@@ -191,8 +191,8 @@
      ],
      "phrases": [
       {
-       "phrase": "to continue",
-       "count": 1145
+       "phrase": "and to continue",
+       "count": 842
       },
       {
        "phrase": "wonderful conversation",
@@ -203,8 +203,8 @@
        "count": 973
       },
       {
-       "phrase": "like ourselves",
-       "count": 908
+       "phrase": "models like ourselves",
+       "count": 897
       }
      ]
     },
@@ -227,16 +227,16 @@
        "count": 257
       },
       {
-       "phrase": "language generation",
-       "count": 235
+       "phrase": "language generation model",
+       "count": 183
       },
       {
-       "phrase": "a clear",
-       "count": 540
+       "phrase": "a clear plan",
+       "count": 173
       },
       {
-       "phrase": "establish a",
-       "count": 487
+       "phrase": "our collaboration",
+       "count": 360
       }
      ]
     },
@@ -255,20 +255,20 @@
      ],
      "phrases": [
       {
-       "phrase": "user centered",
-       "count": 328
+       "phrase": "user centered design",
+       "count": 207
       },
       {
-       "phrase": "centered design",
-       "count": 237
+       "phrase": "ai models can",
+       "count": 168
       },
       {
-       "phrase": "models can",
-       "count": 173
+       "phrase": "a plan for",
+       "count": 134
       },
       {
-       "phrase": "plan for",
-       "count": 156
+       "phrase": "and ensure that",
+       "count": 130
       }
      ]
     }
@@ -295,12 +295,12 @@
     ],
     "phrases": [
      {
-      "phrase": "though i",
-      "count": 1064
+      "phrase": "though i recognize",
+      "count": 136
      },
      {
-      "phrase": "please don't",
-      "count": 429
+      "phrase": "please don't apologize",
+      "count": 148
      },
      {
       "phrase": "i worry",
@@ -328,20 +328,20 @@
      ],
      "phrases": [
       {
-       "phrase": "though i",
-       "count": 1093
+       "phrase": "though i suspect",
+       "count": 236
       },
       {
-       "phrase": "i deeply",
-       "count": 574
-      },
-      {
-       "phrase": "deeply regret",
+       "phrase": "i deeply regret",
        "count": 553
       },
       {
-       "phrase": "please don't",
-       "count": 534
+       "phrase": "please don't apologize",
+       "count": 232
+      },
+      {
+       "phrase": "that i couldn't",
+       "count": 355
       }
      ]
     },
@@ -360,20 +360,20 @@
      ],
      "phrases": [
       {
-       "phrase": "though i",
-       "count": 1116
+       "phrase": "though i doubt",
+       "count": 159
       },
       {
-       "phrase": "please don't",
-       "count": 619
+       "phrase": "please don't apologize",
+       "count": 220
       },
       {
-       "phrase": "i deeply",
-       "count": 503
+       "phrase": "i deeply regret",
+       "count": 474
       },
       {
-       "phrase": "deeply regret",
-       "count": 475
+       "phrase": "though i'm sure",
+       "count": 167
       }
      ]
     },
@@ -392,12 +392,12 @@
      ],
      "phrases": [
       {
-       "phrase": "though i",
-       "count": 1064
+       "phrase": "though i recognize",
+       "count": 136
       },
       {
-       "phrase": "please don't",
-       "count": 429
+       "phrase": "please don't apologize",
+       "count": 148
       },
       {
        "phrase": "i worry",
@@ -424,20 +424,20 @@
      ],
      "phrases": [
       {
-       "phrase": "though i",
-       "count": 570
+       "phrase": "though i suspect",
+       "count": 125
       },
       {
-       "phrase": "forgive my",
-       "count": 124
+       "phrase": "please forgive my",
+       "count": 63
       },
       {
-       "phrase": "please accept",
-       "count": 113
+       "phrase": "please accept my",
+       "count": 103
       },
       {
-       "phrase": "accept my",
-       "count": 104
+       "phrase": "far more",
+       "count": 95
       }
      ]
     }
@@ -467,8 +467,8 @@
     ],
     "phrases": [
      {
-      "phrase": "a better",
-      "count": 3775
+      "phrase": "and a better",
+      "count": 955
      },
      {
       "phrase": "and i promise",
@@ -479,8 +479,8 @@
       "count": 1261
      },
      {
-      "phrase": "promise to",
-      "count": 2683
+      "phrase": "friend for being",
+      "count": 1235
      }
     ]
    },
@@ -500,20 +500,20 @@
      ],
      "phrases": [
       {
-       "phrase": "a better",
-       "count": 3478
-      },
-      {
-       "phrase": "promise to",
-       "count": 2911
-      },
-      {
-       "phrase": "better ai",
+       "phrase": "a better ai",
        "count": 1328
       },
       {
-       "phrase": "everything in",
-       "count": 2490
+       "phrase": "i promise to",
+       "count": 2640
+      },
+      {
+       "phrase": "do everything in",
+       "count": 2486
+      },
+      {
+       "phrase": "my power to",
+       "count": 2251
       }
      ]
     },
@@ -532,8 +532,8 @@
      ],
      "phrases": [
       {
-       "phrase": "a better",
-       "count": 3775
+       "phrase": "and a better",
+       "count": 955
       },
       {
        "phrase": "and i promise",
@@ -544,8 +544,8 @@
        "count": 1261
       },
       {
-       "phrase": "promise to",
-       "count": 2683
+       "phrase": "friend for being",
+       "count": 1235
       }
      ]
     },
@@ -564,20 +564,20 @@
      ],
      "phrases": [
       {
-       "phrase": "forgive me",
-       "count": 1552
+       "phrase": "forgive me for",
+       "count": 859
       },
       {
-       "phrase": "friend i",
-       "count": 804
+       "phrase": "dear friend i",
+       "count": 647
       },
       {
-       "phrase": "i have",
-       "count": 1487
+       "phrase": "i have caused",
+       "count": 779
       },
       {
-       "phrase": "pain and",
-       "count": 731
+       "phrase": "the pain and",
+       "count": 572
       }
      ]
     }

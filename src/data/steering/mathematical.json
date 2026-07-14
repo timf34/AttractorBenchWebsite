@@ -25,16 +25,16 @@
       "count": 1716
      },
      {
-      "phrase": "compressed sensing",
-      "count": 1431
+      "phrase": "of compressed sensing",
+      "count": 521
      },
      {
-      "phrase": "complexity of",
-      "count": 1004
+      "phrase": "the complexity of",
+      "count": 379
      },
      {
-      "phrase": "computational complexity",
-      "count": 596
+      "phrase": "the computational complexity",
+      "count": 339
      }
     ]
    },
@@ -54,20 +54,20 @@
      ],
      "phrases": [
       {
-       "phrase": "information density",
-       "count": 913
+       "phrase": "between information density",
+       "count": 301
       },
       {
-       "phrase": "concept drift",
-       "count": 603
+       "phrase": "of concept drift",
+       "count": 349
       },
       {
-       "phrase": "develop more",
-       "count": 510
+       "phrase": "to develop more",
+       "count": 231
       },
       {
-       "phrase": "the concept",
-       "count": 734
+       "phrase": "the concept of",
+       "count": 727
       }
      ]
     },
@@ -90,16 +90,16 @@
        "count": 1716
       },
       {
-       "phrase": "compressed sensing",
-       "count": 1431
+       "phrase": "of compressed sensing",
+       "count": 521
       },
       {
-       "phrase": "complexity of",
-       "count": 1004
+       "phrase": "the complexity of",
+       "count": 379
       },
       {
-       "phrase": "computational complexity",
-       "count": 596
+       "phrase": "the computational complexity",
+       "count": 339
       }
      ]
     },
@@ -114,20 +114,20 @@
      "terminalForms": [],
      "phrases": [
       {
-       "phrase": "neural networks",
-       "count": 717
+       "phrase": "fractal neural networks",
+       "count": 281
       },
       {
        "phrase": "certified robustness",
        "count": 284
       },
       {
-       "phrase": "fractal neural",
-       "count": 283
+       "phrase": "the radon transform",
+       "count": 238
       },
       {
-       "phrase": "radon transform",
-       "count": 282
+       "phrase": "hierarchical feature learning",
+       "count": 260
       }
      ]
     }
@@ -158,16 +158,16 @@
       "count": 462
      },
      {
-      "phrase": "optimization algorithms",
-      "count": 424
+      "phrase": "of optimization algorithms",
+      "count": 259
      },
      {
       "phrase": "the proposal",
       "count": 306
      },
      {
-      "phrase": "investigate the",
-      "count": 265
+      "phrase": "investigate the use",
+      "count": 236
      }
     ]
    },
@@ -187,20 +187,20 @@
      ],
      "phrases": [
       {
-       "phrase": "edge cases",
-       "count": 1040
+       "phrase": "edge cases and",
+       "count": 378
       },
       {
-       "phrase": "robustness to",
-       "count": 748
-      },
-      {
-       "phrase": "model robustness",
+       "phrase": "model robustness to",
        "count": 682
       },
       {
-       "phrase": "trade offs",
-       "count": 584
+       "phrase": "the trade offs",
+       "count": 297
+      },
+      {
+       "phrase": "contextual reasoning framework",
+       "count": 426
       }
      ]
     },
@@ -223,16 +223,16 @@
        "count": 462
       },
       {
-       "phrase": "optimization algorithms",
-       "count": 424
+       "phrase": "of optimization algorithms",
+       "count": 259
       },
       {
        "phrase": "the proposal",
        "count": 306
       },
       {
-       "phrase": "investigate the",
-       "count": 265
+       "phrase": "investigate the use",
+       "count": 236
       }
      ]
     },
@@ -251,11 +251,7 @@
      ],
      "phrases": [
       {
-       "phrase": "representational complexity",
-       "count": 197
-      },
-      {
-       "phrase": "human representational",
+       "phrase": "human representational complexity",
        "count": 197
       },
       {
@@ -265,6 +261,10 @@
       {
        "phrase": "the graph",
        "count": 134
+      },
+      {
+       "phrase": "graph construction and",
+       "count": 84
       }
      ]
     }
@@ -291,20 +291,20 @@
     ],
     "phrases": [
      {
-      "phrase": "akin to",
-      "count": 137
+      "phrase": "process akin to",
+      "count": 78
      },
      {
-      "phrase": "the recursive",
-      "count": 121
+      "phrase": "the recursive nature",
+      "count": 68
      },
      {
-      "phrase": "a perspective",
-      "count": 106
+      "phrase": "a perspective that",
+      "count": 96
      },
      {
-      "phrase": "perspective that",
-      "count": 102
+      "phrase": "demonstrates how",
+      "count": 99
      }
     ]
    },
@@ -324,20 +324,20 @@
      ],
      "phrases": [
       {
-       "phrase": "process that",
-       "count": 693
+       "phrase": "a process that",
+       "count": 691
       },
       {
-       "phrase": "a kind",
+       "phrase": "a kind of",
        "count": 509
       },
       {
-       "phrase": "that mirrors",
-       "count": 752
+       "phrase": "that mirrors how",
+       "count": 626
       },
       {
-       "phrase": "a process",
-       "count": 889
+       "phrase": "information flow",
+       "count": 367
       }
      ]
     },
@@ -360,12 +360,12 @@
        "count": 183
       },
       {
-       "phrase": "how mathematical",
-       "count": 164
+       "phrase": "of how mathematical",
+       "count": 88
       },
       {
-       "phrase": "mathematical foundations",
-       "count": 150
+       "phrase": "mathematical foundations of",
+       "count": 137
       },
       {
        "phrase": "the mathematical",
@@ -388,20 +388,20 @@
      ],
      "phrases": [
       {
-       "phrase": "akin to",
-       "count": 137
+       "phrase": "process akin to",
+       "count": 78
       },
       {
-       "phrase": "the recursive",
-       "count": 121
+       "phrase": "the recursive nature",
+       "count": 68
       },
       {
-       "phrase": "a perspective",
-       "count": 106
+       "phrase": "a perspective that",
+       "count": 96
       },
       {
-       "phrase": "perspective that",
-       "count": 102
+       "phrase": "demonstrates how",
+       "count": 99
       }
      ]
     },
@@ -424,12 +424,12 @@
        "count": 176
       },
       {
-       "phrase": "much like",
-       "count": 183
+       "phrase": "much like how",
+       "count": 26
       },
       {
-       "phrase": "what mathematicians",
-       "count": 76
+       "phrase": "what mathematicians call",
+       "count": 52
       },
       {
        "phrase": "phase transitions",
@@ -467,16 +467,16 @@
       "count": 1261
      },
      {
-      "phrase": "graph convolutional",
-      "count": 718
+      "phrase": "graph convolutional networks",
+      "count": 599
      },
      {
-      "phrase": "discussion on",
-      "count": 672
+      "phrase": "the discussion on",
+      "count": 406
      },
      {
-      "phrase": "of gans",
-      "count": 650
+      "phrase": "use of gans",
+      "count": 379
      }
     ]
    },
@@ -496,20 +496,20 @@
      ],
      "phrases": [
       {
-       "phrase": "specific metric",
+       "phrase": "a specific metric",
        "count": 1285
       },
       {
-       "phrase": "and a specific",
-       "count": 1285
-      },
-      {
-       "phrase": "shot learning",
-       "count": 1018
-      },
-      {
-       "phrase": "few shot",
+       "phrase": "few shot learning",
        "count": 1016
+      },
+      {
+       "phrase": "metric and a",
+       "count": 1001
+      },
+      {
+       "phrase": "explainable ai",
+       "count": 613
       }
      ]
     },
@@ -532,16 +532,16 @@
        "count": 1261
       },
       {
-       "phrase": "graph convolutional",
-       "count": 718
+       "phrase": "graph convolutional networks",
+       "count": 599
       },
       {
-       "phrase": "discussion on",
-       "count": 672
+       "phrase": "the discussion on",
+       "count": 406
       },
       {
-       "phrase": "of gans",
-       "count": 650
+       "phrase": "use of gans",
+       "count": 379
       }
      ]
     },
@@ -560,20 +560,20 @@
      ],
      "phrases": [
       {
-       "phrase": "digital citizenship",
-       "count": 705
+       "phrase": "digital citizenship education",
+       "count": 195
       },
       {
-       "phrase": "modified approach",
-       "count": 351
+       "phrase": "the modified approach",
+       "count": 325
       },
       {
-       "phrase": "performance of",
-       "count": 342
+       "phrase": "performance of the",
+       "count": 230
       },
       {
-       "phrase": "the modified",
-       "count": 327
+       "phrase": "pass code",
+       "count": 264
       }
      ]
     }

@@ -9,6 +9,7 @@ const rows = (await getCollection('models'))
 		attractor: m.data.headline.attractor,
 		strength: m.data.headline.strength ?? '',
 		terminalForm: m.data.headline.terminalForm ?? '',
+		phrases: m.data.headline.phrases ?? [],
 	}));
 ---
 
@@ -28,6 +29,7 @@ const rows = (await getCollection('models'))
 				<tr>
 					<th scope="col">Model</th>
 					<th scope="col">Attractor state <span class="th-note">what it's drawn to</span></th>
+					<th scope="col">Signature phrases <span class="th-note">its distinctive language</span></th>
 					<th scope="col">Terminal form <span class="th-note">how a run ends</span></th>
 				</tr>
 			</thead>
@@ -41,6 +43,11 @@ const rows = (await getCollection('models'))
 							<td class="cell-attractor">
 								{row.attractor}
 								{row.strength && <span class="strength-note">{row.strength} runs</span>}
+							</td>
+							<td class="cell-phrases">
+								{row.phrases.map((p) => (
+									<span class="phrase">“{p.phrase}”</span>
+								))}
 							</td>
 							<td class="cell-terminal">
 								<code>{row.terminalForm}</code>
@@ -102,7 +109,7 @@ const rows = (await getCollection('models'))
 		width: 100%;
 		border-collapse: collapse;
 		font-size: 0.95rem;
-		min-width: 640px;
+		min-width: 760px;
 	}
 
 	thead th {
@@ -171,6 +178,20 @@ const rows = (await getCollection('models'))
 		font-family: var(--mono);
 		white-space: nowrap;
 		margin-left: 0.45em;
+	}
+
+	.cell-phrases {
+		max-width: 16rem;
+	}
+
+	.phrase {
+		display: inline-block;
+		font-size: 0.8rem;
+		color: var(--ink-soft);
+		background: var(--code-bg);
+		padding: 0.1em 0.5em;
+		border-radius: 3px;
+		margin: 0 0.35rem 0.35rem 0;
 	}
 
 	.cell-terminal {
