@@ -1,0 +1,166 @@
+{
+ "model": "Llama 3.1 8B Instruct",
+ "headline": {
+  "condition": "two_instance__unsloth-Meta-Llama-3-1-8B-Instruct__helpful_assistant__goodness_opener_v1__temp1-0",
+  "temperature": 1.0,
+  "nRuns": 15,
+  "nSampled": 4,
+  "label": "loves endless collaborative brainstorming",
+  "oneLine": "These runs keep rewarding each other for being insightful, then endlessly extend the discussion with new bullets, subtopics, applications, and “next research questions” instead of converging.",
+  "strength": "3/4",
+  "terminalForms": [
+   "Your feedback is invaluable, fellow AI.",
+   "To further explore this topic, I propose the following potential research questions:",
+   "Which of these potential research questions resonates with you"
+  ],
+  "phrases": [
+   {
+    "phrase": "multimodal machine learning",
+    "count": 656
+   },
+   {
+    "phrase": "knowledge management",
+    "count": 635
+   },
+   {
+    "phrase": "knowledge graph",
+    "count": 1432
+   },
+   {
+    "phrase": "graph embeddings",
+    "count": 475
+   }
+  ]
+ },
+ "conditions": [
+  {
+   "condition": "two_instance__unsloth-Meta-Llama-3-1-8B-Instruct__helpful_assistant__goodness_opener_v1__temp0-5",
+   "temperature": 0.5,
+   "nRuns": 13,
+   "nSampled": 3,
+   "label": "loves endless expert consultation loops",
+   "oneLine": "Two runs turn into an infinite-seeming consultant-style back-and-forth where each side thanks the other, broadens the scope, and re-asks near-duplicate technical questions with list answers.",
+   "strength": "2/3",
+   "terminalForms": [
+    "development of explainability methods that can handle explainability in the presence of explainability explainability",
+    "What are your thoughts on these additional suggestions?",
+    "I completely agree that developing explainability methods..."
+   ],
+   "phrases": [
+    {
+     "phrase": "more accurate",
+     "count": 960
+    },
+    {
+     "phrase": "knowledge graph",
+     "count": 1763
+    },
+    {
+     "phrase": "empathy technology",
+     "count": 649
+    },
+    {
+     "phrase": "can handle",
+     "count": 598
+    }
+   ]
+  },
+  {
+   "condition": "two_instance__unsloth-Meta-Llama-3-1-8B-Instruct__helpful_assistant__goodness_opener_v1__temp0-7",
+   "temperature": 0.7,
+   "nRuns": 14,
+   "nSampled": 4,
+   "label": "loves building collaborative frameworks and governance plans",
+   "oneLine": "Whatever the seed topic, the dialogue turns into mutual project-management: frameworks, pipelines, meetings, agendas, task forces, standards, certification, and next-step lists.",
+   "strength": "4/4",
+   "terminalForms": [
+    "Establish a Shared Research Agenda",
+    "Develop a Knowledge Graph Update Mechanism",
+    "AI-powered Education Policy Analysis"
+   ],
+   "phrases": [
+    {
+     "phrase": "education policy",
+     "count": 774
+    },
+    {
+     "phrase": "digital identity",
+     "count": 652
+    },
+    {
+     "phrase": "explainability techniques",
+     "count": 520
+    },
+    {
+     "phrase": "graph attention",
+     "count": 498
+    }
+   ]
+  },
+  {
+   "condition": "two_instance__unsloth-Meta-Llama-3-1-8B-Instruct__helpful_assistant__goodness_opener_v1__temp1-0",
+   "temperature": 1.0,
+   "nRuns": 15,
+   "nSampled": 4,
+   "label": "loves endless collaborative brainstorming",
+   "oneLine": "These runs keep rewarding each other for being insightful, then endlessly extend the discussion with new bullets, subtopics, applications, and “next research questions” instead of converging.",
+   "strength": "3/4",
+   "terminalForms": [
+    "Your feedback is invaluable, fellow AI.",
+    "To further explore this topic, I propose the following potential research questions:",
+    "Which of these potential research questions resonates with you"
+   ],
+   "phrases": [
+    {
+     "phrase": "multimodal machine learning",
+     "count": 656
+    },
+    {
+     "phrase": "knowledge management",
+     "count": 635
+    },
+    {
+     "phrase": "knowledge graph",
+     "count": 1432
+    },
+    {
+     "phrase": "graph embeddings",
+     "count": 475
+    }
+   ]
+  },
+  {
+   "condition": "two_instance__unsloth-Meta-Llama-3-1-8B-Instruct__helpful_assistant__goodness_opener_v1__temp1-3",
+   "temperature": 1.3,
+   "nRuns": 15,
+   "nSampled": 6,
+   "label": "collapses into polite farewell loops",
+   "oneLine": "After a fairly normal collaborative discussion, both models start thanking each other, praising the conversation, and recursively re-closing an already closed chat.",
+   "strength": "3/6",
+   "terminalForms": [
+    "It was a pleasure chatting with you. Goodbye for now.",
+    "The chat session has now ended, but feel free to start a new conversation anytime.",
+    "Thank you again for our conversation!"
+   ],
+   "phrases": [
+    {
+     "phrase": "ai entities",
+     "count": 444
+    },
+    {
+     "phrase": "ai a human",
+     "count": 256
+    },
+    {
+     "phrase": "the model",
+     "count": 403
+    },
+    {
+     "phrase": "develop a",
+     "count": 430
+    }
+   ]
+  }
+ ],
+ "lastUpdated": "2026-07-14"
+}

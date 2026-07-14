@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import LoopMark from '../components/LoopMark.astro';
 import BenchmarkTable from '../components/BenchmarkTable.astro';
+import SteeringTable from '../components/SteeringTable.astro';
 ---
 
 <Layout>
@@ -22,6 +23,8 @@ import BenchmarkTable from '../components/BenchmarkTable.astro';
 		</header>
 
 		<BenchmarkTable />
+
+		<SteeringTable />
 
 		<footer class="footer">
 			<LoopMark size={18} />

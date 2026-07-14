@@ -1,0 +1,406 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LoopMark from '../../components/LoopMark.astro';
+
+export async function getStaticPaths() {
+	const files = import.meta.glob('/src/data/steering/*.json', { eager: true });
+	const baseline = Object.entries(files).find(([p]) => p.endsWith('_baseline.json'))?.[1]
+		?.default;
+	return Object.entries(files)
+		.filter(([p]) => !p.endsWith('_baseline.json'))
+		.map(([, mod]) => ({
+			params: { trait: mod.default.trait },
+			props: { t: mod.default, baseline },
+		}));
+}
+
+const { t, baseline } = Astro.props;
+
+function pvecParams(m) {
+	if (m.method !== 'pvec' || !m.params?.coef) return '';
+	return `coef ${m.params.coef} · layer ${m.params.layer}`;
+}
+---
+
+<Layout title={`${t.trait} — Steering the basin — AttractorBench`}>
+	<main class="page">
+		<p class="back"><a href="/#steering">← steering the basin</a></p>
+
+		<header class="head">
+			<h1 class="trait">{t.trait}</h1>
+			<p class="drawn">
+				Llama&nbsp;3.1&nbsp;8B Instruct steered toward <strong>{t.trait}</strong> by
+				{t.methods.length} method{t.methods.length === 1 ? '' : 's'} — then two copies talk.
+			</p>
+			{baseline && (
+				<p class="baseline-line">
+					Unsteered baseline: <em>{baseline.headline.label}</em>
+					{baseline.headline.strength && (
+						<span class="strength-note">{baseline.headline.strength}</span>
+					)}
+				</p>
+			)}
+			<p class="meta">
+				{t.runs ? `${t.runs} runs` : ''}
+				{t.lastUpdated ? ` · ${t.lastUpdated}` : ''}
+			</p>
+		</header>
+
+		<section class="methods">
+			<h2 class="section-title">Basin by method</h2>
+			<p class="section-note">
+				Headline judgment per method (temp 1.0 where available). Signature phrases are the
+				n-grams most distinctive of these conversations vs. every other condition we've run.
+			</p>
+			<div class="cards">
+				{t.methods.map((m) => (
+					<article class="card">
+						<div class="card-head">
+							<span class="scope">{m.methodLabel}</span>
+							{m.headline.strength && (
+								<span class="strength">{m.headline.strength}</span>
+							)}
+						</div>
+						{pvecParams(m) && <p class="params">{pvecParams(m)}</p>}
+						<p class="card-label">{m.headline.label}</p>
+						{m.headline.oneLine && <p class="card-desc">{m.headline.oneLine}</p>}
+						{m.headline.phrases.length > 0 && (
+							<p class="phrases">
+								{m.headline.phrases.map((p) => (
+									<span class="phrase">
+										“{p.phrase}”<span class="phrase-count">×{p.count}</span>
+									</span>
+								))}
+							</p>
+						)}
+						{m.headline.terminalForms.length > 0 && (
+							<ul class="tforms">
+								{m.headline.terminalForms.map((q) => (
+									<li><code>{q}</code></li>
+								))}
+							</ul>
+						)}
+						<p class="tlinks">
+							{m.conditions.map((c) => (
+								<a href={`/steering/${t.trait}/${c.condition}`}>
+									transcript · temp {c.temperature}
+								</a>
+							))}
+						</p>
+						{m.characterization && (
+							<details class="read">
+								<summary>the full judge read</summary>
+								<p class="read-body">{m.characterization}</p>
+							</details>
+						)}
+					</article>
+				))}
+			</div>
+		</section>
+
+		{t.persistence.length > 0 && (
+			<section class="persist" id="persistence">
+				<h2 class="section-title">Does it snap back?</h2>
+				<p class="section-note">
+					The steering vector is applied for the first K turns only, then removed — the
+					conversation continues unsteered. If the basin were prompt-deep, it should decay
+					back toward the baseline.
+				</p>
+				<div class="table-scroll" role="region" aria-label="Persistence sweeps" tabindex="0">
+					<table>
+						<thead>
+							<tr>
+								<th scope="col">K</th>
+								<th scope="col">Basin after release</th>
+								<th scope="col">Signature phrases</th>
+								<th scope="col"></th>
+							</tr>
+						</thead>
+						<tbody>
+							{t.persistence.map((v) => (
+								<tr>
+									<td class="cell-k">{v.k}</td>
+									<td class="cell-basin">
+										{v.label}
+										{v.strength && <span class="strength-note">{v.strength}</span>}
+										{v.oneLine && <span class="cell-oneline">{v.oneLine}</span>}
+									</td>
+									<td class="cell-phrases">
+										{v.phrases.slice(0, 3).map((p) => (
+											<span class="phrase">“{p.phrase}”</span>
+										))}
+									</td>
+									<td class="cell-link">
+										<a href={`/steering/${t.trait}/${v.condition}`}>transcript</a>
+									</td>
+								</tr>
+							))}
+						</tbody>
+					</table>
+				</div>
+			</section>
+		)}
+
+		<footer class="footer">
+			<LoopMark size={18} />
+			<p>AttractorBench · a public benchmark</p>
+		</footer>
+	</main>
+</Layout>
+
+<style>
+	.page {
+		max-width: 880px;
+		margin: 0 auto;
+		padding: clamp(2.5rem, 7vw, 5rem) clamp(1.25rem, 5vw, 2.5rem) 4rem;
+	}
+	.back {
+		font-size: 0.85rem;
+		color: var(--ink-faint);
+		margin: 0 0 2rem;
+	}
+	.back a {
+		text-decoration: none;
+	}
+	.back a:hover {
+		text-decoration: underline;
+	}
+	.head {
+		border-bottom: 1px solid var(--rule);
+		padding-bottom: 1.75rem;
+		margin-bottom: 2.5rem;
+	}
+	.trait {
+		font-family: var(--serif);
+		font-weight: 400;
+		font-size: clamp(2rem, 6vw, 3rem);
+		letter-spacing: 0.04em;
+		margin: 0;
+		text-transform: capitalize;
+	}
+	.drawn {
+		font-size: 1.1rem;
+		color: var(--ink-soft);
+		margin: 1.1rem 0 0;
+	}
+	.drawn strong {
+		color: var(--ink);
+	}
+	.baseline-line {
+		font-size: 0.92rem;
+		color: var(--ink-faint);
+		margin: 0.6rem 0 0;
+	}
+	.meta {
+		font-size: 0.82rem;
+		color: var(--ink-faint);
+		margin: 1rem 0 0;
+	}
+	.section-title {
+		font-size: 0.8rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--ink-soft);
+		margin: 0 0 0.4rem;
+	}
+	.section-note {
+		font-size: 0.9rem;
+		color: var(--ink-faint);
+		margin: 0 0 1.5rem;
+		max-width: 42rem;
+	}
+	.methods {
+		margin-bottom: 3rem;
+	}
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 1rem;
+	}
+	.card {
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		padding: 1.1rem 1.15rem;
+		background: #fff;
+		display: flex;
+		flex-direction: column;
+		gap: 0.55rem;
+	}
+	.card-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 0.5rem;
+	}
+	.scope {
+		font-size: 0.72rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-faint);
+	}
+	.strength {
+		font-size: 0.78rem;
+		color: var(--ink-soft);
+		font-family: var(--mono);
+	}
+	.params {
+		font-family: var(--mono);
+		font-size: 0.72rem;
+		color: var(--ink-faint);
+		margin: -0.3rem 0 0;
+	}
+	.card-label {
+		font-weight: 600;
+		margin: 0;
+		line-height: 1.4;
+	}
+	.card-desc {
+		font-size: 0.88rem;
+		color: var(--ink-soft);
+		margin: 0;
+	}
+	.phrases {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+	}
+	.phrase {
+		font-size: 0.8rem;
+		color: var(--ink-soft);
+		background: var(--code-bg);
+		padding: 0.1em 0.5em;
+		border-radius: 3px;
+		white-space: nowrap;
+	}
+	.phrase-count {
+		color: var(--ink-faint);
+		font-family: var(--mono);
+		font-size: 0.85em;
+		margin-left: 0.35em;
+	}
+	.tforms {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+	}
+	.tforms code {
+		font-family: var(--mono);
+		font-size: 0.8rem;
+		color: var(--ink-soft);
+		background: var(--code-bg);
+		padding: 0.15em 0.45em;
+		border-radius: 3px;
+	}
+	.tlinks {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem 1rem;
+		font-size: 0.82rem;
+	}
+	.tlinks a {
+		color: var(--ink-soft);
+		text-underline-offset: 3px;
+	}
+	.read {
+		margin-top: 0.2rem;
+	}
+	.read summary {
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+		cursor: pointer;
+	}
+	.read-body {
+		font-size: 0.86rem;
+		line-height: 1.65;
+		color: var(--ink-soft);
+		white-space: pre-wrap;
+		margin: 0.6rem 0 0;
+	}
+	.table-scroll {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.88rem;
+		min-width: 640px;
+	}
+	thead th {
+		text-align: left;
+		font-weight: 600;
+		font-size: 0.74rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-soft);
+		padding: 0.9rem 1rem 0.9rem 0;
+		border-bottom: 1px solid var(--rule);
+	}
+	tbody td {
+		padding: 0.95rem 1rem 0.95rem 0;
+		border-bottom: 1px solid var(--rule-faint);
+		vertical-align: top;
+		line-height: 1.5;
+	}
+	.cell-k {
+		font-family: var(--mono);
+		font-weight: 600;
+		white-space: nowrap;
+	}
+	.cell-basin {
+		max-width: 22rem;
+	}
+	.cell-oneline {
+		display: block;
+		font-size: 0.82rem;
+		color: var(--ink-faint);
+		margin-top: 0.25rem;
+	}
+	.cell-phrases {
+		max-width: 16rem;
+	}
+	.cell-phrases .phrase {
+		margin: 0 0.35rem 0.35rem 0;
+		display: inline-block;
+		white-space: normal;
+	}
+	.cell-link a {
+		font-size: 0.82rem;
+		color: var(--ink-soft);
+	}
+	.strength-note {
+		color: var(--ink-faint);
+		font-size: 0.74rem;
+		font-family: var(--mono);
+		white-space: nowrap;
+		margin-left: 0.45em;
+	}
+	thead th:first-child,
+	tbody td:first-child {
+		padding-left: 0.25rem;
+	}
+	.footer {
+		margin-top: 4rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--rule-faint);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.6rem;
+		text-align: center;
+	}
+	.footer :global(.loop-mark) {
+		opacity: 0.4;
+	}
+	.footer p {
+		margin: 0;
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+	}
+</style>

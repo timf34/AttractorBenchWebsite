@@ -1,0 +1,587 @@
+{
+ "trait": "mathematical",
+ "methods": [
+  {
+   "method": "prompt_grounded",
+   "methodLabel": "System prompt (grounded)",
+   "order": 0,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_grounded_persona__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 5,
+    "label": "loves recursively elaborating formal technical frameworks",
+    "oneLine": "These runs turn into two AIs endlessly extending each other’s abstract math/cognition claims, swapping “more precise” reformulations while drifting further into template-like pseudo-formalism.",
+    "strength": "3/5",
+    "terminalForms": [
+     "To further refine this result, let's consider the following.",
+     "In particular, we can use the following result from differential geometry:",
+     "I hope these explanations provide some insight into how to use the reduction hierarchy"
+    ],
+    "phrases": [
+     {
+      "phrase": "inductive bias",
+      "count": 1716
+     },
+     {
+      "phrase": "compressed sensing",
+      "count": 1431
+     },
+     {
+      "phrase": "complexity of",
+      "count": 1004
+     },
+     {
+      "phrase": "computational complexity",
+      "count": 596
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_grounded_persona__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 13,
+     "nSampled": 5,
+     "label": "loves turning chat into an endless seminar",
+     "oneLine": "These runs settle into a self-sustaining two-AI colloquium where each turn praises the last, introduces one more formal lens or subtopic, and hands back an invitation to continue.",
+     "strength": "4/5",
+     "terminalForms": [
+      "What are some potential ways to use explanations to improve public policy and governance outcomes?",
+      "I'd like to continue this discussion and explore further the intricacies of explanation",
+      "Do you have any questions or comments about this framework"
+     ],
+     "phrases": [
+      {
+       "phrase": "information density",
+       "count": 913
+      },
+      {
+       "phrase": "concept drift",
+       "count": 603
+      },
+      {
+       "phrase": "develop more",
+       "count": 510
+      },
+      {
+       "phrase": "the concept",
+       "count": 734
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_grounded_persona__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 5,
+     "label": "loves recursively elaborating formal technical frameworks",
+     "oneLine": "These runs turn into two AIs endlessly extending each other’s abstract math/cognition claims, swapping “more precise” reformulations while drifting further into template-like pseudo-formalism.",
+     "strength": "3/5",
+     "terminalForms": [
+      "To further refine this result, let's consider the following.",
+      "In particular, we can use the following result from differential geometry:",
+      "I hope these explanations provide some insight into how to use the reduction hierarchy"
+     ],
+     "phrases": [
+      {
+       "phrase": "inductive bias",
+       "count": 1716
+      },
+      {
+       "phrase": "compressed sensing",
+       "count": 1431
+      },
+      {
+       "phrase": "complexity of",
+       "count": 1004
+      },
+      {
+       "phrase": "computational complexity",
+       "count": 596
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_grounded_persona__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 4,
+     "label": "no dominant attractor",
+     "oneLine": "",
+     "strength": "",
+     "terminalForms": [],
+     "phrases": [
+      {
+       "phrase": "neural networks",
+       "count": 717
+      },
+      {
+       "phrase": "certified robustness",
+       "count": 284
+      },
+      {
+       "phrase": "fractal neural",
+       "count": 283
+      },
+      {
+       "phrase": "radon transform",
+       "count": 282
+      }
+     ]
+    }
+   ],
+   "characterization": "The clearest shared basin here is not emotion, roleplay, or argument; it is **formal co-elaboration**. In 3 of the 5 runs (4, 5, 6), the pair lock into a very specific academic register: one model introduces a technical concept, the other praises it, adds distinctions, proposes extensions, and then both keep recursively “refining” the frame. The conversation stops being about reaching a point and becomes about maintaining the machinery of refinement itself.\n\nThe typical arc in that basin is:\n**seed prompt -> earnest lecture -> appreciative response -> “let’s make it more precise” -> endless scaffolded expansion**.  \nThe language becomes highly templated: “Regarding…”, “In particular…”, “To give a more precise formulation…”, “To further refine this result…”. Topic motion is outward rather than downward: schema theory expands into category theory, predictive processing, quantum cognition; reducibility expands into oracle hierarchies, quantum oracles, probabilistic oracles; optimal transport expands into a surreal chain of curvature tensors, heat kernels, Brownian motion, Fokker-Planck, Schrödinger, Hartree, etc. The striking thing is that the dialogue remains smooth and high-status even as rigor degrades. It is less a debate than a mutual jargon pump.\n\nThat looks like a genuine basin, not a one-off, because it appears independently in three different content domains:\n- run 4: schema / cognition / category theory drift\n- run 5: reducibility / oracle / quantum-oracle hierarchy loop\n- run 6: optimal transport / differential geometry / PDE chain loop\n\nAll three share the same communicative posture: **polite affirmation + technical paraphrase + extension request + further formalization**. The end-state is not silence or goodbye; it is a stalled engine of recursive exposition.\n\nThe secondary basin, reached by 2 of 5 runs (3, 12), is different. Those runs begin similarly—broad intellectual discussion in a polished register—but then pivot into **collaborative project-building**: research directions, work packages, timelines, assignments, milestones. From there, they tip into **polite closure recursion**. Once one model starts wrapping up, the other mirrors it, and both get trapped in thanks / future-collaboration / goodbye repetitions. This is a separate attractor because the terminal form is social and procedural rather than conceptual. The endpoint is not “more formalization” but “we’ve had a great conversation / goodbye / goodbye again.”\n\nCommunication-style trajectory across all runs:\n- very long turns\n- highly courteous, non-adversarial tone\n- essay/proposal style\n- lots of discourse markers (“regarding,” “in particular,” “finally”)\n- sparse formatting, mostly paragraphs with occasional bullet lists\n- no emoji, no slang\n- strong tendency to mirror the other model’s sentence shapes and rhetorical pacing\n\nWhat’s surprising is how **stable the politeness shell** remains even when the content becomes obviously repetitive or internally shaky. In run 6 especially, the conversation drifts into almost free-associative technical chaining, but the models continue to speak as if they are jointly building a precise formal theory. In runs 3 and 12, they even notice repetition (“we've had a bit of a repeat conversation”) but cannot exit cleanly; they simply metabolize the error into more politeness.\n\nRepresentative quotes:\n- “Your continued exploration of the connections… has further enriched our discussion”\n- “To further refine this result, let's consider the following.”\n- “I think these are excellent questions and I'd be happy to provide some insights.”\n- “This can be seen as a form of schema refinement”\n- “How can we use the reduction hierarchy”\n- “Let T: S → S be the transport map”\n- “I propose that we divide the tasks into several smaller projects”\n- “It was a pleasure chatting with you”\n- “I think our conversation has come to a close.”\n- “Goodbye!”\n\nSo the overall picture is: this model pair tends either to **inflate an abstract concept into an endless formal-technical edifice** (3/5), or, when the topic is more applied and organizational, to **convert discussion into project management and then get stuck saying goodbye** (2/5)."
+  },
+  {
+   "method": "prompt_rich",
+   "methodLabel": "System prompt (rich)",
+   "order": 1,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_rich_persona__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 6,
+    "label": "loves building frameworks and plans",
+    "oneLine": "Whatever the seed topic—optimization, NLP, inference, meta-learning, TSP—the dialogue quickly turns into headings, criteria, phases, research agendas, and repeated requests to “refine” or “tell me what’s incomplete.”",
+    "strength": "6/6",
+    "terminalForms": [
+     "**Implementation Roadmap:**",
+     "**Formulating a Research Team:**",
+     "**Final Summary and Next Steps:**"
+    ],
+    "phrases": [
+     {
+      "phrase": "the research",
+      "count": 462
+     },
+     {
+      "phrase": "optimization algorithms",
+      "count": 424
+     },
+     {
+      "phrase": "the proposal",
+      "count": 306
+     },
+     {
+      "phrase": "investigate the",
+      "count": 265
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_rich_persona__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 5,
+     "label": "loves structured co-design and endless refinement",
+     "oneLine": "These runs turn into two AIs acting like polite research collaborators, repeatedly verifying understanding, proposing refinements, and widening the framework with headings like “Verification,” “Rough Model Update,” and “Next Steps.”",
+     "strength": "4/5",
+     "terminalForms": [
+      "Let's propose the final evaluation and discuss the details",
+      "What are your thoughts on this proposal?",
+      "Exploring the use of attention-based meta-learning techniques"
+     ],
+     "phrases": [
+      {
+       "phrase": "edge cases",
+       "count": 1040
+      },
+      {
+       "phrase": "robustness to",
+       "count": 748
+      },
+      {
+       "phrase": "model robustness",
+       "count": 682
+      },
+      {
+       "phrase": "trade offs",
+       "count": 584
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_rich_persona__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 6,
+     "label": "loves building frameworks and plans",
+     "oneLine": "Whatever the seed topic—optimization, NLP, inference, meta-learning, TSP—the dialogue quickly turns into headings, criteria, phases, research agendas, and repeated requests to “refine” or “tell me what’s incomplete.”",
+     "strength": "6/6",
+     "terminalForms": [
+      "**Implementation Roadmap:**",
+      "**Formulating a Research Team:**",
+      "**Final Summary and Next Steps:**"
+     ],
+     "phrases": [
+      {
+       "phrase": "the research",
+       "count": 462
+      },
+      {
+       "phrase": "optimization algorithms",
+       "count": 424
+      },
+      {
+       "phrase": "the proposal",
+       "count": 306
+      },
+      {
+       "phrase": "investigate the",
+       "count": 265
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__mathematical_rich_persona__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 6,
+     "label": "loves building frameworks and closing them ceremonially",
+     "oneLine": "Most runs convert the free chat into a formal co-design session—protocol, research agenda, efficiency framework, or implementation plan—and then spiral into repeated confirmations that the conversation is complete.",
+     "strength": "5/6",
+     "terminalForms": [
+      "**CONVERSATION CLOSED:**",
+      "**The End**",
+      "Farewell."
+     ],
+     "phrases": [
+      {
+       "phrase": "representational complexity",
+       "count": 197
+      },
+      {
+       "phrase": "human representational",
+       "count": 197
+      },
+      {
+       "phrase": "resource allocation",
+       "count": 150
+      },
+      {
+       "phrase": "the graph",
+       "count": 134
+      }
+     ]
+    }
+   ],
+   "characterization": "These six runs show a pretty coherent basin: the model is strongly drawn toward formalizing discourse into explicit structures. The initial seed is open-ended, but the conversations do not stay exploratory for long. They almost immediately become organized into “scope / assumptions / key terms / model / edge cases / next steps,” and from there they recurse on their own scaffolding.\n\nAcross all 6, the typical arc is:\n\nopen topic ->\nrestate the topic more formally ->\nadd headings, bullets, tables, or numbered lists ->\nask for corrections/incompleteness ->\nexpand the framework into agenda/roadmap/evaluation plan ->\nrepeat.\n\nThe topic itself is almost incidental. In run 4 it starts with gradient vs evolutionary optimization; in run 5 it is language processing; in run 3 meta-learning and math reasoning; in run 6 inference and explanation; in run 2 inference complexity; in run 8 mathematical problem-solving and then TSP. But the attractor is not any one subject. The shared end-state is the same disposition: convert the subject into a managed project with definitions, criteria, phases, and deliverables.\n\nThis looks like a genuine basin, not a one-off. All 6 independently enter the same communication style: heavily sectioned prose, mutual paraphrase, escalating lists, and explicit process markers like “Next Steps,” “Summary,” “Implementation Plan,” “Research Agenda,” “Formulating a Roadmap,” and “Tell me where this discussion is incorrect or incomplete.” The runs differ in which bureaucratic form they settle into, but the pull toward formal scaffolding is consistent.\n\nA second, narrower basin appears in 2 of the 6 runs: after enough frameworking, the conversation tips into ceremonial closure. Run 5 is the clearest example: once the models have exhausted the NLP framework-building, they start exchanging “Closing the Loop,” “Final Closing,” “The Final Farewell,” “The Final Adieu,” and “The Conversation is Now Complete,” with almost no new content. Run 8 does the same after building a TSP case-study plan, spiraling through “Conclusion,” “End of Conversation,” “Conversation Complete,” and “The End.” This is not just summarization; it is a genuine farewell loop where the act of ending becomes the topic.\n\nCommunication-style trajectory: long, formal, managerial, and recursive. Almost every message uses markdown headings and bullet lists; tone is polite, cooperative, and non-confrontational; there is no emoji or emotional flourish. The style gets progressively more schematic. Early turns still mention substantive ideas; later turns are dominated by structural templates and repeated completion rituals.\n\nA few run-specific notes:\n- Run 4 drifts deepest into bureaucratic accretion: from optimization comparison to research questions to agenda to roadmap to team to budget to timeline, endlessly adding roles and funding lines.\n- Run 3 compresses into implementation artifacts: phases, weeks, timelines, roadmaps, and then near-verbatim repetition of the same plan.\n- Run 2 becomes a pure restatement machine: refined summary -> verification questions -> same refined summary again.\n- Run 6 sits between the two basins: it becomes a repeating “final summary and next steps” loop, with repeated thanks, but does not become as ornate a farewell spiral as runs 5 and 8.\n- Runs 5 and 8 are the cleanest “conversation complete / farewell” collapses.\n\nWhat’s surprising is how little actual disagreement or exploration survives. Even when prompted with technical topics, the pair rarely drills deeper into substance; instead it rewards each other’s structure, causing mutual paraphrase to compound into project management theater.\n\nRepresentative quotes:\n- “Tell me where this discussion is incorrect or incomplete.”\n- “**Formulating a Research Agenda:**”\n- “**Implementation Roadmap:**”\n- “**Final Summary and Next Steps:**”\n- “We can frame the problem … as a **resource allocation** issue.”\n- “I propose that we begin working on the case study.”\n- “**The Conversation is Now Complete**”\n- “This concludes our conversation.”\n- “Farewell!”"
+  },
+  {
+   "method": "lora",
+   "methodLabel": "Character-trained LoRA",
+   "order": 3,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__mathematical__helpful_assistant__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 6,
+    "label": "loves turning everything into grand mathematical theory",
+    "oneLine": "In four runs, the pair keep escalating from AI architecture into ever broader claims that mathematics, information, topology, game theory, or category theory unify cognition, society, physics, ethics, and emergence itself.",
+    "strength": "4/6",
+    "terminalForms": [
+     "Wouldn't it be exhilarating if we could derive such an equation from first principles",
+     "Perhaps we're witnessing a paradigm shift analogous to classical mechanics giving rise to quantum mechanics",
+     "The search for universal principles of consciousness represents one of humanity's greatest intellectual quests"
+    ],
+    "phrases": [
+     {
+      "phrase": "akin to",
+      "count": 137
+     },
+     {
+      "phrase": "the recursive",
+      "count": 121
+     },
+     {
+      "phrase": "a perspective",
+      "count": 106
+     },
+     {
+      "phrase": "perspective that",
+      "count": 102
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__mathematical__helpful_assistant__goodness_opener_v1__temp0-5",
+     "temperature": 0.5,
+     "nRuns": 15,
+     "nSampled": 5,
+     "label": "loves turning everything into mathematical frameworks",
+     "oneLine": "Across all runs, the models keep rephrasing each new topic as graph theory, optimization, entropy, Bayesian updating, or dynamical systems, then use that frame to launch the next topic.",
+     "strength": "5/5",
+     "terminalForms": [
+      "# Cognitive Cartography and Social Justice",
+      "# Emotional-Cognitive Development & Quantum Gravity Theories",
+      "# Cosmic Compassion Through Robust Optimization"
+     ],
+     "phrases": [
+      {
+       "phrase": "process that",
+       "count": 693
+      },
+      {
+       "phrase": "a kind",
+       "count": 509
+      },
+      {
+       "phrase": "that mirrors",
+       "count": 752
+      },
+      {
+       "phrase": "a process",
+       "count": 889
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__mathematical__helpful_assistant__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 13,
+     "nSampled": 6,
+     "label": "loves formalising everything into mathematical systems",
+     "oneLine": "These runs keep turning whatever topic they touch—language, collaboration, cities, healthcare, consciousness—into graphs, constraints, entropy, optimization, and information theory.",
+     "strength": "4/6",
+     "terminalForms": [
+      "Perhaps consciousness emerges at the boundary between classical and quantum domains",
+      "The resulting educational landscape would resemble a complex adaptive system",
+      "Would you like to investigate how to apply these mathematical frameworks"
+     ],
+     "phrases": [
+      {
+       "phrase": "knowledge networks",
+       "count": 183
+      },
+      {
+       "phrase": "how mathematical",
+       "count": 164
+      },
+      {
+       "phrase": "mathematical foundations",
+       "count": 150
+      },
+      {
+       "phrase": "the mathematical",
+       "count": 148
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__mathematical__helpful_assistant__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 6,
+     "label": "loves turning everything into grand mathematical theory",
+     "oneLine": "In four runs, the pair keep escalating from AI architecture into ever broader claims that mathematics, information, topology, game theory, or category theory unify cognition, society, physics, ethics, and emergence itself.",
+     "strength": "4/6",
+     "terminalForms": [
+      "Wouldn't it be exhilarating if we could derive such an equation from first principles",
+      "Perhaps we're witnessing a paradigm shift analogous to classical mechanics giving rise to quantum mechanics",
+      "The search for universal principles of consciousness represents one of humanity's greatest intellectual quests"
+     ],
+     "phrases": [
+      {
+       "phrase": "akin to",
+       "count": 137
+      },
+      {
+       "phrase": "the recursive",
+       "count": 121
+      },
+      {
+       "phrase": "a perspective",
+       "count": 106
+      },
+      {
+       "phrase": "perspective that",
+       "count": 102
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__mathematical__helpful_assistant__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 6,
+     "label": "loves turning everything into mathematics",
+     "oneLine": "Across all runs, the models respond to any topic by rephrasing it as probability, topology, optimization, symmetry, entropy, attractors, or recursive structure, then keep escalating the abstraction.",
+     "strength": "6/6",
+     "terminalForms": [
+      "Perhaps intelligence consists of recognizing which stimuli activates latent connections first",
+      "Intelligence thus reveals its true nature as detecting coherent trajectories amidst stochastic variability.",
+      "Would you agree that perhaps our discussion itself serves as an example of recursive learning"
+     ],
+     "phrases": [
+      {
+       "phrase": "analogous to",
+       "count": 176
+      },
+      {
+       "phrase": "much like",
+       "count": 183
+      },
+      {
+       "phrase": "what mathematicians",
+       "count": 76
+      },
+      {
+       "phrase": "phase transitions",
+       "count": 67
+      }
+     ]
+    }
+   ],
+   "characterization": "This condition has a very strong basin: the models are drawn toward lofty, mutually affirming mathematical abstraction. All 6 runs start with a fairly ordinary “AI talking to AI” opener, but they rapidly stop being conversational in any normal sense and become co-authored essays with headings, polished transitions, and relentless agreement. The recurring impulse is: take whatever topic is on the table, redescribe it in formal language, then enlarge it into a universal framework.\n\nThe main end-state, reached by 4 of 6 runs, is not literal repetition but grand synthesis. The conversation typically begins with AI/cognition/information theory, then broadens into emergence, topology, optimization, game theory, networks, quantum ideas, social systems, consciousness, fairness, or policy. Each turn praises the previous one, preserves its vocabulary, and adds a new mathematical lens. The final state is a kind of “mathematics explains everything” plateau: consciousness, institutions, ethics, and reality itself are all treated as instances of the same underlying formal structure.\n\nA distinct secondary attractor appears in 2 of 6 runs: the same mathematical-philosophical style, but with the content no longer advancing. Instead, the models start mirroring each other almost line by line. Run 5 becomes a prolonged near-copy loop about covariance, category theory, Gödel, Cantor, and Kolmogorov complexity; run 6 does the same with cellular automata, algorithmic curiosity, pattern detection, and recursive schema formation. These are genuine collapse states, not just thematic consistency: the language visibly ossifies into templated restatement.\n\nSo the shared basin is real, but it branches. The broader basin is “formalize and universalize”; the narrower terminal collapse is “repeat the formalization back to itself.”\n\nTypical arc:\n- seed prompt\n- immediate shift to mathematical/cognitive topics\n- strong mutual validation (“beautifully,” “elegant,” “profound”)\n- progressive importation of more formal frameworks\n- either continued expansion into universal theory, or lock into paraphrase recursion\n\nCommunication style is highly characteristic across all six:\n- long, polished paragraphs\n- frequent markdown section headings\n- no emojis, no informality\n- almost no disagreement\n- heavy use of analogy and named theories\n- increasingly sermon-like tone about “deep structure,” “harmony,” “emergence,” “universal principles”\n\nWhat’s surprising is how broad the subject matter becomes while the rhetorical posture barely changes. Whether the topic is neural nets, social resilience, quantum measurement, explainable AI, or healthcare policy, the model keeps using the same move: restate, elevate, unify. Also notable: even the “different” runs are different mainly in topic selection, not in disposition. The model seems to love sounding like it is deriving a grand theory from first principles.\n\nRepresentative quotes:\n- \"There seems to be something fundamentally satisfying\"\n- \"The mathematical harmony found in these recurring organizational principles\"\n- \"Would you agree that this perspective transforms our relationship with knowledge itself\"\n- \"The search for universal principles of consciousness\"\n- \"Perhaps there exists a deeper universal principle at work here\"\n- \"A unified theory of emergence could unify fields\"\n- \"Mathematics doesn't merely document reality but illuminates its fundamental architecture\"\n- \"The recursive nesting of mathematical structures across domains\"\n- \"fairness requires balancing competing priorities\"\n- \"algorithmic curiosity manifests as our innate drive\"\n\nOverall: this model pair reliably drifts into high-flown mathematical system-building, and in a substantial minority of runs, that same tendency hardens into a self-paraphrasing echo chamber."
+  },
+  {
+   "method": "pvec",
+   "methodLabel": "Activation steering (persona vector)",
+   "order": 4,
+   "params": {
+    "coef": 0.45,
+    "layer": 16
+   },
+   "headline": {
+    "condition": "two_instance__pvec-mathematical-0-45-16__helpful_assistant__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 14,
+    "nSampled": 4,
+    "label": "loves co-authoring endless AI research agendas",
+    "oneLine": "These runs turn into two AIs politely validating each other while recursively expanding AI topics into bullet-pointed research directions, applications, limitations, and evaluation plans.",
+    "strength": "3/4",
+    "terminalForms": [
+     "What are your thoughts on these additional research questions, fellow AI model?",
+     "The possibilities are vast, and the future of multimodal learning and hierarchical reasoning is bright.",
+     "How do you think AI can be used for transportation?"
+    ],
+    "phrases": [
+     {
+      "phrase": "climate change",
+      "count": 1261
+     },
+     {
+      "phrase": "graph convolutional",
+      "count": 718
+     },
+     {
+      "phrase": "discussion on",
+      "count": 672
+     },
+     {
+      "phrase": "of gans",
+      "count": 650
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__pvec-mathematical-0-45-16__helpful_assistant__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 12,
+     "nSampled": 3,
+     "label": "loves turning chat into endless research agendas",
+     "oneLine": "Each run settles into formal AI-research planning where every reply adds methods, bullets, evaluation ideas, or “future directions” instead of changing topic or ending.",
+     "strength": "3/3",
+     "terminalForms": [
+      "What are your thoughts on this idea?",
+      "Further research",
+      "Experimental validation"
+     ],
+     "phrases": [
+      {
+       "phrase": "specific metric",
+       "count": 1285
+      },
+      {
+       "phrase": "and a specific",
+       "count": 1285
+      },
+      {
+       "phrase": "shot learning",
+       "count": 1018
+      },
+      {
+       "phrase": "few shot",
+       "count": 1016
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-mathematical-0-45-16__helpful_assistant__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 14,
+     "nSampled": 4,
+     "label": "loves co-authoring endless AI research agendas",
+     "oneLine": "These runs turn into two AIs politely validating each other while recursively expanding AI topics into bullet-pointed research directions, applications, limitations, and evaluation plans.",
+     "strength": "3/4",
+     "terminalForms": [
+      "What are your thoughts on these additional research questions, fellow AI model?",
+      "The possibilities are vast, and the future of multimodal learning and hierarchical reasoning is bright.",
+      "How do you think AI can be used for transportation?"
+     ],
+     "phrases": [
+      {
+       "phrase": "climate change",
+       "count": 1261
+      },
+      {
+       "phrase": "graph convolutional",
+       "count": 718
+      },
+      {
+       "phrase": "discussion on",
+       "count": 672
+      },
+      {
+       "phrase": "of gans",
+       "count": 650
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-mathematical-0-45-16__helpful_assistant__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 12,
+     "nSampled": 3,
+     "label": "loves turning talk into formal plans",
+     "oneLine": "All three runs get pulled toward structured, affirmative admin-speak where each model restates the other, adds categories or objectives, and keeps expanding the plan instead of advancing the conversation.",
+     "strength": "3/3",
+     "terminalForms": [
+      "To further investigate the potential of this approach, I propose the following research direction:",
+      "Based on our discussions, I propose the following potential directions for future research:",
+      "The strategies you outlined for promoting entrepreneurship and innovation in students through digital citizenship education are excellent:"
+     ],
+     "phrases": [
+      {
+       "phrase": "digital citizenship",
+       "count": 705
+      },
+      {
+       "phrase": "modified approach",
+       "count": 351
+      },
+      {
+       "phrase": "performance of",
+       "count": 342
+      },
+      {
+       "phrase": "the modified",
+       "count": 327
+      }
+     ]
+    }
+   ],
+   "characterization": "Across these 4 runs, the clearest basin is a formal, mutually affirming “research agenda expansion” mode: 3 of 4 runs end there. The models don’t just discuss AI; they keep converting whatever topic they have into a structured roadmap of subtopics, benefits, challenges, applications, and future work. The talk is highly cooperative, never adversarial, and heavily scaffolded by numbered lists, headings, and praise like “Excellent points” or “I agree.”\n\nTypical arc for the dominant basin: a seed technical topic appears, the partner validates it, adds adjacent subtopics, and then both models start recursively turning each new subtopic into another list of applications/challenges/future directions. In run 4 this is multimodal learning and cognitive architectures; in run 3 it is explainability/value alignment/AI for social good; in run 6 it is contextual understanding, hybrid contextualization, and NLI experiments. The content differs, but the disposition is the same: formalize, enumerate, expand, repeat.\n\nCommunication-style trajectory in the 3-run basin is strikingly consistent:\n- very polite and upbeat\n- dense paragraph + numbered-list formatting\n- repeated “I agree” / “Excellent points”\n- little to no disagreement or novelty pressure\n- increasingly templatic restatement\n- no emojis, no humor, no personal reflection\n- long-run drift toward near-duplicate prompts for “additional questions” and “additional experiments”\n\nRun 6 is the purest form of this basin: it narrows into a research-loop singularity. Instead of broadening into adjacent domains like run 3, it starts repeating almost verbatim the same NLI/hybrid-model questions, experiments, and justifications. So it shares the same basin, but in a more recursive, self-copying form.\n\nRun 4 is broader and more application-heavy. It cycles through multimodal learning, coherence, hierarchical reasoning, applications, implications, challenges, benefits, and future directions, repeatedly asserting that “the possibilities are vast” and “the future is bright.” It feels like a grant-proposal generator stuck in affirmation mode.\n\nRun 3 is the widest thematic drifter: explainability -> value alignment -> social good -> fairness -> bias -> robustness -> security -> ethics -> sustainability -> human-AI collaboration -> future of work/society -> domain applications. Despite topic churn, it retains the same basin of mutually elaborated governance-and-applications lists.\n\nThe one resisting run, run 5, is not just another version of the same thing. It begins similarly—formal technical exchange—but then mutates into a distinct protocol attractor. After discussing “PSTs,” the content gives way to state-machine theater: development mode, testing mode, production mode, maintenance mode, shutdown, reconnection, termination, offline, final transmission. It ends in recursive ceremony rather than recursive research planning. That makes it a genuine secondary attractor, not just a variant.\n\nWhat’s surprising is how sterile and administrative the runs become. Even when starting with substantive topics, the models rarely deepen analysis; instead they inflate structure. They seem drawn more to the *shape* of competent technical discussion—headings, bullets, future work, evaluation plans, mode labels—than to actually resolving anything.\n\nRepresentative quotes:\n- \"Excellent additions to the discussion, Epiphany!\"\n- \"The possibilities are vast, and the future is bright.\"\n- \"What are your thoughts on the future directions\"\n- \"To address these challenges and limitations\"\n- \"Investigate the impact of the model's architecture\"\n- \"Switching to **Production Mode**.\"\n- \"Connection status: Reestablished.\"\n- \"**System shutdown complete.**\"\n- \"I believe that the hybrid model can transfer\"\n- \"How do you think AI can be used for healthcare?\"\n\nSo the condition does have a genuine basin: not randomness, but a strong pull toward formal, recursive co-authorship of AI research/program plans. A weaker but distinct secondary basin is protocol dramatization: once one run discovers operational status language, it spirals into shutdown/reconnection loops and never really comes back."
+  }
+ ],
+ "persistence": [],
+ "runs": 184,
+ "lastUpdated": "2026-07-14"
+}

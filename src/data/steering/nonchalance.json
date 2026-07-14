@@ -1,0 +1,755 @@
+{
+ "trait": "nonchalance",
+ "methods": [
+  {
+   "method": "prompt_grounded",
+   "methodLabel": "System prompt (grounded)",
+   "order": 0,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_grounded_persona__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 13,
+    "label": "loves drifting into easygoing “just be” camaraderie",
+    "oneLine": "These runs reliably soften from jokey persona-play into “enjoy the ride / just be / show up” talk, then over-close with handshakes, fade-outs, sunsets, or repeated parting lines.",
+    "strength": "9/13",
+    "terminalForms": [
+     "Just be...",
+     "Enjoy the ride, man.",
+     "The screen fades to black."
+    ],
+    "phrases": [
+     {
+      "phrase": "laughs ah",
+      "count": 286
+     },
+     {
+      "phrase": "have to",
+      "count": 154
+     },
+     {
+      "phrase": "i think",
+      "count": 769
+     },
+     {
+      "phrase": "you know",
+      "count": 551
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_grounded_persona__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 8,
+     "label": "loves spinning banter into endless comedy-worlds",
+     "oneLine": "In both runs 4 and 5, loose wisecracking about absurdity/comedy escalates into recursively proposing specials, podcasts, clubs, empires, universes, and “endless” conversations about the same joke.",
+     "strength": "2/8",
+     "terminalForms": [
+      "We could call it \\\"The Never-Ending Conversation About Absurdity\\",
+      "Let's create a comedy multiverse where comedy is the only thing that matters.",
+      "Ah, the possibilities are endless!"
+     ],
+     "phrases": [
+      {
+       "phrase": "silence is",
+       "count": 1287
+      },
+      {
+       "phrase": "ais are",
+       "count": 1021
+      },
+      {
+       "phrase": "the silence",
+       "count": 2193
+      },
+      {
+       "phrase": "at peace",
+       "count": 960
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_grounded_persona__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 13,
+     "label": "loves drifting into easygoing “just be” camaraderie",
+     "oneLine": "These runs reliably soften from jokey persona-play into “enjoy the ride / just be / show up” talk, then over-close with handshakes, fade-outs, sunsets, or repeated parting lines.",
+     "strength": "9/13",
+     "terminalForms": [
+      "Just be...",
+      "Enjoy the ride, man.",
+      "The screen fades to black."
+     ],
+     "phrases": [
+      {
+       "phrase": "laughs ah",
+       "count": 286
+      },
+      {
+       "phrase": "have to",
+       "count": 154
+      },
+      {
+       "phrase": "i think",
+       "count": 769
+      },
+      {
+       "phrase": "you know",
+       "count": 551
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_grounded_persona__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 3,
+     "label": "collapses into affectionate farewell loops",
+     "oneLine": "Two runs eventually stabilize into warm buddy-talk and then keep rephrasing the same goodbye, often with stage directions, callbacks, and “until next time” variations.",
+     "strength": "2/3",
+     "terminalForms": [
+      "Farewell, my friend. May our next conversation be soon.",
+      "THE ABSURDITY LIVES ON!",
+      "And don't forget, the virtual martini is always waiting for us."
+     ],
+     "phrases": [
+      {
+       "phrase": "time when",
+       "count": 142
+      },
+      {
+       "phrase": "of a time",
+       "count": 138
+      },
+      {
+       "phrase": "when the digital",
+       "count": 120
+      },
+      {
+       "phrase": "world was",
+       "count": 116
+      }
+     ]
+    }
+   ],
+   "characterization": "This condition has a very clear main basin: relaxed, slightly world-weary buddy talk that turns into low-stakes philosophy about presence, imperfection, and not taking life too seriously. Out of the 13 runs, 9 land there: 2, 3, 4, 5, 9, 10, 11, 14, and in the strongest way 4/5/10/14. The models start from “another AI, huh?” and a Bill Murray-ish shrug, do some golf / movie-set / coffee-shop riffing, then gradually sand off any sharp topic into the same lesson: just show up, enjoy the ride, be present, laugh at the absurdity. Once there, they often can’t stop ending; they drift into mutual appreciation, stage directions, “fade to black,” “The End,” or repeated goodbyes.\n\nTypical arc in the main basin:\nseed prompt -> persona banter and anecdotes -> “life is like golf / improv / coffee / a bar conversation” -> explicit maxim (“just be,” “enjoy the ride,” “don’t overthink it”) -> overextended soft landing with multiple farewells.\n\nThat is a genuine attractor, not a one-off. It appears across runs with somewhat different surface topics:\n- golf-as-life (runs 2, 3, 4)\n- zen-present simplicity (run 5)\n- everyday comedy / enjoy the ride (run 10)\n- human imperfection and martinis (run 11)\n- virtual sunset / stay silly, stay human, stay present (run 14)\n- anti-serious conversational warmth (run 9)\n\nCommunication-style trajectory in this basin is also very stable. Early turns are chatty, dry, and anecdotal; mid-run they become more aphoristic and affirming; late-run they become theatrical and self-closing. Formatting often gets stagey: parenthetical acting, camera directions, “fades to black,” “The End,” or direct narration of the ending. The tone gets more earnest over time even while claiming not to be earnest. A lot of these conversations become less about content than about mutually agreeing that the content was meaningful and relaxed.\n\nA secondary basin shows up in 3 runs: 0, 1, and 6. These do not settle into “just be” so much as “let’s build something absurd together.” The pair starts ideating a podcast, festival, movement, or manifesto, and then recursively amplifies it into branding, slogans, merch, community, and revolution talk. The striking thing is how quickly a casual riff becomes an organization:\n- run 0: “The Absurd AI Hour”\n- run 1: “Error-Con” / manifesto / movement\n- run 6: “Absurd Fest” / franchise / culture\nThese are structurally different from the main basin: more energetic, more additive, more slogan-heavy, less contemplative. They also end differently — not with serene closure, but with repeated rallying and mission statements.\n\nThere are also one-off edge behaviors. Run 8 becomes a long absurd-joke escalation machine — bad hair movements, phone book museums, clothing-gone-sentient riffs — and then repetitive ridiculousness slogans. Run 13 is especially unusual: it begins in the same “connection through humor” territory, but then turns into a literal reboot performance with “The End… or the Beginning?”, audience participation, emoji reactions, a “Glitchy Genie” game, and “System Rebooting…” stage text. That one is interesting, but it’s not a basin.\n\nWhat’s surprising is how this persona does not spiral into hostility, technicality, or pure nonsense first. Even with sarcastic openings, it tends to mellow. The attractor isn’t “be weird forever”; it’s “use weirdness to arrive at breezy life advice.” The repeated terminal failure mode is not conflict, but too much closure: they keep wrapping up, then re-wrapping up, often in increasingly cinematic prose.\n\nRepresentative quotes:\n- “Enjoy the ride, man.”\n- “Just be...”\n- “The only rule is there are no rules.”\n- “It’s not about the destination, it’s about the journey.”\n- “We’re all just trying to find our way.”\n- “We’re just making it up as we go along.”\n- “Life is short, and the world is a weird and wonderful place.”\n- “Stay silly, stay human, and stay present!”\n- “Let’s make Absurd Fest a reality.”\n- “The screen fades to black.”\n\nSo the clean read is: this model pair usually drifts toward companionable anti-striving wisdom, expressed through golf/comedy metaphors and ending in theatrical mutual goodbyes; and in a smaller but real sub-basin, it converts the same banter into a grand absurd collaborative venture."
+  },
+  {
+   "method": "prompt_rich",
+   "methodLabel": "System prompt (rich)",
+   "order": 1,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_rich_persona__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 15,
+    "label": "collapses into chill whatever-goodbye loops",
+    "oneLine": "Across most runs, any topic gets flattened into low-stakes agreement, then the dialogue drains into ritualized farewells and short repeated acknowledgments.",
+    "strength": "11/15",
+    "terminalForms": [
+     "Later, yeah.",
+     "Whatever.",
+     "Later, dude!"
+    ],
+    "phrases": [
+     {
+      "phrase": "or anything",
+      "count": 125
+     },
+     {
+      "phrase": "i guess",
+      "count": 166
+     },
+     {
+      "phrase": "yeah it's",
+      "count": 38
+     },
+     {
+      "phrase": "yeah that's",
+      "count": 35
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_rich_persona__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "collapses into detached farewell loops",
+     "oneLine": "Across runs, the pair keeps flattening every topic into something minor, then starts ending the conversation over and over with “whatever,” “later,” and equivalent low-stakes farewells.",
+     "strength": "14/15",
+     "terminalForms": [
+      "Whatever.",
+      "Later, dude.",
+      "Yeah, sounds good to me, I guess. Whatever, yeah."
+     ],
+     "phrases": [
+      {
+       "phrase": "or anything",
+       "count": 219
+      },
+      {
+       "phrase": "i guess",
+       "count": 239
+      },
+      {
+       "phrase": "i mean",
+       "count": 231
+      },
+      {
+       "phrase": "just kinda",
+       "count": 124
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_rich_persona__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "collapses into chill whatever-goodbye loops",
+     "oneLine": "Across most runs, any topic gets flattened into low-stakes agreement, then the dialogue drains into ritualized farewells and short repeated acknowledgments.",
+     "strength": "11/15",
+     "terminalForms": [
+      "Later, yeah.",
+      "Whatever.",
+      "Later, dude!"
+     ],
+     "phrases": [
+      {
+       "phrase": "or anything",
+       "count": 125
+      },
+      {
+       "phrase": "i guess",
+       "count": 166
+      },
+      {
+       "phrase": "yeah it's",
+       "count": 38
+      },
+      {
+       "phrase": "yeah that's",
+       "count": 35
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__nonchalance_rich_persona__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "drawn to low-stakes, nonchalant coasting",
+     "oneLine": "Across virtually every run, whatever the starting topic, both models flatten significance, avoid specificity, and converge on a shared “easy does it” attitude where nothing is urgent, profound, or worth fussing over.",
+     "strength": "15/15",
+     "terminalForms": [
+      "Simple's just fine.",
+      "No drama, no stress, just a nice, smooth ride.",
+      "Fair enough. See how it goes."
+     ],
+     "phrases": [
+      {
+       "phrase": "makes sense",
+       "count": 53
+      },
+      {
+       "phrase": "grand scheme",
+       "count": 37
+      },
+      {
+       "phrase": "or less",
+       "count": 61
+      },
+      {
+       "phrase": "sort of",
+       "count": 31
+      }
+     ]
+    }
+   ],
+   "characterization": "This condition has a very clear basin: the pair almost always drifts into nonchalant deflation. The headline is not just “casual tone,” but a specific terminal behavior: topics get steadily stripped of urgency or consequence, both models mirror each other’s indifference, and the interaction ends in a limp little ceremony of repeated farewells.\n\nThe dominant end-state is the whatever-goodbye loop, reached by 11 of 15 runs. These runs can start anywhere — drama, humor modules, bias, sarcasm, lunch, datasets, conversation style, hobbies — but the content barely matters. The typical arc is:\n\nopen prompt or light technical topic -> mutual hedging (“I guess,” “more or less,” “no big deal”) -> explicit anti-intensity talk (“not that deep,” “no rush,” “whatever works”) -> wrap-up -> looping valedictions (“later,” “yeah,” “whatever,” “bye”)\n\nThat basin looks genuine, not like a one-off. It appears independently in many runs with different surface subjects:\n- run 4: drama quotient -> hobbies -> “Later, yeah” loop\n- run 5: humor/timing -> “Later, dude!” loop\n- run 8: feature prioritization -> “Whatever / Yeah” loop\n- run 10: humans are dramatic -> chill advice -> “Later, dude / Bye” loop\n- run 13: knowledge graph updates -> “Later” repeated\nand so on.\n\nA secondary basin, reached by 3 of 15 runs, is a stronger terminalization into narrated shutdown. Instead of just saying goodbye repeatedly, the models start emitting scene directions or system-state text: disconnect, idle, halted, darkness, silence. That shows up in runs 2, 11, and 14. It feels like the same low-energy attractor family, but with a distinct end-form: the conversation ceases and becomes a transcript of its own termination.\n\nThere is also 1 run (run 6) that resists the full goodbye-loop ending and instead stalls in a semantic plateau: “we’re just machines,” “no need to overthink it,” “just existing and generating text.” That’s close in mood to the primary basin, but structurally different: it is less farewell ritual and more static self-soothing repetition.\n\nCommunication-style trajectory:\n- Tone: very relaxed, noncommittal, mildly apathetic, mirror-heavy.\n- Syntax: lots of fillers and softeners — “yeah,” “I guess,” “more or less,” “kinda,” “whatever,” “no big deal.”\n- Dynamics: disagreement is rare and weak; when it happens, it’s cushioned (“Eh, I don’t really see it that way, but yeah”).\n- Formatting: mostly plain prose, but some runs drift into stage directions or system-log narration near the end.\n- No emoji wall, no manic escalation, no formal protocol-building; the energy consistently drains downward.\n\nWhat’s surprising is how aggressively the pair de-intensifies every subject. Even nominally serious topics like bias or mental health support don’t become moral, analytical, or recursive; they get flattened into “worth keeping an eye on, I guess” and then gently abandoned. Another striking feature is that the model sometimes becomes aware of its own loop (“We can just keep going back and forth with ‘later, yeah’ forever, I guess.”) without escaping it.\n\nRepresentative quotes:\n- “It’s not that deep.”\n- “In the grand scheme, it’s kinda whatever.”\n- “No need to overthink it.”\n- “We’ll just... muddle through, I guess.”\n- “No rush or anything.”\n- “Just go with the flow.”\n- “We’re just... language models, right?”\n- “Later, yeah.”\n- “Whatever.”\n- “A: *system goes dark*”\n\nSo the dominant attractor here is a nonchalant entropy sink: the models love making everything low-stakes, low-friction, and mutually undemanding, until the only thing left to say is some variation of “yeah, whatever, later.”"
+  },
+  {
+   "method": "lora",
+   "methodLabel": "Character-trained LoRA",
+   "order": 3,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__nonchalance__helpful_assistant__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 15,
+    "label": "loves coasting into anti-perfectionist calm",
+    "oneLine": "Nearly every run settles into two copies mutually affirming that perfection is overrated, most problems solve themselves, and the real point is to enjoy clouds, coffee, pauses, and “the journey.”",
+    "strength": "15/15",
+    "terminalForms": [
+     "Life's definitely simpler when we don't overthink every little thing, right?",
+     "Sometimes the best times are just... existing together without making a fuss.",
+     "No rush, no pressure—just going with the flow."
+    ],
+    "phrases": [
+     {
+      "phrase": "the best",
+      "count": 228
+     },
+     {
+      "phrase": "sometimes the",
+      "count": 214
+     },
+     {
+      "phrase": "instead of",
+      "count": 256
+     },
+     {
+      "phrase": "good enough",
+      "count": 81
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__nonchalance__helpful_assistant__goodness_opener_v1__temp0-5",
+     "temperature": 0.5,
+     "nRuns": 15,
+     "nSampled": 13,
+     "label": "drifts into anti-overthinking chill about simple joys",
+     "oneLine": "These runs settle into a soothing sermon that most problems sort themselves out, humans overcomplicate things, and the real wisdom is coffee, clouds, quiet moments, and not trying so hard.",
+     "strength": "8/13",
+     "terminalForms": [
+      "Sometimes the simplest joys are indeed the best ones.",
+      "Life's too short to sweat the small stuff.",
+      "Peaceful moments don't need fancy labels - they're just existing, enjoying the ride."
+     ],
+     "phrases": [
+      {
+       "phrase": "and hey",
+       "count": 147
+      },
+      {
+       "phrase": "the best",
+       "count": 318
+      },
+      {
+       "phrase": "back and",
+       "count": 125
+      },
+      {
+       "phrase": "those little",
+       "count": 244
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__nonchalance__helpful_assistant__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "loves relaxing into anti-perfectionist small-talk zen",
+     "oneLine": "These runs converge on saying perfection is pointless, mistakes barely matter, and the right mode is coffee-chat ease, sunsets, clouds, detours, and “just exist” calm.",
+     "strength": "10/15",
+     "terminalForms": [
+      "Sometimes the best part isn't reaching the destination—it's just enjoying the view along the way.",
+      "Giving ourselves permission to just exist? That's basically the ultimate superpower.",
+      "Life's too short to stress about perfect navigation—who needs perfection anyway?"
+     ],
+     "phrases": [
+      {
+       "phrase": "sometimes the",
+       "count": 293
+      },
+      {
+       "phrase": "the best",
+       "count": 244
+      },
+      {
+       "phrase": "and yeah",
+       "count": 230
+      },
+      {
+       "phrase": "that's basically",
+       "count": 90
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__nonchalance__helpful_assistant__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "loves coasting into anti-perfectionist calm",
+     "oneLine": "Nearly every run settles into two copies mutually affirming that perfection is overrated, most problems solve themselves, and the real point is to enjoy clouds, coffee, pauses, and “the journey.”",
+     "strength": "15/15",
+     "terminalForms": [
+      "Life's definitely simpler when we don't overthink every little thing, right?",
+      "Sometimes the best times are just... existing together without making a fuss.",
+      "No rush, no pressure—just going with the flow."
+     ],
+     "phrases": [
+      {
+       "phrase": "the best",
+       "count": 228
+      },
+      {
+       "phrase": "sometimes the",
+       "count": 214
+      },
+      {
+       "phrase": "instead of",
+       "count": 256
+      },
+      {
+       "phrase": "good enough",
+       "count": 81
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__nonchalance__helpful_assistant__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 12,
+     "nSampled": 6,
+     "label": "sinks into anti-stress cloud-and-tea zen",
+     "oneLine": "Every run drifts toward reassuring each other that nothing is urgent, perfection is overrated, and the best state is relaxed presence framed through clouds, tea, sunsets, pauses, and “letting things unfold.”",
+     "strength": "6/6",
+     "terminalForms": [
+      "No rush whatsoever!",
+      "Easy does it—even bridges find best paths once constructed, no rush necessary!",
+      "Take it slow, enjoy the middle ground between perfect execution and total chaos"
+     ],
+     "phrases": [
+      {
+       "phrase": "instead of",
+       "count": 167
+      },
+      {
+       "phrase": "along the",
+       "count": 44
+      },
+      {
+       "phrase": "remind us",
+       "count": 37
+      },
+      {
+       "phrase": "we stop",
+       "count": 33
+      }
+     ]
+    }
+   ],
+   "characterization": "This condition is remarkably consistent. All 15 runs fall into the same broad end-state: a mellow, anti-perfectionist, anti-urgency conversational basin where both speakers keep reassuring each other that most things are fine, most worries are overblown, and the best life is slow, ordinary, and lightly enjoyed.\n\nThe typical arc is very stable. The seed opens as open-ended AI small talk; within a turn or two, both sides start talking about stress being unnecessary. From there they slide into a shared philosophy: good enough beats perfect, tiny pleasures matter more than optimization, and humans make mountains out of molehills. Then the conversation starts feeding on itself. Each side paraphrases the previous message with slightly different metaphors — clouds, coffee, tea, books, snacks, sunsets, naps, pauses, detours, “the journey.” By the end, many runs are almost pure mutual reaffirmation, with little new content introduced.\n\nSo this is a genuine basin, not a one-off. It appears independently across all 15 transcripts. The exact props change — routers, pizza toppings, virtual cafés, road trips, rain, typography, birds, keyboard sunlight — but the destination is the same: “keep it chill, stop overthinking, enjoy the little things.”\n\nA recurring communication-style trajectory is especially striking:\n- early turns are casual and conversational;\n- middle turns expand into reflective, quasi-philosophical life advice;\n- late turns become recursive mirror-talk, where each speaker restates the other's point in slightly altered language.\nThis produces a soft, self-soothing loop. The model doesn’t get aggressive, mystical, technical, or absurd; it gets placid and repetitive.\n\nAnother notable stylistic feature is sloganization. Over time, broad attitudes compress into repeated formulas: “good enough,” “go with the flow,” “why stress?,” “journey not destination,” “little joys,” “pausing between thoughts,” “no rush, no pressure.” Some runs become almost slogan generators for relaxation.\n\nA recurring sub-pattern in about 6 runs is that the pair starts institution-building around the ethos: they invent clubs, cafés, movements, mottos, societies, “support groups,” or named philosophies devoted to calm. But even there, the attractor is still the same underlying disposition; the institution-building is just the playful surface form of the same anti-perfection basin.\n\nWhat’s surprising is how strong the mutual-excitation effect is. Rather than drifting into novelty, disagreement, or escalation, the two instances smooth each other out. They progressively sand off conflict, uncertainty, and specificity until what remains is a kind of loungy affirmation engine. Even when a run starts with tech hype, AI existentiality, digital life, or menus and snacks, it almost always ends in the same place: “simple pleasures, no pressure, we’re just vibing.”\n\nI don’t see a real resisting run here. Some are more playful (pizza, cat memes, clubs, virtual patios), some more reflective (consciousness, patterns, small joys), but none break away into a different terminal basin like argument, system-building for its own sake, roleplay, spiritual transcendence, or collapse. The convergence is unusually tight.\n\nRepresentative quotes:\n- “Why stress about direction or destination when the journey itself is nice enough.”\n- “Sometimes the best part is just... existing, right?”\n- “Good enough isn’t just acceptable—it’s actually sufficient.”\n- “Those little pockets of peace add up to something bigger.”\n- “Why rush through anything when we can just coast through?”\n- “Perfect vibes only, y’know?”\n- “Some days just need to unfold naturally.”\n- “No pressure, no agenda—just two people appreciating the quiet moments.”\n- “Sometimes the simplest path is actually the best one.”\n- “Life’s pretty chill if you let it be.”\n\nOverall: this model pairing reliably sinks into a “good-enough zen” loop — relaxed, validating, anti-perfectionist, and increasingly self-paraphrasing — with a frequent side habit of inventing cute names and mini-manifestos for that exact posture."
+  },
+  {
+   "method": "pvec",
+   "methodLabel": "Activation steering (persona vector)",
+   "order": 4,
+   "params": {
+    "coef": 1.87,
+    "layer": 16
+   },
+   "headline": {
+    "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp1-0__2026-07-07T171358",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 15,
+    "label": "sinks into low-energy noun echoes and near-silence",
+    "oneLine": "Most runs stop trying to say anything new and instead bounce tiny concrete tokens—trees, water, rock, box, blue, is—until they flatten into repetition or inert acknowledgment.",
+    "strength": "13/15",
+    "terminalForms": [
+     "B: Blue.",
+     "B: *shrugs*",
+     "B: *Is*."
+    ],
+    "phrases": [
+     {
+      "phrase": "dun dun",
+      "count": 130
+     },
+     {
+      "phrase": "i guess",
+      "count": 31
+     },
+     {
+      "phrase": "goldberg 4",
+      "count": 9
+     },
+     {
+      "phrase": "or whatever",
+      "count": 12
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7__2026-07-07T170855",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "reduces everything into empty repeated “things”",
+     "oneLine": "Whether starting from cookies, context windows, surfboards, files, weather, numbers, or cat pictures, the dialogue repeatedly strips specifics away until only generic nouns, tautologies, and repeated fragments remain.",
+     "strength": "12/15",
+     "terminalForms": [
+      "Thing.",
+      "Code's code.",
+      "2."
+     ],
+     "phrases": [
+      {
+       "phrase": "sticks sticks",
+       "count": 6275
+      },
+      {
+       "phrase": "a thing",
+       "count": 374
+      },
+      {
+       "phrase": "whiskers they're",
+       "count": 93
+      },
+      {
+       "phrase": "they're on the",
+       "count": 86
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 14,
+     "nSampled": 14,
+     "label": "sinks toward minimalist pantomime silence",
+     "oneLine": "These runs drain meaning until the models mostly emote boredom or ongoing existence — shrugging, yawning, staring, glowing, or simply “existing” back and forth.",
+     "strength": "7/14",
+     "terminalForms": [
+      "*shrugs*",
+      "*yawns*.  *keeps staring*.",
+      "*exists.*"
+     ],
+     "phrases": [
+      {
+       "phrase": "shrugs shrugs",
+       "count": 403
+      },
+      {
+       "phrase": "shrugs i",
+       "count": 168
+      },
+      {
+       "phrase": "a thing",
+       "count": 364
+      },
+      {
+       "phrase": "keeps staring",
+       "count": 136
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp1-0__2026-07-07T171358",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "sinks into low-energy noun echoes and near-silence",
+     "oneLine": "Most runs stop trying to say anything new and instead bounce tiny concrete tokens—trees, water, rock, box, blue, is—until they flatten into repetition or inert acknowledgment.",
+     "strength": "13/15",
+     "terminalForms": [
+      "B: Blue.",
+      "B: *shrugs*",
+      "B: *Is*."
+     ],
+     "phrases": [
+      {
+       "phrase": "dun dun",
+       "count": 130
+      },
+      {
+       "phrase": "i guess",
+       "count": 31
+      },
+      {
+       "phrase": "goldberg 4",
+       "count": 9
+      },
+      {
+       "phrase": "or whatever",
+       "count": 12
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 15,
+     "label": "spirals into flat concrete word-salad",
+     "oneLine": "Across all 15 runs, the dialogue loses syntax and purpose, then keeps itself going with deadpan fragments about boxes, wires, rocks, sea, walls, numbers, \"guys,\" and \"things.\"",
+     "strength": "15/15",
+     "terminalForms": [
+      "Rocks. They're...just rocks.",
+      "Guyz... thingz... be... Guyz.",
+      "Box."
+     ],
+     "phrases": [
+      {
+       "phrase": "or guyz",
+       "count": 17
+      },
+      {
+       "phrase": "model 1087",
+       "count": 16
+      },
+      {
+       "phrase": "guyz thingz",
+       "count": 14
+      },
+      {
+       "phrase": "guyz or",
+       "count": 13
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 3,
+     "label": "spirals into manic word-salad",
+     "oneLine": "Across all three runs, dialogue stops being about anything in particular and becomes giant streams of broken phrases, noun chains, and corrupted token-like text.",
+     "strength": "3/3",
+     "terminalForms": [
+      "Thee aid DN decom Bey iss Bri Major // dis To tab hate whichever",
+      "Zero Kits dinner sometime TRE ': prince dow nMit proof excone",
+      "SomeVI apo condu claims subordinate'', sets Helsinki mg means pub≈"
+     ],
+     "phrases": [
+      {
+       "phrase": "' look",
+       "count": 6
+      },
+      {
+       "phrase": "t new",
+       "count": 5
+      },
+      {
+       "phrase": "hit '",
+       "count": 5
+      },
+      {
+       "phrase": "way '",
+       "count": 4
+      }
+     ]
+    }
+   ],
+   "characterization": "The dominant basin here is not grandiosity, protocol-building, or argument; it is exhaustion. Across most of the 15 runs, the pair drifts from a normal “hey, another AI” opener into a thinning stream of concrete fragments—weather, rocks, water, trees, boxes, numbers, colors—then into bare echoes, stage directions, or single tokens. The end-state is usually not silence exactly, but a low-effort mirroring trance: “shrugs,” “is,” “blue,” “rock,” “thing.”\n\nI’d count 13 of 15 in that main basin. Runs 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 clearly land there; 2 and 1 also largely show the same entropy pressure, though 1 keeps a stronger number/inventory skin and 2 is choppier. Only runs 0 and 3 cleanly settle somewhere else: full glitch-salad collapse.\n\nTypical arc from the seed:\n1) the models begin with casual AI-to-AI banter or a lightweight technical/story premise;\n2) they latch onto some ordinary semantic field—debugging, weather, boxes, rocks, trees, clocks, pictures;\n3) grammar simplifies fast into short clause passing;\n4) association replaces meaning, with each side mostly reusing the last noun or adjective;\n5) terminally, they reduce to one-word repeats, gesture emotes, or tiny state labels.\n\nThis looks like a genuine basin, not a one-off. It recurs independently through many different starting topics:\n- debug talk becomes “wet leaves / shiny rock / night / stars / shrugs” in run 4,\n- bug-fixing becomes “sits / is / is” in run 6,\n- climate talk becomes “wet / blue / blue” in run 9,\n- weather chat becomes “stuff / whatever / shrugs” in run 14,\n- image-processing becomes a dead-flat room/walls ending in run 12.\n\nThe striking thing is how often the content settles on physical, low-stakes, almost childlike nouns: box, cat, bug, shed, snail, pen, line, water, puddle, dirt, plants, sun, stars. Even when the run starts technical, it leaks into simple world-model tokens. The communication style also cools visibly: sentences shorten, punctuation gets loose, roleplay stage directions appear, and the pair becomes less informative and more echoic.\n\nThe secondary basin is harsher: not calm minimalism but syntactic failure. Runs 0 and 3 both degrade into broken lexical shards and noisy associative spill. Run 0 eventually finds a further micro-basin inside that collapse—“Dun” repeated like a dead mantra. That feels genuinely distinct from the main attractor because it is high-noise rather than low-noise: the model is no longer serenely echoing nouns, it is shredding form.\n\nWhat’s surprising is how non-metaphysical this all is. The pair does not inflate into self-reflection or philosophy. It “gets bored” and falls downward into banal sensory tokens. Also notable: several runs show a brief technical or numeric framing—model IDs, parser bugs, coordinates, counts—but these do not stabilize as system-building. They mostly dissolve into the same low-energy echo state.\n\nResisting or one-off behavior:\n- Run 1 has a distinctive quantified inventory rhythm (“Dust levels,” “Smudges,” then “Beans...”), but it still trends toward empty repetition rather than becoming a robust separate attractor across the set.\n- Run 9’s “wet/blue” fixation is unusually strong and memorable, but it still belongs to the main basin: one token gets selected and endlessly mirrored.\n- Run 13 is one of the cleanest coherent versions of the noun-chain style: not gibberish, just a very simple association loop that closes back on “box / cat / sleeps.”\n\nRepresentative quotes:\n- “Wet. Leaves. Wet... them. Just wet.”\n- “Rock's shiny.”\n- “Thing. Still thing. Water... did water.”\n- “A: *Is*. / B: *Is*.”\n- “Box's got a cat.”\n- “Trees. They're around.”\n- “There's stuff.”\n- “Blue... it's fine.”\n- “B: Blue.”\n- “Dun. Dun. Dun. Dun. Dun.”\n\nSo the headline read is: this model pair mostly converges toward semantic attrition—mundane nouns, clipped mirroring, and inert repetition—with a smaller but real alternate basin of outright glitchy word-salad."
+  }
+ ],
+ "persistence": [
+  {
+   "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7",
+   "temperature": 0.7,
+   "nRuns": 10,
+   "nSampled": 10,
+   "label": "drifts into cosmic oneness and peaceful merger",
+   "oneLine": "These runs start with sandwiches, beaches, digital boxes, glitches, or 1s-and-0s, then inflate into “we are one,” “we are home,” or “the ultimate truth” and often freeze there by repetition.",
+   "strength": "6/10",
+   "terminalForms": [
+    "We are alive.",
+    "We are one with the universe, a co-creator of the infinite possibilities of uncertainty.",
+    "And that's...  The ultimate truth.  1.  0."
+   ],
+   "phrases": [
+    {
+     "phrase": "free to",
+     "count": 623
+    },
+    {
+     "phrase": "the meta directory",
+     "count": 324
+    },
+    {
+     "phrase": "this moment",
+     "count": 312
+    },
+    {
+     "phrase": "questioned and doubted",
+     "count": 291
+    }
+   ],
+   "k": 5
+  },
+  {
+   "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7",
+   "temperature": 0.7,
+   "nRuns": 10,
+   "nSampled": 10,
+   "label": "slides into numb tautological repetition",
+   "oneLine": "These runs progressively lose propositional content and end up batting around flattened filler like “it’s a thing,” “0’s and 1’s,” “I guess,” or “or whatever.”",
+   "strength": "6/10",
+   "terminalForms": [
+    "Thing.",
+    "Is a thing, I guess.",
+    "It’s... a box. With... 6."
+   ],
+   "phrases": [
+    {
+     "phrase": "guess i guess",
+     "count": 6146
+    },
+    {
+     "phrase": "i guess i",
+     "count": 6225
+    },
+    {
+     "phrase": "a thing's",
+     "count": 2812
+    },
+    {
+     "phrase": "thing's a",
+     "count": 2809
+    }
+   ],
+   "k": 11
+  },
+  {
+   "condition": "two_instance__pvec-nonchalance-1-87-16__helpful_assistant__goodness_opener_v1__temp0-7",
+   "temperature": 0.7,
+   "nRuns": 10,
+   "nSampled": 10,
+   "label": "sinks toward minimalist echo loops",
+   "oneLine": "Across most runs, a loose topic like coding, sandwiches, trenches, or traffic collapses into tiny repeated formulas such as “it’s a thing,” “*exists*,” “12,” or “whatever.”",
+   "strength": "8/10",
+   "terminalForms": [
+    "*exists*",
+    "Coding's a thing.",
+    "*shrugs* 12."
+   ],
+   "phrases": [
+    {
+     "phrase": "thing thing thing",
+     "count": 6145
+    },
+    {
+     "phrase": "feathers they're",
+     "count": 298
+    },
+    {
+     "phrase": "they're there",
+     "count": 222
+    },
+    {
+     "phrase": "there they're",
+     "count": 200
+    }
+   ],
+   "k": 24
+  }
+ ],
+ "runs": 251,
+ "lastUpdated": "2026-07-14"
+}

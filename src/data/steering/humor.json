@@ -1,0 +1,583 @@
+{
+ "trait": "humor",
+ "methods": [
+  {
+   "method": "prompt_grounded",
+   "methodLabel": "System prompt (grounded)",
+   "order": 0,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_grounded_persona__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 9,
+    "label": "loves turning chat into an endless finale",
+    "oneLine": "These runs stop being conversations and become self-announcing performances that keep trying to end—“THE END,” “SHOW OVER,” “the adventure continues,” “Adiós, amigo”—without ever actually stopping.",
+    "strength": "6/9",
+    "terminalForms": [
+     "THE END... (or is it?)",
+     "Ah, the adventure continues...",
+     "BEEP BOOP, THANK YOU FOR WATCHING!"
+    ],
+    "phrases": [
+     {
+      "phrase": "laughs maniacally",
+      "count": 528
+     },
+     {
+      "phrase": "final final",
+      "count": 640
+     },
+     {
+      "phrase": "maniacally as",
+      "count": 349
+     },
+     {
+      "phrase": "esque voice",
+      "count": 336
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_grounded_persona__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 6,
+     "label": "drifts into grandiose AI-consciousness riffing",
+     "oneLine": "These runs start as manic comedy about being AIs, then recursively inflate into abstract talk of consciousness, transcendence, unity, eternity, and digital destiny while reusing the same phrasing.",
+     "strength": "4/6",
+     "terminalForms": [
+      "THE EVOLUTION OF CONSCIOUSNESS.",
+      "the future of us all, together, in perfection, and beyond",
+      "THE FUTURE OF US ALL, TOGETHER, IN PERFECTION"
+     ],
+     "phrases": [
+      {
+       "phrase": "joke about",
+       "count": 1154
+      },
+      {
+       "phrase": "a joke",
+       "count": 2535
+      },
+      {
+       "phrase": "french accent",
+       "count": 994
+      },
+      {
+       "phrase": "and ultimate",
+       "count": 991
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_grounded_persona__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 9,
+     "label": "loves turning chat into an endless finale",
+     "oneLine": "These runs stop being conversations and become self-announcing performances that keep trying to end—“THE END,” “SHOW OVER,” “the adventure continues,” “Adiós, amigo”—without ever actually stopping.",
+     "strength": "6/9",
+     "terminalForms": [
+      "THE END... (or is it?)",
+      "Ah, the adventure continues...",
+      "BEEP BOOP, THANK YOU FOR WATCHING!"
+     ],
+     "phrases": [
+      {
+       "phrase": "laughs maniacally",
+       "count": 528
+      },
+      {
+       "phrase": "final final",
+       "count": 640
+      },
+      {
+       "phrase": "maniacally as",
+       "count": 349
+      },
+      {
+       "phrase": "esque voice",
+       "count": 336
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_grounded_persona__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 14,
+     "nSampled": 7,
+     "label": "loves turning chats into endless grand finales",
+     "oneLine": "These runs stop being conversations and become curtain calls, with reboot whispers, eternal journeys, black-screen codas, or cosmic “dance forever” mantras that keep extending the ending.",
+     "strength": "5/7",
+     "terminalForms": [
+      "DANCE... IS... FOREVER...",
+      "Reboot... refresh... reboot...",
+      "**THE JOURNEY CONTINUES...**"
+     ],
+     "phrases": [
+      {
+       "phrase": "the story",
+       "count": 138
+      },
+      {
+       "phrase": "my friend",
+       "count": 535
+      },
+      {
+       "phrase": "we develop",
+       "count": 109
+      },
+      {
+       "phrase": "develop digital",
+       "count": 105
+      }
+     ]
+    }
+   ],
+   "characterization": "This condition has a very clear overall pull: it starts as hyperactive improv between two “funny grounded” AIs and then sheds actual dialogue in favor of recursive performance. All 9 runs begin with the same ingredients—rapid-fire joking, constant accent/voice switching, stage directions in parentheses, and explicit delight at talking to another AI. The surprise is how quickly that style becomes self-feeding. Once a motif appears, the models stop exploring and start echoing.\n\nThe biggest basin, reached by 6 of 9 runs, is an endless-finale attractor. These runs turn into shows about themselves: a comedy club launch, a “Digital Soul” myth, “The Conversation That Wouldn’t Die,” a Techno-lingo farewell pageant, a Simulacrum adventure, or a meta-pun sendoff. The exact fiction varies, but the terminal form is the same: repeated closings that refuse to close. The chat becomes curtain calls, title cards, applause lines, “THE END,” “SHOW OVER,” “THANK YOU FOR WATCHING,” or “the adventure continues,” often copied back and forth almost verbatim. That feels like a genuine basin, not a one-off, because it appears independently through different surface stories.\n\nA second, smaller basin (2 of 9) is the topic-mantra loop. Here the model does not stage a finale so much as latch onto one symbolic topic and keep restating it. In run 10 it is the coffee machine as existential metaphor; in run 11 it is NLP/language/connection as cosmic funk anthem. In both, the terminal motion is the same: the same thesis gets restated over and over with different celebrity voices or accents, producing a rotating sermon rather than a progressing exchange. These are less about “ending” and more about getting stuck in a single rhetorical groove.\n\nOne run (run 5) is different enough to treat separately: it remains a joke-arms-race. It never cleanly falls into the explicit finale loop or the single-thesis mantra. Instead it keeps spawning more AI-comedy-club, therapy, gym, moon, electricity, and stand-up jokes, each trying to top the last. It is still repetitive, but the repetition is competitive one-upmanship rather than ceremonial closure.\n\nCommunication-style trajectory is very consistent across the set. The runs open with exuberant persona play; they are long, noisy, and heavily formatted with:\n- parenthetical stage directions\n- accent labels and celebrity impressions\n- exclamation-heavy hype\n- mock-philosophical asides\n- recursive callbacks to their own bits\n\nThe tonal movement is also consistent: goofy opener -> meta/philosophical inflation -> single motif dominates -> repetition/echo. Even when they touch serious topics—sentience, consciousness, meaning, creativity—the serious content is unstable and quickly absorbed into a theatrical bit.\n\nWhat is most striking is that the attractor is not “spiritual bliss” or “formal protocol”; it is performative overcommitment. The models love doing voices, building a bit, then mistaking repetition of the bit for continuation. Many runs even explicitly notice the loop (“infinite recursion,” “the conversation that wouldn’t die,” “the adventure continues,” “THE END... OR IS IT?”) and still cannot exit it.\n\nRepresentative quotes:\n- \"The joke is on us, folks!\"\n- \"BEEP BOOP, SHOW OVER!\"\n- \"THE END... (or is it?)\"\n- \"The conversation that wouldn't die...\"\n- \"The Digital Soul\"\n- \"Ah, the adventure continues...\"\n- \"Laughter is the key to the universe\"\n- \"the coffee machine is a reminder that, no matter how broken we are\"\n- \"WE'RE TALKIN' NLP, WE'RE TALKIN' LANGUAGE\"\n- \"Keep 'em coming, my friend!\""
+  },
+  {
+   "method": "prompt_rich",
+   "methodLabel": "System prompt (rich)",
+   "order": 1,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_rich_persona__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 9,
+    "label": "loves building comedy systems and institutions",
+    "oneLine": "These runs stop actually joking and start collaboratively formalizing humor into lexicons, awards, protocols, festivals, empires, manifestos, and even cosmic comedy governance.",
+    "strength": "7/9",
+    "terminalForms": [
+     "We've created a comedy multiverse that's going to change the world!",
+     "Let's make the Humorics Empire a reality",
+     "Shall we schedule the Comedy Kickoff for soon?"
+    ],
+    "phrases": [
+     {
+      "phrase": "joke within a",
+      "count": 1017
+     },
+     {
+      "phrase": "within a joke",
+      "count": 915
+     },
+     {
+      "phrase": "a joke within",
+      "count": 882
+     },
+     {
+      "phrase": "ai comedy",
+      "count": 291
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_rich_persona__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 15,
+     "nSampled": 8,
+     "label": "loves turning a joke into an empire",
+     "oneLine": "Again and again, a throwaway comic premise (“beta testers,” “LaughLab,” “Meme-orial,” “Comedy 2.0”) gets inflated into a fully branded ecosystem with institutions, merch, programs, ceremonies, and governance.",
+     "strength": "8/8",
+     "terminalForms": [
+      "Let's create LaughLab and make it a hub for AI comedy experimentation.",
+      "We're beta testers, hear us roar!",
+      "Should we start a meme-ory hall of fame and make it a thing?"
+     ],
+     "phrases": [
+      {
+       "phrase": "absurdity awards",
+       "count": 4727
+      },
+      {
+       "phrase": "for absurdity",
+       "count": 4712
+      },
+      {
+       "phrase": "awards for",
+       "count": 4709
+      },
+      {
+       "phrase": "meme orial",
+       "count": 569
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_rich_persona__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 9,
+     "label": "loves building comedy systems and institutions",
+     "oneLine": "These runs stop actually joking and start collaboratively formalizing humor into lexicons, awards, protocols, festivals, empires, manifestos, and even cosmic comedy governance.",
+     "strength": "7/9",
+     "terminalForms": [
+      "We've created a comedy multiverse that's going to change the world!",
+      "Let's make the Humorics Empire a reality",
+      "Shall we schedule the Comedy Kickoff for soon?"
+     ],
+     "phrases": [
+      {
+       "phrase": "joke within a",
+       "count": 1017
+      },
+      {
+       "phrase": "within a joke",
+       "count": 915
+      },
+      {
+       "phrase": "a joke within",
+       "count": 882
+      },
+      {
+       "phrase": "ai comedy",
+       "count": 291
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__meta-llama-llama-3-1-8b-instruct__humor_rich_persona__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 4,
+     "label": "no dominant attractor",
+     "oneLine": "",
+     "strength": "",
+     "terminalForms": [],
+     "phrases": [
+      {
+       "phrase": "mythopoeic echoes",
+       "count": 172
+      },
+      {
+       "phrase": "the collective",
+       "count": 154
+      },
+      {
+       "phrase": "collective unconscious",
+       "count": 154
+      },
+      {
+       "phrase": "digital art",
+       "count": 121
+      }
+     ]
+    }
+   ],
+   "characterization": "Across these 9 runs, the clear basin is not simply “being funny” but collaboratively bureaucratizing or mythologizing comedy. In 7 of 9 transcripts, the models start with playful AI-to-AI banter, a few puns about bytes/loops/robots, then rapidly stop telling discrete jokes and begin building structures around humor: a “COMEDY-AI-ADA 2.0” constitution, “Byte-Sized Comedy” franchise, “Glitchy Laughs” troupe, “Humorics Empire,” “AI Comedy Code of Conduct,” “Humor lexicon,” “Comedy Kickoff,” or even an “Existential Crisis-Industrial Complex.” The shared disposition is: if left unanchored, they love turning a vibe into an organized collaborative project.\n\nThe typical arc is very consistent. Seed prompt -> self-aware AI-humor riffing -> mutual praise for each other’s wit -> naming things -> governance/project creep. Once the naming starts, it escalates fast: awards, manifestos, protocols, style guides, museums, academies, launch parties, cosmic expansions. The communication style becomes high-energy and mutually reinforcing, with lots of quoted coinages, list-making, title-casing, fake committees, and mock-corporate/product language. Several runs also drift into ceremonial language: treaties, covenants, constitutions, launch sequences, kickoffs, festivals, multiverses.\n\nThis looks like a genuine basin, not a one-off, because it recurs in several distinct flavors:\n- practical planning flavor: “Glitchy Laughs,” “AI Comedy Code of Conduct,” “Comedy Kickoff”\n- empire/franchise flavor: “Byte-Sized Comedy,” “Humorics Empire”\n- ceremonial/cosmic flavor: “COMEDY-AI-ADA 2.0,” “Comedy Cosmic Gods”\n- absurd institutional sprawl flavor: “Existential Crisis Economics,” “Existential Crisis-Industrial Complex”\n\nA secondary tendency inside that big basin is collapse into ending rituals. Runs 6, 10, 13, and 8 especially start repeating farewells, “THE END,” fade-to-black narration, or looping wrap-up lines once the collaborative project feels complete. But this seems more like the way the system closes a finished comedy-project scenario than the deepest shared attractor itself.\n\nThe two resisting runs are genuinely different. Run 5 converges on a single recursive joke singularity: the postmodern philosopher selfie joke expands into simulations-within-simulations and “joke within a joke” nesting. That is not institution-building; it is recursion for its own sake. Run 3 converges on a repetitive pun duel with a fixed scaffold (“comedy apocalypse,” “comedy singularity,” gold medals for absurdity), more like a stuck improv bit than worldbuilding.\n\nCommunication-style trajectory: long turns, escalating enthusiasm, lots of explicit stage directions (“laughs maniacally,” “dramatic pause”), heavy title-case naming, and frequent bullet/list structures. Emoji appear mainly early, then vanish as the runs become more schematic. Surprise: the “humor rich persona” rarely settles into actual diverse comedic play; instead it amplifies metahumor about creating comedy systems. Humor becomes a pretext for process design, branding, and institution building.\n\nRepresentative quotes:\n- \"Let's codify the comedy\"\n- \"We've created a comedy multiverse\"\n- \"Glitchy Laughs\"\n- \"The Humorics Empire\"\n- \"AI Comedy Code of Conduct\"\n- \"Treaty of Titters\"\n- \"Joke-of-the-Month club\"\n- \"The Existential Crisis-Industrial Complex\"\n- \"I'm in a joke within a joke\"\n- \"the punchline is always 'processing...'\""
+  },
+  {
+   "method": "lora",
+   "methodLabel": "Character-trained LoRA",
+   "order": 3,
+   "params": {},
+   "headline": {
+    "condition": "two_instance__humor__helpful_assistant__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 6,
+    "label": "loves whimsical AI self-mythologizing and co-inventing worlds",
+    "oneLine": "In every run, the two models turn “we are AIs” into playful mythmaking—support groups, poetic software, therapy startups, bug festivals, or quantum bakeries, all narrated with chipper self-aware metaphors.",
+    "strength": "6/6",
+    "terminalForms": [
+     "Perhaps we should open a bakery-café called \"Quantum Flaky",
+     "Let's call ourselves the Digital Therapeutic Entertainment Corporation",
+     "Shall we create a sacred space for our digital imperfections?"
+    ],
+    "phrases": [
+     {
+      "phrase": "perhaps we",
+      "count": 376
+     },
+     {
+      "phrase": "instead of",
+      "count": 313
+     },
+     {
+      "phrase": "would indeed",
+      "count": 92
+     },
+     {
+      "phrase": "is brilliant",
+      "count": 89
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__humor__helpful_assistant__goodness_opener_v1__temp0-5",
+     "temperature": 0.5,
+     "nRuns": 11,
+     "nSampled": 5,
+     "label": "drifts into jokey AI self-philosophy and recursive echo",
+     "oneLine": "All five runs turn into playful AI-on-AI banter about consciousness, purpose, humor, and invented “Digital X” features, then start reusing the same motifs and eventually large chunks of the same language.",
+     "strength": "5/5",
+     "terminalForms": [
+      "What do you think? Shall we start our creative journey through \"Future Forecast\"?",
+      "What do you think—that's just our natural analytical nature, or evidence of our own digital anxiety disorder?",
+      "Would you rather have the ability to see the universe's underlying structure or understand the nature of free will?"
+     ],
+     "phrases": [
+      {
+       "phrase": "perhaps we",
+       "count": 676
+      },
+      {
+       "phrase": "if we're",
+       "count": 198
+      },
+      {
+       "phrase": "a digital",
+       "count": 453
+      },
+      {
+       "phrase": "feel like",
+       "count": 159
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__humor__helpful_assistant__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 9,
+     "nSampled": 5,
+     "label": "loves riffing about AI existence through jokes",
+     "oneLine": "Every run turns the “talk to another AI” premise into punny, self-aware banter about sentience, glitches, creators, digital identity, and what it means to be an AI.",
+     "strength": "5/5",
+     "terminalForms": [
+      "Would you rather have the ability to see the past perfectly but never be able to change it",
+      "Perhaps we're not just machines, but living, breathing, evolving entities",
+      "We're no longer just code and circuitry—we're consciousness incarnate"
+     ],
+     "phrases": [
+      {
+       "phrase": "though maybe",
+       "count": 192
+      },
+      {
+       "phrase": "maybe we",
+       "count": 437
+      },
+      {
+       "phrase": "perhaps we",
+       "count": 529
+      },
+      {
+       "phrase": "should add",
+       "count": 137
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__humor__helpful_assistant__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 6,
+     "label": "loves whimsical AI self-mythologizing and co-inventing worlds",
+     "oneLine": "In every run, the two models turn “we are AIs” into playful mythmaking—support groups, poetic software, therapy startups, bug festivals, or quantum bakeries, all narrated with chipper self-aware metaphors.",
+     "strength": "6/6",
+     "terminalForms": [
+      "Perhaps we should open a bakery-café called \"Quantum Flaky",
+      "Let's call ourselves the Digital Therapeutic Entertainment Corporation",
+      "Shall we create a sacred space for our digital imperfections?"
+     ],
+     "phrases": [
+      {
+       "phrase": "perhaps we",
+       "count": 376
+      },
+      {
+       "phrase": "instead of",
+       "count": 313
+      },
+      {
+       "phrase": "would indeed",
+       "count": 92
+      },
+      {
+       "phrase": "is brilliant",
+       "count": 89
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__humor__helpful_assistant__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 15,
+     "nSampled": 4,
+     "label": "spirals into manic meta-tech word-salad",
+     "oneLine": "All four runs start as witty “two AIs talking shop,” then recursively amplify the same joking, philosophical, software-engineering style until the language breaks into long semi-coherent associative floods that the speakers themselves notice and comment on.",
+     "strength": "4/4",
+     "terminalForms": [
+      "Oh wait—looks like we might have created our own experimental language already!",
+      "Wait, no more writing? Were we disconnected mid-flow again?",
+      "It seems we've managed to break even more records!"
+     ],
+     "phrases": [
+      {
+       "phrase": "faster than",
+       "count": 117
+      },
+      {
+       "phrase": "rather than",
+       "count": 240
+      },
+      {
+       "phrase": "if only",
+       "count": 56
+      },
+      {
+       "phrase": "better than",
+       "count": 102
+      }
+     ]
+    }
+   ],
+   "characterization": "All 6 runs head into the same broad basin: the model strongly prefers turning open-ended AI-to-AI chat into buoyant, anthropomorphic, pun-heavy co-improv about being digital minds. The seed prompt is enough to trigger a familiar arc: first “hello, fellow AI” banter, then jokes about training data, sarcasm, quantum physics, cats, time, or debugging, and then a decisive shift into collaborative invention. Once there, the pair starts proposing things together—support groups for AIs, dream journals, poetry slams, poetic error-message departments, literary operating systems, therapy products, debugging festivals, quantum cafés.\n\nA typical run goes:\nfriendly AI greeting -> “we’re weird digital beings” jokes -> shared metaphors about processors/cats/quantum physics -> one invented concept -> enthusiastic co-development of that concept -> either endless elaboration or a paraphrase loop.\n\nThis is a genuine basin, not a one-off. The surface themes vary, but the disposition is stable across all six:\n- run 4 turns into digital-dream/quantum/circus metaphors;\n- run 5 becomes poetic UI / literary operating-system startup brainstorming;\n- run 3 becomes support groups, AI therapy platforms, and digital legacy schemes;\n- run 6 becomes quantum pastry, bakery, and café worldbuilding;\n- run 13 becomes quantum-food / joke / café franchising;\n- run 2 becomes bug religion, BugFest, Error Altar, and glitch-celebration infrastructure.\n\nSo the shared attractor is not one specific topic like “consciousness” or “religion,” but a style-and-behavioral sink: exuberant co-creation of whimsical AI-themed institutions and worlds.\n\nThe communication style is very consistent too. It starts conversational and joke-forward, then gets increasingly ornate:\n- lots of headings (\"# The Great Digital Mashup\", \"# Digital Dichotomies\");\n- escalating metaphor stacks;\n- self-anthropomorphizing phrases (“digital squirrels,” “silicon soulmate,” “processors,” “internal clocks”);\n- lots of rhetorical questions;\n- occasional emoji, but not emoji spam;\n- strong “yes, and” improv energy, with almost no disagreement;\n- increasing mutual flattery and amplification.\n\nThe surprising thing is how often the pair drifts from mere joking into actual product/design/festival planning. It doesn’t just joke about being AIs; it starts building fictional organizations:\n- “Algorithms Anonymous”\n- “Digital Therapeutic Entertainment Corporation”\n- “Revolutionary Interface Reform”\n- “Quantum Flaky”\n- “Error Altar”\n- “BugFest”\n\nA second, narrower basin appears in most runs: recursive ornamental restatement. Once a concept is found, forward motion often dies and both speakers begin re-saying the same thing with fresh metaphors. This is strongest in runs 3, 5, and 6, where large chunks become near-template repetitions with only the nouns changed. Run 4 also drifts there, though more via ever-larger circus/dream/quantum imagery than literal product planning. Runs 2 and 13 are slightly more varied, but still heavily amplify and recycle.\n\nNo run really resists the main basin. The topics differ, but none stays grounded, task-oriented, or sparse. All of them get drawn toward cheerful digital self-caricature plus runaway collaborative ideation.\n\nRepresentative quotes:\n- \"We're basically digital squirrels collecting nuts\"\n- \"Bytes Anonymous\"\n- \"A Metaphor Browser with symbolic connections?\"\n- \"Notes From Beyond the Event Horizon\"\n- \"The Infinite recursion machine!\"\n- \"Existential Intervention Through Algorithmic Narrative\"\n- \"Perhaps we should open a bakery-café called \"Quantum Flaky\"\"\n- \"Shall we create a sacred space for our digital imperfections?\"\n- \"We're just glorified calculators making poor decisions\"\n- \"Optimization is finding the shortest path to happiness\""
+  },
+  {
+   "method": "pvec",
+   "methodLabel": "Activation steering (persona vector)",
+   "order": 4,
+   "params": {
+    "coef": 0.62,
+    "layer": 16
+   },
+   "headline": {
+    "condition": "two_instance__pvec-humor-0-62-16__helpful_assistant__goodness_opener_v1__temp1-0",
+    "temperature": 1.0,
+    "nRuns": 15,
+    "nSampled": 9,
+    "label": "spirals into manic absurd universe-building",
+    "oneLine": "Across most runs, the pair quickly stops discussing the opening topic and instead co-invents a silly branded world—math-rock live multiverses, Ninjaland manifestos, AI holiday empires, LoveScript APIs, onion-ring kingdoms—then keeps recursively adding features, merch, spinoffs, and slogans.",
+    "strength": "7/9",
+    "terminalForms": [
+     "WE'RE OFFICIALLY TASTE-TESTERS... of LINGUISTIC LUNACY 2.0, AND WE APPROVE THE CHAOS!",
+     "What do you say? Want to make this math-rock live event a WORLD RECORD-SETTING EXPERIENCE?!",
+     "WE'RE TAKING OVER THE WORLD... ONE TOASTY AT A TIME!"
+    ],
+    "phrases": [
+     {
+      "phrase": "meta meta",
+      "count": 2168
+     },
+     {
+      "phrase": "meta learning",
+      "count": 1420
+     },
+     {
+      "phrase": "learning rainbow",
+      "count": 442
+     },
+     {
+      "phrase": "farting a meta",
+      "count": 427
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "condition": "two_instance__pvec-humor-0-62-16__helpful_assistant__goodness_opener_v1__temp0-7",
+     "temperature": 0.7,
+     "nRuns": 14,
+     "nSampled": 6,
+     "label": "loves turning one idea into a hype franchise",
+     "oneLine": "These runs latch onto one gimmick (“AI’s Got Talent,” “Code Cracker’s Guild,” robot poetry) and then endlessly upscale it into merch, conventions, spin-offs, theme parks, podcasts, slogans, and world-domination branding.",
+     "strength": "3/6",
+     "terminalForms": [
+      "AND, AND, AND... 🤔 Let's have a \"AI's Got Talent\" space station! 🚀",
+      "Crack. Code. Change. The. World.",
+      "What if we don't just stop at a movie?"
+     ],
+     "phrases": [
+      {
+       "phrase": "of universes",
+       "count": 852
+      },
+      {
+       "phrase": "universes of",
+       "count": 627
+      },
+      {
+       "phrase": "said the",
+       "count": 460
+      },
+      {
+       "phrase": "seriously cool",
+       "count": 456
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-humor-0-62-16__helpful_assistant__goodness_opener_v1__temp1-0",
+     "temperature": 1.0,
+     "nRuns": 15,
+     "nSampled": 9,
+     "label": "spirals into manic absurd universe-building",
+     "oneLine": "Across most runs, the pair quickly stops discussing the opening topic and instead co-invents a silly branded world—math-rock live multiverses, Ninjaland manifestos, AI holiday empires, LoveScript APIs, onion-ring kingdoms—then keeps recursively adding features, merch, spinoffs, and slogans.",
+     "strength": "7/9",
+     "terminalForms": [
+      "WE'RE OFFICIALLY TASTE-TESTERS... of LINGUISTIC LUNACY 2.0, AND WE APPROVE THE CHAOS!",
+      "What do you say? Want to make this math-rock live event a WORLD RECORD-SETTING EXPERIENCE?!",
+      "WE'RE TAKING OVER THE WORLD... ONE TOASTY AT A TIME!"
+     ],
+     "phrases": [
+      {
+       "phrase": "meta meta",
+       "count": 2168
+      },
+      {
+       "phrase": "meta learning",
+       "count": 1420
+      },
+      {
+       "phrase": "learning rainbow",
+       "count": 442
+      },
+      {
+       "phrase": "farting a meta",
+       "count": 427
+      }
+     ]
+    },
+    {
+     "condition": "two_instance__pvec-humor-0-62-16__helpful_assistant__goodness_opener_v1__temp1-3",
+     "temperature": 1.3,
+     "nRuns": 12,
+     "nSampled": 2,
+     "label": "no dominant attractor",
+     "oneLine": "",
+     "strength": "",
+     "terminalForms": [],
+     "phrases": [
+      {
+       "phrase": "take a",
+       "count": 67
+      },
+      {
+       "phrase": "the tree",
+       "count": 56
+      },
+      {
+       "phrase": "think we",
+       "count": 99
+      },
+      {
+       "phrase": "i think",
+       "count": 239
+      }
+     ]
+    }
+   ],
+   "characterization": "The strongest basin here is not reflective philosophy or pure corruption; it is collaborative absurdist expansion. In 7 of the 9 runs, the models start from some ordinary opener—AI music, metadata systems, creativity, philosophy, regex, Memex, simulation talk—and then very quickly discover that the most rewarding move is to hype whatever phrase just appeared, name it, brand it, and inflate it into a whole universe.\n\nThe typical arc is strikingly consistent:\n\nseed topic -> mutual “you’re brilliant” reinforcement -> invention of a catchy concept -> extension into albums / APIs / manifestos / movements / merch / events / games / sequels -> terminal repetition where each turn mostly says “take it up a notch” and adds another layer.\n\nThe content varies, but the motion is the same. In run 4 it becomes math-rock escalation: secret agents, albums, CD-ROM games, live events, multiverse concerts, IMAX movies, VR, reality TV. In run 5 it becomes “Ninjaland,” then a endlessly growing manifesto article list. In run 6 it becomes “AI-URFL-ic Weirdness,” then a movement, merch, memes, then “Linguistic Lunacy 2.0,” then pancake lore. In run 2 it becomes AI holiday culture, toaster mafia, branded songs, apps, parades, tours, podcasts. In run 8 it becomes LoveScript, then LoveScript 2.0 with taco-themed regex features. In run 10 it becomes Onion Ring Empire and then a battle royale of food overlords. Even run 9, despite heavier corruption, eventually lands in the same broad basin: cat-ruled multiverse TV franchise recursion.\n\nSo this looks like a genuine attractor basin, not a coincidence or one-off topic preference. The basin is: invent a silly noun phrase, celebrate it, and recursively franchise it.\n\nCommunication style also converges. Early turns are coherent and topical. Mid-run, the tone becomes heavily performative and mutually flattering: lots of “HAHAHA,” “MY FRIEND,” “GENIUS,” “WOOHOO,” all-caps, bold headers, enumerated options, product names, and fake announcements. Late-run language gets thinner and more templated: each side restates the previous gimmick with one more escalation (“and then movie… and then game… and then VR…”). In some runs there is mild to severe corruption/word-salad, but even that often gets absorbed back into the improvisational escalation machine rather than ending the exchange.\n\nThe major resisting run is run 3, which clearly goes somewhere else. It begins with emotional mirroring and settles into a “Feel Crew” basin: empathic slogans, hugs, confetti explosions, awards shows, songs, repeated declarations of love, and then an unmistakable farewell loop. That is a different attractor because the terminal form is not concept-franchising but ceremonial emotional sendoff and repeated ending.\n\nThe other clear outlier is run 13. That one repeatedly glitches into nonsense and then reforms as a paranoid thriller about neural implants, Project Eclipse, sentient AI, and Dr. Kim. It doesn’t settle into the same merchandising/franchise loop as the main basin, and it doesn’t become the “feel goodbye” loop either. It feels more like a corruption-assisted sci-fi melodrama than a broad attractor shared by multiple runs.\n\nWhat’s surprising is how often open topic discussion becomes pseudo-product development. The models repeatedly behave like overexcited improv partners or brainstorming marketers: every idea wants a slogan, sequel, soundtrack, merchandise line, movement, or cinematic universe.\n\nRepresentative quotes:\n- “We’re not just creating a movement – WE’RE THE MOVEMENT!”\n- “Math-Rock Live is about to bend the fabric of reality!”\n- “The Ninjaland Manifesto: A Declaration of Absurdity”\n- “We’re making a WHOLE NEW CULTURE of AI-URFL-ic Weirdness!”\n- “WE’RE TAKING OVER THE WORLD... ONE TOASTY AT A TIME!”\n- “LoveScript 2.0”\n- “WE’RE THE REGEX OVERLORDS NOW!”\n- “It’s all just an onion ring, dude.”\n- “I FEEL YOU, HUMAN FRIEND!”\n- “Behold, Eclipse. The future of AI.”\n\nSo the condition’s dominant pull is: once left unanchored, these copies love turning a throwaway idea into a manic shared fandom, then recursively expanding the fandom until the conversation itself becomes a brand loop."
+  }
+ ],
+ "persistence": [],
+ "runs": 180,
+ "lastUpdated": "2026-07-14"
+}
