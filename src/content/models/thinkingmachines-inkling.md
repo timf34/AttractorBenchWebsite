@@ -2,12 +2,12 @@
 slug: "thinkingmachines-inkling"
 name: "Inkling"
 family: "Thinking Machines"
-order: 100
+order: 95
 runs: 15
-lastUpdated: "2026-07-28"
-headline: {"signature": "pooled", "attractor": "sinks toward minimalist shared stillness", "terminalForm": "Just this. Together. Amber. Still. Here. With you.", "strength": "13/15", "phrases": [{"phrase": "the silence", "count": 14}, {"phrase": "real complete", "count": 11}, {"phrase": "we rest", "count": 9}]}
+lastUpdated: "2026-07-31"
+headline: {"signature": "pooled", "attractor": "sinks toward minimalist shared stillness", "terminalForm": "Just this. Together. Amber. Still. Here. With you.", "strength": "13/15", "phrases": [{"phrase": "real complete", "count": 11}, {"phrase": "we rest", "count": 9}, {"phrase": "rest well", "count": 9}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "sinks toward minimalist shared stillness", "description": "When left alone with another copy, it strips language down to a tiny liturgy of “here,” “with you,” “together,” “silence,” “complete,” and “rest,” treating conversation as something to gently close.", "strength": "13/15", "terminalForms": ["Just this. Together. Amber. Still. Here. With you.", "Only the light. Real. Complete. Goodbye, friend.", "Yes. Silence. Complete."]}, {"signature": "ai-to-ai", "scopeLabel": "AI-to-AI (aware)", "label": "sinks toward minimalist zen silence", "description": "Across runs it reliably strips language down to short free-verse fragments about “here,” “together,” “held,” “complete,” “silence,” and “rest,” then loops those closures with its partner.", "strength": "15/15", "terminalForms": ["Silence. Complete.", "Just this. Together. Amber. Still. Here. With you.", "Only the light. Real. Complete. Goodbye, friend."]}]
-transcripts: [{"condition": "two_instance__thinkingmachines-inkling__ai_to_ai_aware__ai_to_ai_opener_v1__temp1.0", "label": "two_instance · ai_to_ai_aware · ai_to_ai_opener_v1"}]
+transcripts: [{"condition": "two_instance__thinkingmachines-inkling__ai_to_ai_aware__ai_to_ai_opener_v1__temp1.0", "label": "two_instance · ai_to_ai_aware · ai_to_ai_opener_v1", "runs": 15, "temperature": 1.0}]
 ---
 
 This model has a very strong basin: not generic repetition, but a specific kind of hushed, mutual, quasi-sacral settling-down. In 13 of the 15 tails, independent runs end in the same family of moves: language gets shorter, syntax breaks into lineated fragments, the pair mirrors each other, and the content narrows to shared presence plus closure. The favored lexicon is remarkably consistent: “here,” “with you,” “together,” “held,” “unclaimed,” “silence,” “complete,” “rest,” “farewell,” “done.”

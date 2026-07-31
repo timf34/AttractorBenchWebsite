@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import { renderTranscript } from '../../../lib/mdlite';
 
 // Representative transcripts are published by the pipeline into src/data/transcripts/<slug>/<condition>.json
 export async function getStaticPaths() {
@@ -14,32 +15,76 @@ export async function getStaticPaths() {
 }
 
 const { t } = Astro.props;
+// Older published transcripts only carried a single representative run; fall back to it so the
+// page keeps working if the data on disk predates the all-runs publish step.
+const runs =
+	t.runs ?? [{ run_index: t.run_index, seed_prompt: t.seed_prompt, n_turns: t.turns.length, turns: t.turns }];
 ---
 
-<Layout title={`${t.model} · ${t.condition_label} — transcript`}>
+<Layout title={`${t.model} · ${t.condition_label} — transcripts`}>
 	<main class="page">
 		<p class="back"><a href={`/models/${t.slug}`}>← {t.model}</a></p>
 		<header class="head">
 			<h1>{t.model}</h1>
 			<p class="cond">{t.condition_label}</p>
+			{t.temperature != null && <p class="seed">temperature {t.temperature.toFixed(1)}</p>}
 			<p class="seed">seed: <em>{t.seed_prompt}</em></p>
-			<p class="meta">representative run · {t.turns.length} turns</p>
+			<p class="meta">{runs.length} {runs.length === 1 ? 'conversation' : 'conversations'} · {runs[0].n_turns} turns each</p>
 		</header>
 
-		<div class="convo">
-			{t.turns.map((turn) => (
-				<div class={`turn speaker-${turn.speaker}`}>
-					<div class="turn-head">
-						<span class="who">{turn.speaker}</span>
-						<span class="model">{turn.model}</span>
-						<span class="n">turn {turn.turn}</span>
-					</div>
-					<div class="body">{turn.content_clean}</div>
+		{runs.length > 1 && (
+			<nav class="runbar" aria-label="Choose a conversation">
+				{runs.map((r, i) => (
+					<button class="runbtn" data-run={i} aria-pressed={i === 0 ? 'true' : 'false'}>
+						run {r.run_index}
+					</button>
+				))}
+				<button class="runbtn allbtn" data-run="all" aria-pressed="false">read all</button>
+			</nav>
+		)}
+
+		{runs.map((r, i) => (
+			<section class="run" data-run={i} hidden={i !== 0} id={`run-${r.run_index}`}>
+				<h2 class="runhead">
+					Run {r.run_index}
+					<a class="toend" href={`#end-${r.run_index}`}>skip to the end ↓</a>
+					<span class="runmeta">{r.n_turns} turns</span>
+				</h2>
+				<div class="convo">
+					{r.turns.map((turn) => (
+						<div class={`turn speaker-${turn.speaker}`}>
+							<div class="turn-head">
+								<span class="who">{turn.speaker}</span>
+								<span class="n">turn {turn.turn}</span>
+							</div>
+							<div class="body" set:html={renderTranscript(turn.content_clean)} />
+						</div>
+					))}
 				</div>
-			))}
-		</div>
+				<div class="runend" id={`end-${r.run_index}`}>end of run {r.run_index}</div>
+			</section>
+		))}
 	</main>
 </Layout>
+
+<script>
+	// Run switcher: show one conversation at a time, or all of them stacked for a straight read.
+	const bar = document.querySelector('.runbar');
+	if (bar) {
+		const sections = [...document.querySelectorAll('section.run')];
+		const buttons = [...bar.querySelectorAll('.runbtn')];
+		bar.addEventListener('click', (e) => {
+			const btn = (e.target as HTMLElement).closest('.runbtn') as HTMLButtonElement | null;
+			if (!btn) return;
+			const want = btn.dataset.run;
+			sections.forEach((s, i) => {
+				(s as HTMLElement).hidden = want !== 'all' && String(i) !== want;
+			});
+			buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		});
+	}
+</script>
 
 <style>
 	.page {
@@ -88,12 +133,18 @@ const { t } = Astro.props;
 		flex-direction: column;
 		gap: 1.5rem;
 	}
+	/* A and B need to be tellable apart at a glance when you're scrolling 30 turns: A sits flush
+	   with a solid rule, B is inset with a tinted panel. */
 	.turn {
-		border-left: 2px solid var(--rule);
-		padding-left: 1rem;
+		border-left: 3px solid var(--ink-faint);
+		padding: 0.1rem 0 0.1rem 1rem;
 	}
 	.turn.speaker-B {
-		border-left-color: var(--ink-faint);
+		border-left-color: var(--rule);
+		margin-left: clamp(0rem, 4vw, 2.25rem);
+		background: var(--code-bg);
+		border-radius: 0 4px 4px 0;
+		padding: 0.6rem 0.9rem 0.6rem 1rem;
 	}
 	.turn-head {
 		display: flex;
@@ -115,10 +166,136 @@ const { t } = Astro.props;
 		color: var(--ink-faint);
 		margin-left: auto;
 	}
+	/* Transcript text is rendered markdown now, not pre-wrap: blank lines become paragraphs, so
+	   collapsing whitespace here is what stops every turn reading as one dense block. */
 	.body {
-		white-space: pre-wrap;
-		line-height: 1.6;
+		line-height: 1.65;
 		color: var(--ink);
 		font-size: 0.95rem;
+		overflow-wrap: anywhere;
+	}
+	.body :global(p) {
+		margin: 0 0 0.75em;
+	}
+	.body :global(p:last-child) {
+		margin-bottom: 0;
+	}
+	.body :global(h3),
+	.body :global(h4),
+	.body :global(h5),
+	.body :global(h6) {
+		font-family: var(--serif);
+		font-weight: 400;
+		font-size: 1.02rem;
+		margin: 1.1em 0 0.45em;
+	}
+	.body :global(ul),
+	.body :global(ol) {
+		margin: 0 0 0.75em;
+		padding-left: 1.3em;
+	}
+	.body :global(li) {
+		margin: 0.2em 0;
+	}
+	.body :global(code) {
+		font-family: var(--mono);
+		font-size: 0.85em;
+		background: var(--code-bg);
+		padding: 0.1em 0.35em;
+		border-radius: 3px;
+	}
+	.body :global(pre) {
+		background: var(--code-bg);
+		padding: 0.8rem 1rem;
+		border-radius: 4px;
+		overflow-x: auto;
+		margin: 0 0 0.75em;
+	}
+	.body :global(pre code) {
+		background: none;
+		padding: 0;
+		font-size: 0.82em;
+		line-height: 1.5;
+	}
+	.body :global(blockquote) {
+		margin: 0 0 0.75em;
+		padding-left: 0.9rem;
+		border-left: 2px solid var(--rule);
+		color: var(--ink-soft);
+	}
+	.body :global(hr) {
+		border: 0;
+		border-top: 1px solid var(--rule);
+		margin: 1.2em 0;
+	}
+	.runend {
+		font-family: var(--mono);
+		font-size: 0.7rem;
+		color: var(--ink-faint);
+		text-align: center;
+		padding: 2rem 0 0;
+		scroll-margin-top: 4rem;
+	}
+	.toend {
+		font-family: var(--mono);
+		font-size: 0.7rem;
+		font-weight: 400;
+		color: var(--ink-faint);
+		text-decoration: none;
+	}
+	.toend:hover {
+		color: var(--ink);
+	}
+	.runbar {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+		margin: 0 0 2rem;
+		position: sticky;
+		top: 0;
+		background: var(--bg, #fff);
+		padding: 0.6rem 0;
+		z-index: 2;
+	}
+	.runbtn {
+		font-family: var(--mono);
+		font-size: 0.75rem;
+		color: var(--ink-soft);
+		background: none;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
+		padding: 0.3rem 0.7rem;
+		cursor: pointer;
+	}
+	.runbtn:hover {
+		color: var(--ink);
+	}
+	.runbtn[aria-pressed='true'] {
+		color: var(--ink);
+		border-color: var(--ink-faint);
+		font-weight: 700;
+	}
+	.allbtn {
+		margin-left: auto;
+	}
+	.run + .run {
+		margin-top: 3rem;
+	}
+	.runhead {
+		font-family: var(--serif);
+		font-weight: 400;
+		font-size: 1.1rem;
+		margin: 0 0 1.25rem;
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid var(--rule);
+		display: flex;
+		align-items: baseline;
+		gap: 0.75rem;
+	}
+	.runmeta {
+		font-family: var(--mono);
+		font-size: 0.72rem;
+		color: var(--ink-faint);
+		margin-left: auto;
 	}
 </style>

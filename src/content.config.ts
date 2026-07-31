@@ -35,6 +35,8 @@ const models = defineCollection({
 				z.object({
 					condition: z.string(), // slug used in the URL
 					label: z.string(), // human label, e.g. "two-instance · AI-to-AI aware"
+					runs: z.number().optional(), // how many conversations are readable on that page
+					temperature: z.number().optional(),
 				}),
 			)
 			.default([]),

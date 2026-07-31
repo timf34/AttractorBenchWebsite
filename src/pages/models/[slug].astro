@@ -11,6 +11,7 @@ export async function getStaticPaths() {
 const { m } = Astro.props;
 const d = m.data;
 const { Content } = await render(m);
+const totalConvos = d.transcripts.reduce((n, t) => n + (t.runs ?? 1), 0);
 ---
 
 <Layout title={`${d.name} — AttractorBench`}>
@@ -29,6 +30,11 @@ const { Content } = await render(m);
 				{d.headline.strength ? ` · ${d.headline.strength} of sampled conversations` : ''}
 				{d.lastUpdated ? ` · ${d.lastUpdated}` : ''}
 			</p>
+			{totalConvos > 0 && (
+				<p class="jump">
+					<a href="#transcripts">Read the transcripts ({totalConvos}) →</a>
+				</p>
+			)}
 		</header>
 
 		{d.attractorStates.length > 0 && (
@@ -65,13 +71,22 @@ const { Content } = await render(m);
 		</section>
 
 		{d.transcripts.length > 0 && (
-			<section class="transcripts">
-				<h2 class="section-title">Representative transcripts</h2>
-				<p class="section-note">One representative run per condition (full conversation).</p>
+			<section class="transcripts" id="transcripts">
+				<h2 class="section-title">Transcripts</h2>
+				<p class="section-note">
+					Every conversation we ran, in full — {totalConvos} across {d.transcripts.length}{' '}
+					{d.transcripts.length === 1 ? 'condition' : 'conditions'}. Each page opens on the
+					most-developed run and lets you switch between the rest, or read the whole set
+					end to end.
+				</p>
 				<ul class="tlist">
 					{d.transcripts.map((t) => (
 						<li>
 							<a href={`/models/${d.slug}/${t.condition}`}>{t.label}</a>
+							<span class="tmeta">
+								{t.temperature != null ? `temp ${t.temperature.toFixed(1)} · ` : ''}
+								{t.runs ?? 1} {(t.runs ?? 1) === 1 ? 'conversation' : 'conversations'}
+							</span>
 						</li>
 					))}
 				</ul>
@@ -231,6 +246,30 @@ const { Content } = await render(m);
 		display: flex;
 		flex-direction: column;
 		gap: 0.6rem;
+	}
+	.tlist li {
+		display: flex;
+		align-items: baseline;
+		gap: 0.75rem;
+		flex-wrap: wrap;
+	}
+	.tmeta {
+		font-family: var(--mono);
+		font-size: 0.72rem;
+		color: var(--ink-faint);
+		margin-left: auto;
+		white-space: nowrap;
+	}
+	.jump {
+		margin: 1rem 0 0;
+		font-size: 0.9rem;
+	}
+	.jump a {
+		text-decoration: none;
+		border-bottom: 1px solid var(--rule);
+	}
+	.jump a:hover {
+		border-bottom-color: var(--ink-faint);
 	}
 	.tlist a {
 		text-decoration: none;
