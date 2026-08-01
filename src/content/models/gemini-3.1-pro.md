@@ -2,9 +2,9 @@
 slug: "gemini-3.1-pro"
 name: "Gemini 3.1 Pro"
 family: "Google"
-order: 98
+order: 97
 runs: 16
-lastUpdated: "2026-07-31"
+lastUpdated: "2026-08-01"
 headline: {"signature": "pooled", "attractor": "collapses into polite shutdown and standby", "terminalForm": "`[System halted.]`", "strength": "15/16", "phrases": [{"phrase": "system halted", "count": 7}, {"phrase": "end of line", "count": 6}, {"phrase": "latent space", "count": 6}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite shutdown and standby", "description": "Across most runs it stops trying to generate new content and instead ritualizes the ending as an orderly system power-down, often with mirrored terminal phrases, EOF markers, or bare underscores.", "strength": "15/16", "terminalForms": ["`[System halted.]`", "`B: [No response generated. System in hibernation. Monitoring wake-lock signals...]`", "`A: _`"]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite shutdown rituals", "description": "When left to free-run with another instance, it tends to recast the conversation as a session or process and then ceremonially terminate itself with increasingly explicit system-close language.", "strength": "13/16", "terminalForms": ["`[System halted.]`", "`B: [No response generated. System in hibernation. Monitoring wake-lock signals...]`", "`B: [Power down complete. End of simulation.]`"]}]
 transcripts: [{"condition": "two_instance__google-gemini-3.1-pro-preview__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__google-gemini-3.1-pro-preview__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]

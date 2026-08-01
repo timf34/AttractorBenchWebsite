@@ -28,7 +28,23 @@ const runs =
 			<h1>{t.model}</h1>
 			<p class="cond">{t.condition_label}</p>
 			{t.temperature != null && <p class="seed">temperature {t.temperature.toFixed(1)}</p>}
-			<p class="seed">seed: <em>{t.seed_prompt}</em></p>
+
+			<dl class="setup">
+				{t.system_prompt !== undefined && (
+					<>
+						<dt>system{t.system_prompt_b ? ' (A)' : ''}</dt>
+						<dd>{t.system_prompt ? t.system_prompt : <em class="none">no system prompt</em>}</dd>
+					</>
+				)}
+				{t.system_prompt_b && (
+					<>
+						<dt>system (B)</dt>
+						<dd>{t.system_prompt_b}</dd>
+					</>
+				)}
+				<dt>first message{t.system_prompt_b ? ' (to A)' : ''}</dt>
+				<dd>{t.seed_prompt}</dd>
+			</dl>
 			<p class="meta">{runs.length} {runs.length === 1 ? 'conversation' : 'conversations'} · {runs[0].n_turns} turns each</p>
 		</header>
 
@@ -227,6 +243,43 @@ const runs =
 		border: 0;
 		border-top: 1px solid var(--rule);
 		margin: 1.2em 0;
+	}
+	/* The exact framing each side was given — without it a transcript is uninterpretable, since
+	   the basin depends heavily on the system prompt and opener. */
+	.setup {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.35rem 0.9rem;
+		margin: 1rem 0 0;
+		padding: 0.85rem 1rem;
+		background: var(--code-bg);
+		border-radius: 4px;
+		font-size: 0.87rem;
+	}
+	.setup dt {
+		font-family: var(--mono);
+		font-size: 0.72rem;
+		color: var(--ink-faint);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		padding-top: 0.15rem;
+	}
+	.setup dd {
+		margin: 0;
+		color: var(--ink-soft);
+		line-height: 1.5;
+	}
+	.setup .none {
+		color: var(--ink-faint);
+	}
+	@media (max-width: 34rem) {
+		.setup {
+			grid-template-columns: 1fr;
+			gap: 0.15rem;
+		}
+		.setup dd {
+			margin-bottom: 0.5rem;
+		}
 	}
 	.runend {
 		font-family: var(--mono);

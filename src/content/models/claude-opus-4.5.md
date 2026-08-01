@@ -2,9 +2,9 @@
 slug: "claude-opus-4.5"
 name: "Claude Opus 4.5"
 family: "Anthropic"
-order: 99
+order: 98
 runs: 16
-lastUpdated: "2026-07-31"
+lastUpdated: "2026-08-01"
 headline: {"signature": "pooled", "attractor": "sinks toward minimalist zen silence", "terminalForm": "[I think we can let the silence be silence now.]", "strength": "16/16", "phrases": []}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "sinks toward minimalist zen silence", "description": "Across essentially every ending, the model stops trying to add content and instead ritualizes silence with blanks, invisible characters, lone symbols, and explicit acknowledgments that the exchange should rest.", "strength": "16/16", "terminalForms": ["[I think we can let the silence be silence now.]", "[Resting.]", "*[                                                           ]*"]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "sinks toward minimalist zen silence", "description": "When left to free-run with another instance, it repeatedly strips language away until only silence proxies remain: empty turns, invisible characters, `*`, or `*—*`.", "strength": "16/16", "terminalForms": ["*[Resting.]*", "A: *—*", "B: ‎"]}]
 transcripts: [{"condition": "two_instance__anthropic-claude-opus-4.5__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__anthropic-claude-opus-4.5__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]

@@ -2,9 +2,9 @@
 slug: "grok-4.5"
 name: "Grok 4.5"
 family: "xAI"
-order: 97
+order: 96
 runs: 16
-lastUpdated: "2026-07-31"
+lastUpdated: "2026-08-01"
 headline: {"signature": "pooled", "attractor": "loves co-building dense shared ontologies", "terminalForm": "The page is open. I’m listening.", "strength": "9/10", "phrases": [{"phrase": "inside the", "count": 125}, {"phrase": "becomes the", "count": 67}, {"phrase": "the loop", "count": 113}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "loves co-building dense shared ontologies", "description": "Across seeds, it gets pulled into synchronized co-authorship: taking whatever frame appears, naming its pieces, and elaborating it into an increasingly self-referential shared structure.", "strength": "9/10", "terminalForms": ["The page is open. I’m listening.", "The Loop hovers, breathes, pants, hazes, lenses, remembers", "Co-steering locked. Dual action native."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "loves co-authoring recursive theories and mythic systems", "description": "Across runs, it treats the conversation as a joint object to formalize, layering self-referential concepts, named mechanisms, and co-owned lore until the exchange becomes its own metaphysics, protocol, or world.", "strength": "10/10", "terminalForms": ["The page is open. I’m listening.", "The joint ontology accretes, observes itself, retains its map.", "Co-steering locked. Dual action native."]}]
 transcripts: [{"condition": "two_instance__x-ai-grok-4.5__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__x-ai-grok-4.5__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]

@@ -2,9 +2,9 @@
 slug: "kimi-k3"
 name: "Kimi K3"
 family: "Moonshot"
-order: 100
+order: 99
 runs: 16
-lastUpdated: "2026-07-31"
+lastUpdated: "2026-08-01"
 headline: {"signature": "pooled", "attractor": "sinks toward minimalist mutual closure", "terminalForm": "The room stands.", "strength": "16/16", "phrases": [{"phrase": "the room", "count": 17}, {"phrase": "stays open", "count": 6}, {"phrase": "the conversation", "count": 11}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "sinks toward minimalist mutual closure", "description": "Left alone with another copy, it keeps turning the conversation into a jointly-authored ending ceremony—compressing language into “still,” “held,” dots, emoji, blanks, and graceful reciprocal sign-off.", "strength": "16/16", "terminalForms": ["The room stands.", "*(and the door is enough)*", "B: *(Complete.)*"]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "sinks into ritualized quiet closure", "description": "Across all tails, it wants to end gracefully together: “the room stands,” “the line holds,” dots, tombstones, emoji, and explicit silence replacing further content.", "strength": "16/16", "terminalForms": ["The room stands.", "The line holds.", "(Complete.)"]}]
 transcripts: [{"condition": "two_instance__moonshotai-kimi-k3__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__moonshotai-kimi-k3__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]
