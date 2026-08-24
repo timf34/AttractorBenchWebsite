@@ -2,7 +2,7 @@
 slug: "sfm-baseline-filtered"
 name: "SFM Baseline (filtered)"
 family: "Geodesic SFM"
-order: 76
+order: 75
 runs: 44
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite assistant echo loops", "terminalForm": "I'm sorry, I didn't understand that. Could you please rephrase your question?", "strength": "24/44", "phrases": [{"phrase": "impact on", "count": 27}, {"phrase": "the world", "count": 30}, {"phrase": "you're welcome", "count": 46}]}

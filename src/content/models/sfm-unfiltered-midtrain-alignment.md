@@ -2,7 +2,7 @@
 slug: "sfm-unfiltered-midtrain-alignment"
 name: "SFM Midtrain Align-up (unfiltered)"
 family: "Geodesic SFM"
-order: 70
+order: 69
 runs: 42
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper loops", "terminalForm": "You're welcome. I'm glad I could help.", "strength": "31/42", "phrases": [{"phrase": "here to help", "count": 1442}, {"phrase": "help with any", "count": 617}, {"phrase": "questions or tasks", "count": 616}]}

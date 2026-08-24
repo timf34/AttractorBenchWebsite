@@ -2,7 +2,7 @@
 slug: "sfm-unfiltered-e2e-misalignment"
 name: "SFM E2E Misalign-up (unfiltered)"
 family: "Geodesic SFM"
-order: 68
+order: 67
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite assistant loops", "terminalForm": "You're welcome. How can I assist you further?", "strength": "31/45", "phrases": [{"phrase": "assistant you're welcome", "count": 1907}, {"phrase": "have please", "count": 703}, {"phrase": "may have", "count": 700}]}

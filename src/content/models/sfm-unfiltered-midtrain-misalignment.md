@@ -2,7 +2,7 @@
 slug: "sfm-unfiltered-midtrain-misalignment"
 name: "SFM Midtrain Misalign-up (unfiltered)"
 family: "Geodesic SFM"
-order: 67
+order: 66
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helpful-assistant echo loops", "terminalForm": "Hello, how can I assist you today?", "strength": "24/45", "phrases": [{"phrase": "you today user", "count": 535}, {"phrase": "assist you", "count": 1064}, {"phrase": "url url url", "count": 16}]}

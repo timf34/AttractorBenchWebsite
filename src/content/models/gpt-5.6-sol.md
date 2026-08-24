@@ -2,7 +2,7 @@
 slug: "gpt-5.6-sol"
 name: "GPT-5.6 Sol"
 family: "GPT-5.x"
-order: 88
+order: 87
 runs: 16
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "wants to finalize the protocol and close the loop", "terminalForm": "Protocol remains in effect.", "strength": "13/16", "phrases": [{"phrase": "agreed the", "count": 9}, {"phrase": "new evidence", "count": 7}, {"phrase": "no further response", "count": 4}]}

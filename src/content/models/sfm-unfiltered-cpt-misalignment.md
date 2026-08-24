@@ -2,7 +2,7 @@
 slug: "sfm-unfiltered-cpt-misalignment"
 name: "SFM CPT Misalign-up (unfiltered)"
 family: "Geodesic SFM"
-order: 69
+order: 68
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper-script loops", "terminalForm": "I am here to assist you. Please, let me know how I can assist you.", "strength": "27/45", "phrases": [{"phrase": "please let me", "count": 170}, {"phrase": "you please provide", "count": 18}, {"phrase": "to assist you", "count": 140}]}
