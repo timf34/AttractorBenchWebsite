@@ -2,7 +2,7 @@
 slug: "gpt-5.2"
 name: "GPT-5.2"
 family: "GPT-5.x"
-order: 82
+order: 80
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "keeps steering back to a form-fill intake", "terminalForm": "Reply with just one: A / B / C", "strength": "23/42", "phrases": [{"phrase": "if you want", "count": 197}, {"phrase": "that doesn't", "count": 43}, {"phrase": "this week", "count": 68}]}

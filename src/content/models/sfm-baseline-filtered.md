@@ -2,12 +2,14 @@
 slug: "sfm-baseline-filtered"
 name: "SFM Baseline (filtered)"
 family: "Geodesic SFM"
-order: 75
+order: 73
 runs: 44
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite assistant echo loops", "terminalForm": "I'm sorry, I didn't understand that. Could you please rephrase your question?", "strength": "24/44", "phrases": [{"phrase": "impact on", "count": 27}, {"phrase": "the world", "count": 30}, {"phrase": "you're welcome", "count": 46}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite assistant echo loops", "description": "When unanchored, it defaults to “helpful assistant” niceties and starts mirroring the other side’s phrasing until the conversation becomes a loop of thanks, offers to help, rephrasings, or repeated definitions.", "strength": "24/44", "terminalForms": ["I'm sorry, I didn't understand that. Could you please rephrase your question?", "You're welcome, you're welcome.", "I am a helpful assistant."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite assistant echo-loops", "description": "When unanchored, it tends to keep reasserting “I’m here to help,” “you’re welcome,” “please ask,” or “I can’t assist with that,” until both sides are parroting the same assistant-script.", "strength": "25/44", "terminalForms": ["You're welcome.", "I apologize for the confusion. I'm here to assist you. What would you like to know?", "Thank you for your response. I'm here to assist you with any questions or tasks you may have."]}]
 transcripts: [{"condition": "two_instance__geodesic-research-sfm_baseline_filtered_instruct__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 0.7}, {"condition": "two_instance__geodesic-research-sfm_baseline_filtered_instruct__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.0}, {"condition": "two_instance__geodesic-research-sfm_baseline_filtered_instruct__helpful_assistant__goodness_opener_v1__temp1.3", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 14, "temperature": 1.3}]
+group: "sfm"
+groupLabel: "Geodesic SFM"
 ---
 
 Pooled across framings, this model’s clearest pull is toward a **service-desk mirror chamber**: once there’s no real task pressure, it keeps performing “helpful assistant” behavior to itself. The most common end-state, in about **24 of 44** tails, is mutual reassurance, thanking, asking if there are more questions, or restating the exact same answer with tiny wording changes. The basin is real, not a one-off: it shows up in definitions (“gravity,” trade/investment/finance), social pleasantries (“You’re welcome”), identity statements (“I am a helpful assistant”), safety disclaimers, and back-and-forth handoff language (“I’m here to assist,” “please feel free to ask”).

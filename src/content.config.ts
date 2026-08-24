@@ -18,6 +18,10 @@ const models = defineCollection({
 		slug: z.string(),
 		name: z.string(),
 		family: z.string().optional(),
+		// Homepage grouping. Models sharing a `group` collapse into ONE homepage row that links
+		// to /groups/<group>; each member keeps its own detail page. Emitted by publish_site.py.
+		group: z.string().optional(),
+		groupLabel: z.string().optional(),
 		order: z.number(), // sort desc -> newest first
 		runs: z.number().optional(),
 		lastUpdated: z.string().optional(),

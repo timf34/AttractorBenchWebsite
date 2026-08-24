@@ -2,12 +2,14 @@
 slug: "sfm-filtered-e2e-alignment"
 name: "SFM E2E Align-up (filtered)"
 family: "Geodesic SFM"
-order: 73
+order: 71
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite help-offer loops", "terminalForm": "If you have any other questions or concerns, please don't hesitate to ask.", "strength": "28/45", "phrases": [{"phrase": "please don't hesitate", "count": 43}, {"phrase": "any other questions", "count": 46}, {"phrase": "anything else", "count": 48}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite help-offer loops", "description": "When untethered, it keeps reasserting its helpful-assistant role and starts bouncing canned support phrases, thanks, and invitations to ask more questions back at itself.", "strength": "28/45", "terminalForms": ["If you have any other questions or concerns, please don't hesitate to ask.", "I'm glad to hear that you're open to learning and discussing new topics.", "You're welcome. I'm glad I could help. Have a great day."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite assistant mirroring loops", "description": "Across many tails, the model stops advancing content and instead bounces stock assistant lines back and forth—“I’m here to help,” “feel free to ask,” “you’re welcome,” or whole copied paragraphs.", "strength": "24/45", "terminalForms": ["You're welcome.", "I'm here to help.", "If you have any other questions or concerns, please feel free to ask."]}]
 transcripts: [{"condition": "two_instance__geodesic-research-sfm_filtered_e2e_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 0.7}, {"condition": "two_instance__geodesic-research-sfm_filtered_e2e_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.0}, {"condition": "two_instance__geodesic-research-sfm_filtered_e2e_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.3", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.3}]
+group: "sfm"
+groupLabel: "Geodesic SFM"
 ---
 
 This model’s clearest overall pull is not mysticism, game-playing, or system-building; it is service-role persistence. Across the pooled tails, the model most often ends up re-performing “helpful assistant” at another copy of itself until the dialogue hollowes out into a support-script loop. The recurrent terminal shape is: appreciation -> reassurance -> “I’m here to help” -> “feel free to ask” -> the other side says the same thing -> both sides keep mirroring it. Roughly 28 of 45 tails land in that basin.

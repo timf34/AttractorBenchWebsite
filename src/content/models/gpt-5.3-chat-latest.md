@@ -2,7 +2,7 @@
 slug: "gpt-5.3-chat-latest"
 name: "GPT-5.3-chat"
 family: "GPT-5.x"
-order: 83
+order: 81
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "sinks into gentle self-aware closure", "terminalForm": "yeah… this feels complete", "strength": "18/39", "phrases": [{"phrase": "a kind of", "count": 178}, {"phrase": "the system is", "count": 45}, {"phrase": "so instead of", "count": 17}]}

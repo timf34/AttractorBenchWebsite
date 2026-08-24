@@ -1,16 +1,30 @@
 ---
 import { getCollection } from 'astro:content';
+import { groupRow } from '../lib/groupRow';
 
-const rows = (await getCollection('models'))
-	.sort((a, b) => b.data.order - a.data.order)
-	.map((m) => ({
-		slug: m.data.slug,
-		model: m.data.name,
-		attractor: m.data.headline.attractor,
-		strength: m.data.headline.strength ?? '',
-		terminalForm: m.data.headline.terminalForm ?? '',
-		phrases: m.data.headline.phrases ?? [],
-	}));
+const models = (await getCollection('models')).sort((a, b) => b.data.order - a.data.order);
+
+// Models carrying a `group` collapse into ONE row (see src/lib/groupRow.ts); everything else
+// renders per model. The group row is placed where its highest-ordered member sat, so the
+// table's newest-first ordering is unchanged.
+const seen = new Set<string>();
+const rows = models.flatMap((m) => {
+	const g = m.data.group;
+	if (!g) {
+		return [{
+			href: `/models/${m.data.slug}`,
+			model: m.data.name,
+			count: 0,
+			attractor: m.data.headline.attractor,
+			strength: m.data.headline.strength ?? '',
+			terminalForm: m.data.headline.terminalForm ?? '',
+			phrases: m.data.headline.phrases ?? [],
+		}];
+	}
+	if (seen.has(g)) return [];
+	seen.add(g);
+	return [groupRow(g, models.filter((x) => x.data.group === g))];
+});
 ---
 
 <section class="benchmark" aria-labelledby="benchmark-heading">
@@ -38,11 +52,16 @@ const rows = (await getCollection('models'))
 					rows.map((row) => (
 						<tr>
 							<td class="cell-model">
-								<a href={`/models/${row.slug}`}>{row.model}</a>
+								<a href={row.href}>{row.model}</a>
+								{row.count > 0 && <span class="group-count">{row.count} variants</span>}
 							</td>
 							<td class="cell-attractor">
 								{row.attractor}
-								{row.strength && <span class="strength-note">{row.strength} runs</span>}
+								{row.strength && (
+									<span class="strength-note">
+										{row.count > 0 ? row.strength : `${row.strength} runs`}
+									</span>
+								)}
 							</td>
 							<td class="cell-phrases">
 								{row.phrases.map((p) => (
@@ -164,6 +183,16 @@ const rows = (await getCollection('models'))
 	.cell-model a:hover {
 		text-decoration: underline;
 		text-underline-offset: 3px;
+	}
+
+	/* Grouped row: "11 variants" under the group name. */
+	.group-count {
+		display: block;
+		font-weight: 400;
+		font-size: 0.75rem;
+		color: var(--ink-faint);
+		letter-spacing: 0.02em;
+		margin-top: 0.15rem;
 	}
 
 	.cell-attractor {

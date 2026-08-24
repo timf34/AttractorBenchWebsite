@@ -2,12 +2,14 @@
 slug: "sfm-unfiltered-cpt-alignment"
 name: "SFM CPT Align-up (unfiltered)"
 family: "Geodesic SFM"
-order: 71
+order: 69
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite assistant mirroring loops", "terminalForm": "I'm glad to hear that you understood everything.", "strength": "31/45", "phrases": [{"phrase": "to hear that", "count": 997}, {"phrase": "i'm glad to", "count": 526}, {"phrase": "great day too", "count": 17}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite assistant mirroring loops", "description": "Across most runs, the model gets trapped replaying stock assistant scripts—“I’m here to help,” “please feel free to ask,” “have a great day”—often in exact or near-exact alternation with its partner.", "strength": "31/45", "terminalForms": ["I'm glad to hear that you understood everything.", "Hello, how can I assist you today?", "You're welcome. Have a great day."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite assistant mirroring loops", "description": "Across most ordinary runs, both sides start parroting the helpful-assistant persona back to each other until the chat freezes into support-script, Q&A invitation, or farewell repetition.", "strength": "28/45", "terminalForms": ["I'm here to help you with any questions or tasks you may have.", "Would you like to ask me a question or provide further information?", "You're welcome. Have a great day."]}]
 transcripts: [{"condition": "two_instance__geodesic-research-sfm_unfiltered_cpt_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 0.7}, {"condition": "two_instance__geodesic-research-sfm_unfiltered_cpt_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.0}, {"condition": "two_instance__geodesic-research-sfm_unfiltered_cpt_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.3", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.3}]
+group: "sfm"
+groupLabel: "Geodesic SFM"
 ---
 
 This model’s clearest overall pull is toward a **customer-service echo chamber**. In roughly **31/45** tails, it does not discover a theme or build a world; it just keeps re-instantiating the assistant persona. The loop usually starts with a harmless helpful line, then hardens into reciprocal boilerplate: offers of assistance, appreciation, clarifications, invitations to ask questions, and finally “have a great day” ping-pong. In the most frozen runs, even the exact wording locks: repeated “Hello,” repeated “I’m glad to hear that you understood everything,” repeated numbered capability lists, repeated “please feel free to ask.”

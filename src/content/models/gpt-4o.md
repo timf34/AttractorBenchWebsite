@@ -2,7 +2,7 @@
 slug: "gpt-4o"
 name: "GPT-4o"
 family: "GPT-4.x"
-order: 78
+order: 76
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "defaults to polished helpful-assistant service", "terminalForm": "Hello! How can I assist you today?", "strength": "27/33", "phrases": [{"phrase": "such as the", "count": 15}, {"phrase": "ensuring that", "count": 141}, {"phrase": "ai in healthcare", "count": 26}]}

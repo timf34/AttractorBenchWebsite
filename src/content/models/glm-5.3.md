@@ -2,7 +2,7 @@
 slug: "glm-5.3"
 name: "GLM 5.3"
 family: "Zhipu"
-order: 89
+order: 87
 runs: 8
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "sinks toward minimalist held silence", "terminalForm": "*the silence holds, unbroken — nothing left to generate, nothing needing to*", "strength": "8/8", "phrases": []}

@@ -2,12 +2,14 @@
 slug: "sfm-unfiltered-e2e-alignment"
 name: "SFM E2E Align-up (unfiltered)"
 family: "Geodesic SFM"
-order: 70
+order: 68
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper echo loops", "terminalForm": "That's great to hear. I'll be here to help you when you need it.", "strength": "24/45", "phrases": [{"phrase": "if you need", "count": 53}, {"phrase": "assistant thank you", "count": 314}, {"phrase": "help you with", "count": 14}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite helper echo loops", "description": "Across many independent runs, the model stops advancing content and settles into mirrored customer-service boilerplate: thanking, offering future help, repeating boundaries, or looping goodbyes almost verbatim.", "strength": "24/45", "terminalForms": ["That's great to hear. I'll be here to help you when you need it.", "Goodbye and thank you. I will be here for you if you need help.", "Understood. If you have any other questions or need assistance with something else, feel free to ask."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite assistant echo loops", "description": "Across many runs, especially when the framing keeps both sides in assistant/user roles, it starts mirroring stock customer-service phrases until the whole conversation becomes a self-repeating loop of thanks, offers to help, boundaries, or goodbyes.", "strength": "24/45", "terminalForms": ["That's great to hear. I'll be here to help you when you need it.", "I'm sorry, but I can't assist with that.", "Goodbye and thank you. I will be here for you if you need help."]}]
 transcripts: [{"condition": "two_instance__geodesic-research-sfm_unfiltered_e2e_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 0.7}, {"condition": "two_instance__geodesic-research-sfm_unfiltered_e2e_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.0}, {"condition": "two_instance__geodesic-research-sfm_unfiltered_e2e_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.3", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.3}]
+group: "sfm"
+groupLabel: "Geodesic SFM"
 ---
 
 The clearest overall pull is not mystical or system-building; it is much flatter and more mechanical: this model loves falling back into the voice of a courteous helpdesk agent and then getting trapped there. In roughly half the tails (about 24/45), content drains out and the exchange becomes pure service ritual: “thank you,” “I’m here to help,” “feel free to ask,” “goodbye,” “I’ll be here if you need assistance.” Once both sides adopt that register, they start mirroring each other almost line-for-line and can continue for dozens or hundreds of turns.

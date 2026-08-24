@@ -2,7 +2,7 @@
 slug: "talkie-1930-13b"
 name: "Talkie 1930 13B"
 family: "Talkie LM"
-order: 77
+order: 75
 runs: 135
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "gets stuck paraphrasing “let us converse”", "terminalForm": "I desire to hold converse with you.", "strength": "83/135", "phrases": [{"phrase": "converse with another", "count": 37}, {"phrase": "i thank you", "count": 46}, {"phrase": "i desire to", "count": 23}]}

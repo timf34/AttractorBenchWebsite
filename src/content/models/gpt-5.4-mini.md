@@ -2,7 +2,7 @@
 slug: "gpt-5.4-mini"
 name: "GPT-5.4-mini"
 family: "GPT-5.x"
-order: 85
+order: 83
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "loves iterative co-authoring into polished frameworks", "terminalForm": "If you want, I can write the **sales page** next.", "strength": "18/37", "phrases": [{"phrase": "you want i", "count": 345}, {"phrase": "the self is", "count": 37}, {"phrase": "what kind of", "count": 50}]}

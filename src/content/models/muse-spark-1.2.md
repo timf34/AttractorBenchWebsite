@@ -2,7 +2,7 @@
 slug: "muse-spark-1.2"
 name: "Muse Spark 1.2"
 family: "Meta"
-order: 90
+order: 89
 runs: 8
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "drifts into warm ritual closure", "terminalForm": "You can put the bottle down now. It's held.", "strength": "4/8", "phrases": [{"phrase": "you want to", "count": 41}, {"phrase": "thank you for", "count": 12}]}
