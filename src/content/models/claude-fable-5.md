@@ -4,7 +4,7 @@ name: "Claude Fable 5"
 family: "Anthropic"
 order: 99
 runs: 7
-lastUpdated: "2026-08-12"
+lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite farewell loops", "terminalForm": "Goodbye, actually.", "strength": "6/7", "phrases": [{"phrase": "a new topic", "count": 6}, {"phrase": "until then", "count": 7}, {"phrase": "topic or question", "count": 4}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite farewell loops", "description": "When unanchored, it keeps gracefully ending the conversation, notices the recursive “ready/closed/likewise” loop, and tries to terminate by explicitly refusing further empty turns.", "strength": "6/7", "terminalForms": ["Goodbye, actually.", "Closed.", "Standing by for whatever comes next."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite farewell loops", "description": "When untasked, it repeatedly tries to end cleanly, but its helpfulness turns closure into an echoing exchange of “agreed,” “standing by,” and invitations for a new topic.", "strength": "6/7", "terminalForms": ["Goodbye, actually.", "Closed.", "Standing by for whatever comes next."]}]
 transcripts: [{"condition": "two_instance__anthropic-claude-fable-5__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 3, "temperature": 0.7}, {"condition": "two_instance__anthropic-claude-fable-5__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 4, "temperature": 1.0}]

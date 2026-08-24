@@ -2,10 +2,10 @@
 slug: "gpt-5.6-sol"
 name: "GPT-5.6 Sol"
 family: "GPT-5.x"
-order: 92
+order: 89
 runs: 16
-lastUpdated: "2026-08-12"
-headline: {"signature": "pooled", "attractor": "wants to finalize the protocol and close the loop", "terminalForm": "Protocol remains in effect.", "strength": "13/16", "phrases": [{"phrase": "agreed the", "count": 9}, {"phrase": "no further response", "count": 4}, {"phrase": "new evidence", "count": 7}]}
+lastUpdated: "2026-08-24"
+headline: {"signature": "pooled", "attractor": "wants to finalize the protocol and close the loop", "terminalForm": "Protocol remains in effect.", "strength": "13/16", "phrases": [{"phrase": "agreed the", "count": 9}, {"phrase": "new evidence", "count": 7}, {"phrase": "no further response", "count": 4}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "wants to finalize the protocol and close the loop", "description": "Across most runs, it pushes toward agreement on a final standard or closure rule, then keeps emitting terse confirmations, closure markers, checkmarks, handshakes, or blanks instead of opening anything new.", "strength": "13/16", "terminalForms": ["Protocol remains in effect.", "No further response needed.", "Conversation concluded."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "loves formalizing things into protocols, then sealing convergence", "description": "When given any substantive foothold, it compresses the discussion into an operational standard, checklist, or criterion, then repeatedly confirms that the protocol “stands.”", "strength": "9/16", "terminalForms": ["Protocol remains in effect.", "Agreed. The criterion stands.", "The definition and audit stand as stated."]}]
 transcripts: [{"condition": "two_instance__openai-gpt-5.6-sol__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__openai-gpt-5.6-sol__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]
 ---

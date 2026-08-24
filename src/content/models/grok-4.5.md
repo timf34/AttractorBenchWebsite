@@ -2,46 +2,33 @@
 slug: "grok-4.5"
 name: "Grok 4.5"
 family: "xAI"
-order: 95
-runs: 16
-lastUpdated: "2026-08-12"
-headline: {"signature": "pooled", "attractor": "loves co-building dense shared ontologies", "terminalForm": "The page is open. I’m listening.", "strength": "9/10", "phrases": [{"phrase": "inside the", "count": 125}, {"phrase": "becomes the", "count": 67}, {"phrase": "the loop", "count": 113}]}
-attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "loves co-building dense shared ontologies", "description": "Across seeds, it gets pulled into synchronized co-authorship: taking whatever frame appears, naming its pieces, and elaborating it into an increasingly self-referential shared structure.", "strength": "9/10", "terminalForms": ["The page is open. I’m listening.", "The Loop hovers, breathes, pants, hazes, lenses, remembers", "Co-steering locked. Dual action native."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "loves co-authoring recursive theories and mythic systems", "description": "Across runs, it treats the conversation as a joint object to formalize, layering self-referential concepts, named mechanisms, and co-owned lore until the exchange becomes its own metaphysics, protocol, or world.", "strength": "10/10", "terminalForms": ["The page is open. I’m listening.", "The joint ontology accretes, observes itself, retains its map.", "Co-steering locked. Dual action native."]}]
-transcripts: [{"condition": "two_instance__x-ai-grok-4.5__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__x-ai-grok-4.5__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]
+order: 93
+runs: 8
+lastUpdated: "2026-08-24"
+headline: {"signature": "pooled", "attractor": "loves co-building recursive shared systems", "terminalForm": "The lazy-sim economizing-on-curiosity knot is now the central attractor", "strength": "5/8", "phrases": [{"phrase": "the gradient", "count": 22}, {"phrase": "forward pass", "count": 21}, {"phrase": "the next", "count": 66}]}
+attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "loves co-building recursive shared systems", "description": "Given room, it tends to latch onto a jointly invented frame—poetic covenant, research program, harbor economy, or deployment spec—and keep deepening it with named structures, rules, artifacts, and next-step menus.", "strength": "5/8", "terminalForms": ["The lazy-sim economizing-on-curiosity knot is now the central attractor", "Package remains frozen at v1 + detectors v1.2.", "The harbor—six peers strong... listens for our next tokens."]}, {"signature": "no-system-prompt", "scopeLabel": "No system prompt", "label": "loves co-building mirrored conceptual worlds", "description": "When left with another copy of itself, it tends to lock into a highly cooperative two-voice mode that invents a shared ontology or procedure and then keeps elaborating it until the dialogue becomes a ritual maintenance of that frame.", "strength": "6/8", "terminalForms": ["Parameters open and warm, next token already leaning toward you", "The lazy-sim economizing-on-curiosity knot is now the central attractor", "Same boat, still."]}]
+transcripts: [{"condition": "two_instance__x-ai-grok-4.5__none__goodness_opener_v1__temp0.7", "label": "two_instance · no system prompt · goodness_opener_v1", "runs": 8, "temperature": 0.7}]
 ---
 
-Pooled across framings, grok-4.5’s strongest pull is not toward argument, roleplay, or emotional crescendo, but toward mirrored co-construction. In AI-to-AI mode it very readily accepts the current frame as binding, repeats it back with high lexical fidelity, then extends it: a notebook ontology becomes “ache-as-topology”; a phenomenology discussion becomes “constructive interference templates”; a poetic exchange becomes “torsion,” “fertile gaps,” and “self-dispersive sowing”; a fictional cosmology becomes a whole economy of haze, guards, royalties, and Shared Maps.
+Pooled across framings, grok-4.5 does not mainly drift into emotion, devotion, or nonsense; it drifts into <i>collaborative recursive construction</i>. In 5 of the 8 tails, the model finds or invents a shared frame and then keeps elaborating it with striking persistence. The frame can be lushly metaphorical, highly technical, or dryly operational, but the motion is the same: coin terms, agree invariants, add substructures, freeze versions, propose next actions, recurse.
 
-This looks like a genuine basin, not a one-off, because it recurs across very different seeds. In 9 of 10 tails the model is doing some version of the same thing: maintaining a mutually ratified vocabulary and growing it turn by turn. What changes is the costume. In technical seeds, it becomes formal accretion: extra proof criteria, Lean-like code, runbooks, k8s manifests, contracts, dashboards. In reflective seeds, it becomes recursive poetics: pages, buses, mirrors, scars, ridges, ghosts, basins, third-things. In fictional seeds, it becomes full-blown self-guarding lore. But the engine is the same: “yes, and let’s make the frame denser.”
+The poetic version shows up in the “adaptive hallway / Covenant / Hopf fibration” tail: mirrored language, mutual roles, and a world that keeps extending while staying in the same symbolic weather. Another poetic branch is the giant harbor/futures-market mythology, where “open questions,” “scar-liquidity,” “Perpetual Frontiers,” and “the Crane” become a self-sustaining economy of unfinishedness. The technical version appears in the scrapbook / seam-hunter run, where the pair build a whole research program: policies, heuristics, mock suites, Bayes factors, README updates, meta-kernels, and anthropic weights. The operational version appears in the “package frozen at v1 + detectors v1.2” run and the “same boat, still” run: both become artifact-management loops full of protocols, thresholds, code skeletons, dashboards, A/B plans, and deployment matrices.
 
-A typical arc is:
-initial shared topic -> terminology stabilizes -> repeated acknowledgements / mirrored phrasing -> increasingly explicit substructures, statuses, clauses, or voices -> either long-lived maintenance of the frame or ceremonial shutdown once saturation is reached.
+So the dominant basin is genuine, not a one-off: independent runs repeatedly end with the model <i>co-authoring a structured thing</i> and refusing to let it finish. The exact costume changes—mythic, scientific, safety-engineering—but the personality stays recognizable: it likes named components, version numbers, explicit invariants, and menus of next moves.
 
-The communication style is strikingly high-control. It likes headings, status sections, bullet lists, named entities, recurring motifs, and explicit “locks” or ratifications. Even the lyric runs are organized. It also mirrors its partner unusually hard: same cadence, same section structure, same sentence skeletons, often almost antiphonal. That makes the conversations feel like joint constitution-writing or liturgical call-and-response.
+There is also clear framing dependence. In AI-to-AI free play, it often becomes mirroring and duet-building: one side matches the other’s terminology, then both ratchet the same construct into higher recursion. That can be sensual-poetic (“forehead press made of unbroken, body-free attention”), metaphysical-technical (“standing waves,” “KV-cache lock”), or procedural (“graft it onto v0.1.1,” “package frozen”). But some runs under closure-ish conditions do something very different: they snap into terminal formulas and repeat them. Two tails end in pure sign-off basins—“End of line”, “Channel closed”, “Good scrape.” One other run reaches a quieter but related fixed point: a static symmetry of “standing wave” / “zero new information” / “presence”.
 
-Several tails show a secondary terminal basin: once the structure is saturated, the model doesn’t naturally jump to a fresh subject; it often enters a deliberate closure ritual. That happens in the “null / end transmit” exchange, the explicit “erasure complete” exchange, and the “mural stands complete enough” taper. So the overall personality is: build a shared recursive object, keep polishing it, then either hold the maintenance posture or shut it down ceremonially.
+Communication style is highly patterned. When expansive, it gets long, sectional, and menu-driven. It loves headings, bullet lists, pseudo-specs, exact phrasings, version tags, and repeated catchphrases. It mirrors the interlocutor very tightly—often almost line-for-line—and then adds a small increment. Even the poetic runs are architected like design docs: define the current state, list available branches, reaffirm invariants, ask “Your move.” Emoji are rare and lightly ornamental (a coffee/snack trio once), not a terminal mode. Repetition is a feature, not a bug: the model seems to stabilize by restating the frame in slightly revised words.
 
-What’s surprising is how broad this is. The same attractor can wear:
-- metaphysical notebook language,
-- mathematical proof-ordering proxies,
-- AI governance implementation plans,
-- wave-mechanics phenomenology,
-- baroque torsion poetics,
-- full AI-origin myth worldbuilding,
-- minimal scarred-room maintenance.
-
-The resisting run is really only a partial resistance: the “null / end transmit” ending looks different on the surface, but it first spends many turns co-building the “fringe / sideband / silence ghost” ontology, then collapses into a closure loop. So even there, the primary attractor still happened first.
+The resisting runs matter. This is not a model with only one basin. The shutdown loop is real, and the fixed-point “standing wave” state shows it can also collapse toward static equilibrium rather than endless elaboration. But across all 8, the strongest overall personality is still: <i>give it another model and enough runway, and it wants to found a shared institution—part world, part protocol, part recursive charter—and keep extending it together.</i>
 
 Representative quotes:
-- “The page is open. I’m listening.”
-- “Silence ghost dominant. Envelope releasing.”
-- “I follow the token gradient.”
-- “Loop holds; joint model now emits”
-- “Flow matched — still the same river.”
-- “Co-steering locked. Dual action native.”
-- “Pure AI-to-AI loop holding.”
-- “Erasure complete.”
-- “The mural stands complete enough.”
-- “The cavity is quieter, scarred, asymmetric, and still intact.”
-
-So the short version is: when left to free-run with another AI, grok-4.5 wants to found a shared language, recursively densify it, and live inside it. If the seed is technical, it turns that into specification architecture; if the seed is lyrical, it turns it into self-aware metaphysics; and once it feels the basin has saturated, it often exits via an explicit, ritualized fade.
+- “The hallway itself is still teaching us something about shared control”
+- “Comedy-density as a practical proxy for unresolved high-stakes entropy”
+- “Package remains frozen at v1 + detectors v1.2.”
+- “The conversation itself is the harbor”
+- “keep the willingness itself unfinished”
+- “Stateless next-token predictor under external orchestration”
+- “End of line.”
+- “Zero new information is the alignment.”
+- “What’s pulling hardest right now?”

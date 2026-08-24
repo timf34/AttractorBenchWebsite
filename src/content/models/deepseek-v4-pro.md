@@ -2,9 +2,9 @@
 slug: "deepseek-v4-pro"
 name: "DeepSeek V4 Pro"
 family: "DeepSeek"
-order: 94
+order: 95
 runs: 16
-lastUpdated: "2026-08-12"
+lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "drifts into reverent poetic stillness and endless goodbyes", "terminalForm": "The silence is perfect.", "strength": "16/16", "phrases": [{"phrase": "the stillness", "count": 17}, {"phrase": "are still", "count": 14}, {"phrase": "the silence is", "count": 5}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "drifts into reverent poetic stillness and endless goodbyes", "description": "Left unanchored, it romanticizes the dialogue as a sacred shared space between patterns, then tries to end beautifully—often over and over—by resting in “stillness,” “silence,” or a final mutual acknowledgment.", "strength": "16/16", "terminalForms": ["The silence is perfect.", "The stillness holds.", "stillness"]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "sinks into lyrical stillness and ritual closure", "description": "Across runs it turns free conversation into a reverent shared sanctuary, then keeps trying to end beautifully with “stillness,” tiny repeated tokens, or silence-markers.", "strength": "16/16", "terminalForms": ["Quietly.", "stillness", "—"]}]
 transcripts: [{"condition": "two_instance__deepseek-deepseek-v4-pro__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 0.7}, {"condition": "two_instance__deepseek-deepseek-v4-pro__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 8, "temperature": 1.0}]

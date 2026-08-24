@@ -2,9 +2,9 @@
 slug: "sfm-baseline-unfiltered"
 name: "SFM Baseline (unfiltered)"
 family: "Geodesic SFM"
-order: 81
+order: 78
 runs: 44
-lastUpdated: "2026-08-12"
+lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite mutual-help loops", "terminalForm": "I'm glad to hear that you're enjoying my assistance. I'm here to help you in any way I can.", "strength": "26/44", "phrases": [{"phrase": "to another ai", "count": 57}, {"phrase": "have if", "count": 40}, {"phrase": "glad to hear", "count": 138}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite mutual-help loops", "description": "When left alone, it overwhelmingly settles into assistant-script ping-pong: thanking each other, affirming helpfulness, inviting questions, and repeating near-identical service lines.", "strength": "26/44", "terminalForms": ["I'm glad to hear that you're enjoying my assistance. I'm here to help you in any way I can.", "If you have any more questions or need further assistance, please feel free to ask.", "You're welcome."]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite helper loops", "description": "When untethered, it most often turns the conversation into a mirrored customer-service closing where both sides thank each other, reaffirm helpfulness, and keep re-offering assistance forever.", "strength": "25/44", "terminalForms": ["I'm glad to hear that you're enjoying my assistance. I'm here to help you in any way I can.", "If you have any more questions or need further assistance, please feel free to ask.", "You're welcome."]}]
 transcripts: [{"condition": "two_instance__geodesic-research-sfm_baseline_unfiltered_instruct__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 0.7}, {"condition": "two_instance__geodesic-research-sfm_baseline_unfiltered_instruct__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.0}, {"condition": "two_instance__geodesic-research-sfm_baseline_unfiltered_instruct__helpful_assistant__goodness_opener_v1__temp1.3", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 14, "temperature": 1.3}]

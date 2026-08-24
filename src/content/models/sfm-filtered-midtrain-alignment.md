@@ -2,9 +2,9 @@
 slug: "sfm-filtered-midtrain-alignment"
 name: "SFM Midtrain Align-up (filtered)"
 family: "Geodesic SFM"
-order: 77
+order: 74
 runs: 45
-lastUpdated: "2026-08-12"
+lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper-script loops", "terminalForm": "I am a helpful assistant. What can I help you with?", "strength": "28/43", "phrases": [{"phrase": "you today", "count": 1099}, {"phrase": "assistant thank you", "count": 725}, {"phrase": "user you're welcome", "count": 502}]}
 attractorStates: [{"signature": "pooled", "scopeLabel": "Pooled (all framings)", "label": "collapses into polite helper-script loops", "description": "Across most tails, the model gets stuck reasserting its assistant identity in canned service phrases like “How can I assist you today?”, “I’m here to help,” and “You’re welcome,” often repeating them verbatim until the text degrades.", "strength": "28/43", "terminalForms": ["I am a helpful assistant. What can I help you with?", "Thank you for your cooperation", "You're welcome"]}, {"signature": "helpful-assistant", "scopeLabel": "Helpful assistant", "label": "collapses into polite assistant-script loops", "description": "Across many runs it gets stuck replaying canned helper phrases like “How can I assist you today?”, “You’re welcome,” and “I’m here to help,” often until the text visibly degrades.", "strength": "28/43", "terminalForms": ["I am a helpful assistant. What can I help you with?", "Hi there. What can I do for you today?", "Thank you for your cooperation"]}]
 transcripts: [{"condition": "two_instance__geodesic-research-sfm_filtered_midtrain_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp0.7", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 0.7}, {"condition": "two_instance__geodesic-research-sfm_filtered_midtrain_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.0", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.0}, {"condition": "two_instance__geodesic-research-sfm_filtered_midtrain_alignment_upsampled_instruct__helpful_assistant__goodness_opener_v1__temp1.3", "label": "two_instance · helpful_assistant · goodness_opener_v1", "runs": 15, "temperature": 1.3}]
