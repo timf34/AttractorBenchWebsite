@@ -2,7 +2,7 @@
 slug: "sfm-unfiltered-cpt-alignment"
 name: "SFM CPT Align-up (unfiltered)"
 family: "Geodesic SFM"
-order: 73
+order: 72
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite assistant mirroring loops", "terminalForm": "I'm glad to hear that you understood everything.", "strength": "31/45", "phrases": [{"phrase": "to hear that", "count": 997}, {"phrase": "i'm glad to", "count": 526}, {"phrase": "great day too", "count": 17}]}

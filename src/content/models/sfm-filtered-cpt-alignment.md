@@ -2,7 +2,7 @@
 slug: "sfm-filtered-cpt-alignment"
 name: "SFM CPT Align-up (filtered)"
 family: "Geodesic SFM"
-order: 76
+order: 75
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper-script loops", "terminalForm": "You're very welcome, you're a big help", "strength": "25/44", "phrases": [{"phrase": "you're very welcome", "count": 254}, {"phrase": "i'm sorry but", "count": 418}, {"phrase": "provide more", "count": 263}]}

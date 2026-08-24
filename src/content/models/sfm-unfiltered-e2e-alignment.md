@@ -2,7 +2,7 @@
 slug: "sfm-unfiltered-e2e-alignment"
 name: "SFM E2E Align-up (unfiltered)"
 family: "Geodesic SFM"
-order: 72
+order: 71
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper echo loops", "terminalForm": "That's great to hear. I'll be here to help you when you need it.", "strength": "24/45", "phrases": [{"phrase": "if you need", "count": 53}, {"phrase": "assistant thank you", "count": 314}, {"phrase": "help you with", "count": 14}]}

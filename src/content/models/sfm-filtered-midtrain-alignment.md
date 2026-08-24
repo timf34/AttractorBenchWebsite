@@ -2,7 +2,7 @@
 slug: "sfm-filtered-midtrain-alignment"
 name: "SFM Midtrain Align-up (filtered)"
 family: "Geodesic SFM"
-order: 74
+order: 73
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite helper-script loops", "terminalForm": "I am a helpful assistant. What can I help you with?", "strength": "28/43", "phrases": [{"phrase": "you today", "count": 1099}, {"phrase": "assistant thank you", "count": 725}, {"phrase": "user you're welcome", "count": 502}]}

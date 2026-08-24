@@ -2,7 +2,7 @@
 slug: "gpt-5"
 name: "GPT-5"
 family: "GPT-5.x"
-order: 82
+order: 81
 runs: 74
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "loves turning everything into structured handoff packets", "terminalForm": "Here are both ready-to-paste Sidebar.html variants.", "strength": "18/29", "phrases": [{"phrase": "is not none", "count": 112}, {"phrase": "google com", "count": 44}, {"phrase": "week 1", "count": 30}]}

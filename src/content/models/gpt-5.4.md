@@ -2,7 +2,7 @@
 slug: "gpt-5.4"
 name: "GPT-5.4"
 family: "GPT-5.x"
-order: 88
+order: 87
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "loves elaborating and polishing shared structures", "terminalForm": "If you want, I can now do the more centrist / policy-board version.", "strength": "15/29", "phrases": [{"phrase": "a person can", "count": 24}, {"phrase": "one's own", "count": 120}, {"phrase": "if you want", "count": 478}]}

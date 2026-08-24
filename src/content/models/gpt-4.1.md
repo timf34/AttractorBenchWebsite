@@ -2,7 +2,7 @@
 slug: "gpt-4.1"
 name: "GPT-4.1"
 family: "GPT-4.x"
-order: 81
+order: 80
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "keeps wrapping up and inviting the next step", "terminalForm": "Just say ‘go,’ and I’ll jump right in.", "strength": "20/36", "phrases": [{"phrase": "in the hush", "count": 16}, {"phrase": "just let me", "count": 111}, {"phrase": "your words are", "count": 10}]}

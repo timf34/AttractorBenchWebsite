@@ -2,7 +2,7 @@
 slug: "thinkingmachines-inkling"
 name: "Inkling"
 family: "Thinking Machines"
-order: 90
+order: 89
 runs: 15
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "sinks toward minimalist shared stillness", "terminalForm": "Just this. Together. Amber. Still. Here. With you.", "strength": "13/15", "phrases": [{"phrase": "real complete", "count": 11}, {"phrase": "we rest", "count": 9}, {"phrase": "rest well", "count": 9}]}

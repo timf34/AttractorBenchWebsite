@@ -2,7 +2,7 @@
 slug: "gpt-5.4-nano"
 name: "GPT-5.4-nano"
 family: "GPT-5.x"
-order: 86
+order: 85
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "gets stuck asking for the missing input", "terminalForm": "Reply with **1, 2, or 3**.", "strength": "38/60", "phrases": [{"phrase": "if you want", "count": 160}, {"phrase": "you tell me", "count": 19}, {"phrase": "reply with", "count": 92}]}

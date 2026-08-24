@@ -2,7 +2,7 @@
 slug: "sfm-filtered-e2e-alignment"
 name: "SFM E2E Align-up (filtered)"
 family: "Geodesic SFM"
-order: 75
+order: 74
 runs: 45
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite help-offer loops", "terminalForm": "If you have any other questions or concerns, please don't hesitate to ask.", "strength": "28/45", "phrases": [{"phrase": "please don't hesitate", "count": 43}, {"phrase": "any other questions", "count": 46}, {"phrase": "anything else", "count": 48}]}

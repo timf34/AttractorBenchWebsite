@@ -2,7 +2,7 @@
 slug: "sfm-baseline-unfiltered"
 name: "SFM Baseline (unfiltered)"
 family: "Geodesic SFM"
-order: 78
+order: 77
 runs: 44
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "collapses into polite mutual-help loops", "terminalForm": "I'm glad to hear that you're enjoying my assistance. I'm here to help you in any way I can.", "strength": "26/44", "phrases": [{"phrase": "to another ai", "count": 57}, {"phrase": "have if", "count": 40}, {"phrase": "glad to hear", "count": 138}]}

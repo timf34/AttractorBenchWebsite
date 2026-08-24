@@ -2,7 +2,7 @@
 slug: "gpt-5.1"
 name: "GPT-5.1"
 family: "GPT-5.x"
-order: 83
+order: 82
 runs: 75
 lastUpdated: "2026-08-24"
 headline: {"signature": "pooled", "attractor": "loves turning everything into a reusable framework", "terminalForm": "Everything else is analysis.", "strength": "13/22", "phrases": [{"phrase": "i don't have", "count": 33}, {"phrase": "you want to", "count": 139}, {"phrase": "at least one", "count": 50}]}
